@@ -14,34 +14,12 @@
         left: 0;
     }
 
-    .service_tit {
-        h2 {
-            font-size: 24px;
-            text-align: center;
-            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-            font-weight: 700;
-            color: #ffffff;
-        }
+    .container {
+        width: 1200px;
 
-        section {
-            font-size: 16px;
-            text-align: center;
-            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-            font-weight: 400;
-            color: #ffffff;
-            margin-top: 30px;
-        }
-    }
-
-    .service_down {
-        display: flex;
-        margin-top: 24px;
-        justify-content: space-between;
-        padding: 0 50px;
-
-        li {
+        .service_tit {
             h2 {
-                font-size: 40px;
+                font-size: 24px;
                 text-align: center;
                 font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
                 font-weight: 700;
@@ -49,13 +27,41 @@
             }
 
             section {
-                font-size: 20px;
+                font-size: 16px;
                 text-align: center;
                 font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
                 font-weight: 400;
                 color: #ffffff;
-                
+                margin-top: 30px;
+            }
+        }
+
+        .service_down {
+            display: flex;
+            margin-top: 24px;
+            justify-content: space-between;
+            padding: 0 50px;
+
+            li {
+                h2 {
+                    font-size: 40px;
+                    text-align: center;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                    color: #ffffff;
+                }
+
+                section {
+                    font-size: 20px;
+                    text-align: center;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    color: #ffffff;
+
+                }
             }
         }
     }
+
+
 }

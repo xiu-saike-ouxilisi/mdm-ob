@@ -19,6 +19,7 @@
       text-align: center;
       color: #666666; }
   .marketing .container {
+    width: 1200px;
     position: relative; }
     .marketing .container .marketing_bg {
       width: 600px;

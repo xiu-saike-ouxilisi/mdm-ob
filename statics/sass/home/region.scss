@@ -5,72 +5,78 @@
     padding-top: 50px;
     background: #ffffff;
 
-    .region_tit {
-        h2 {
-            height: 35px;
-            font-size: 36px;
-            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-            font-weight: 700;
-            text-align: center;
-            color: #333333;
-        }
+    .container {
+        width: 1200px;
+        .region_tit {
+            h2 {
+                height: 35px;
+                font-size: 36px;
+                font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                font-weight: 700;
+                text-align: center;
+                color: #333333;
+            }
 
-        section {
-            margin-top: 20px;
-            height: 24px;
-            font-size: 20px;
-            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-            font-weight: 400;
-            text-align: center;
-            color: #666666;
-        }
-    }
-
-    .region_down {
-        height: 500px;
-        margin-top: 30px;
-        padding-left: 80px;
-
-        ul {
-            display: inline-block;
-
-            li {
+            section {
                 margin-top: 20px;
-                border-top: 2px solid #999999;
-                padding-top: 20px;
+                height: 24px;
+                font-size: 20px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: center;
+                color: #666666;
+            }
+        }
 
-                h2 {
-                    font-size: 30px;
-                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-                    font-weight: 700;
-                    text-align: left;
-                    color: #2589ff;
-                    margin: 0;
-                    padding: 0;
+        .region_down {
+            height: 500px;
+            margin-top: 30px;
+            padding-left: 80px;
+
+            ul {
+                display: inline-block;
+
+                li {
+                    margin-top: 20px;
+                    border-top: 2px solid #999999;
+                    padding-top: 20px;
+
+                    h2 {
+                        font-size: 30px;
+                        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                        font-weight: 700;
+                        text-align: left;
+                        color: #2589ff;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    section {
+                        font-size: 18px;
+                        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #666666;
+                        margin: 0;
+                        margin-top: 6px;
+                        padding: 0;
+                    }
                 }
+            }
 
-                section {
-                    font-size: 18px;
-                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-                    font-weight: 400;
-                    text-align: left;
-                    color: #666666;
-                    margin: 0;
-                    margin-top: 6px;
-                    padding: 0;
+            div {
+                display: inline-block;
+                margin-left: 100px;
+                // border: 1px dashed #999999;
+
+                img {
+                    width: 750px;
+                    height: auto;
                 }
             }
         }
 
-        div {
-            display: inline-block;
-            margin-left: 100px;
-            // border: 1px dashed #999999;
-
-            img {
-                width: 750px;
-                height: auto;
-            }
-        }
     }
+
+
 }

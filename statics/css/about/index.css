@@ -295,7 +295,8 @@
   background: #ffffff;
   padding-top: 30px; }
   .position .container {
-    display: flex; }
+    display: flex;
+    width: 1200px; }
     .position .container #position_map {
       width: 650px;
       height: 450px; }
@@ -326,7 +327,7 @@
 .footer {
   background-color: #1c1e2b;
   width: 100vw;
-  height: 500px;
+  height: 450px;
   padding-top: 50px; }
   .footer .container {
     width: 1200px; }
@@ -418,7 +419,7 @@
           color: #ffffff; }
     .footer .container .footer_laster {
       height: 90px;
-      margin-top: 10px; }
+      margin-top: 20px; }
       .footer .container .footer_laster section {
         margin-top: 10px;
         font-size: 12px;

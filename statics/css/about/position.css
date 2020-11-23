@@ -4,7 +4,8 @@
   background: #ffffff;
   padding-top: 30px; }
   .position .container {
-    display: flex; }
+    display: flex;
+    width: 1200px; }
     .position .container #position_map {
       width: 650px;
       height: 450px; }

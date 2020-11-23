@@ -7,6 +7,7 @@
 
     .application_top {
         margin-bottom: 40px;
+        width: 1200px;
 
         .application_tit {
             text-align: center;
@@ -33,6 +34,7 @@
     }
 
     .application_down {
+        width: 1170px;
         position: relative;
 
         img {
@@ -209,22 +211,22 @@
 
             .application_down_right li:nth-child(1) {
                 top: 0px;
-                left: 36px;
+                left: 8px;
             }
 
             .application_down_right li:nth-child(2) {
                 top: 112px;
-                left: 82px;
+                left: 52px;
             }
 
             .application_down_right li:nth-child(3) {
                 top: 222px;
-                left: 40px;
+                left: 10px;
             }
 
             .application_down_right li:nth-child(4) {
                 top: 328px;
-                left: -42px;
+                left: -72px;
             }
 
 

@@ -87,7 +87,8 @@
   padding-top: 50px;
   position: relative; }
   .application .application_top {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    width: 1200px; }
     .application .application_top .application_tit {
       text-align: center; }
       .application .application_top .application_tit h2 {
@@ -105,6 +106,7 @@
         color: #666666;
         margin-top: 20px; }
   .application .application_down {
+    width: 1170px;
     position: relative; }
     .application .application_down img {
       position: absolute;
@@ -231,16 +233,16 @@
               margin-top: 5px; }
       .application .application_down .application_down .application_down_right li:nth-child(1) {
         top: 0px;
-        left: 36px; }
+        left: 8px; }
       .application .application_down .application_down .application_down_right li:nth-child(2) {
         top: 112px;
-        left: 82px; }
+        left: 52px; }
       .application .application_down .application_down .application_down_right li:nth-child(3) {
         top: 222px;
-        left: 40px; }
+        left: 10px; }
       .application .application_down .application_down .application_down_right li:nth-child(4) {
         top: 328px;
-        left: -42px; }
+        left: -72px; }
 
 .marketing {
   background: #fafafa;
@@ -445,229 +447,235 @@
   width: 100vw;
   height: 580px;
   padding-top: 50px; }
-  .advantage .advantage_tit h2 {
-    font-size: 36px;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    text-align: center;
-    color: #333333; }
-  .advantage .advantage_tit section {
-    height: 25px;
-    font-size: 20px;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-    font-weight: 400;
-    text-align: center;
-    color: #666666;
-    margin-top: 20px; }
-  .advantage .advantage_down {
-    height: 400px;
-    position: relative; }
-    .advantage .advantage_down img {
-      width: 300px;
-      height: auto;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-    .advantage .advantage_down .advantage_down_content {
-      position: relative;
-      top: 0;
-      left: 0; }
-      .advantage .advantage_down .advantage_down_content li {
+  .advantage .container {
+    width: 1200px; }
+    .advantage .container .advantage_tit h2 {
+      font-size: 36px;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #333333; }
+    .advantage .container .advantage_tit section {
+      height: 25px;
+      font-size: 20px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: #666666;
+      margin-top: 20px; }
+    .advantage .container .advantage_down {
+      height: 400px;
+      position: relative; }
+      .advantage .container .advantage_down img {
+        width: 300px;
+        height: auto;
         position: absolute;
-        width: 340px;
-        height: 180px; }
-        .advantage .advantage_down .advantage_down_content li .item_one {
-          position: relative;
-          width: 300px;
-          height: 40px;
-          padding-top: 10px;
-          padding-left: 20px; }
-          .advantage .advantage_down .advantage_down_content li .item_one div {
-            position: absolute;
-            top: 0;
-            left: 0;
-            border: 2px solid #006EFF;
-            background-color: #fff;
-            width: 55px;
-            height: 55px;
-            border-radius: 50%;
-            font-size: 20px;
-            line-height: 55px;
-            font-weight: bold;
-            text-align: center;
-            color: #006eff; }
-          .advantage .advantage_down .advantage_down_content li .item_one section {
-            width: 320px;
-            height: 38px;
-            text-align: center;
-            padding-right: 20px;
-            border: 2px solid #006EFF;
-            font-size: 20px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      .advantage .container .advantage_down .advantage_down_content {
+        position: relative;
+        top: 0;
+        left: 0; }
+        .advantage .container .advantage_down .advantage_down_content li {
+          position: absolute;
+          width: 340px;
+          height: 180px; }
+          .advantage .container .advantage_down .advantage_down_content li .item_one {
+            position: relative;
+            width: 300px;
+            height: 40px;
+            padding-top: 10px;
+            padding-left: 20px; }
+            .advantage .container .advantage_down .advantage_down_content li .item_one div {
+              position: absolute;
+              top: 0;
+              left: 0;
+              border: 2px solid #006EFF;
+              background-color: #fff;
+              width: 55px;
+              height: 55px;
+              border-radius: 50%;
+              font-size: 20px;
+              line-height: 55px;
+              font-weight: bold;
+              text-align: center;
+              color: #006eff; }
+            .advantage .container .advantage_down .advantage_down_content li .item_one section {
+              width: 320px;
+              height: 38px;
+              text-align: center;
+              padding-right: 20px;
+              border: 2px solid #006EFF;
+              font-size: 20px;
+              font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+              font-weight: 400;
+              color: #333333;
+              line-height: 34px; }
+              .advantage .container .advantage_down .advantage_down_content li .item_one section span {
+                color: #006EFF;
+                font-weight: 700;
+                display: inline-block;
+                margin-left: 5px; }
+          .advantage .container .advantage_down .advantage_down_content li p {
+            margin-top: 30px;
+            margin-left: 20px;
+            font-size: 14px;
             font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
             font-weight: 400;
-            color: #333333;
-            line-height: 34px; }
-            .advantage .advantage_down .advantage_down_content li .item_one section span {
-              color: #006EFF;
-              font-weight: 700;
-              display: inline-block;
-              margin-left: 5px; }
-        .advantage .advantage_down .advantage_down_content li p {
-          margin-top: 30px;
-          margin-left: 20px;
-          font-size: 14px;
-          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-          font-weight: 400;
-          text-align: left;
-          color: #666666;
-          line-height: 24px;
-          letter-spacing: 1px; }
-      .advantage .advantage_down .advantage_down_content li:nth-child(1) {
-        top: 0;
-        left: 10px; }
-      .advantage .advantage_down .advantage_down_content li:nth-child(2) {
-        top: 0;
-        right: 10px; }
-      .advantage .advantage_down .advantage_down_content li:nth-child(3) {
-        top: 200px;
-        left: 10px; }
-      .advantage .advantage_down .advantage_down_content li:nth-child(4) {
-        top: 200px;
-        right: 10px; }
+            text-align: left;
+            color: #666666;
+            line-height: 24px;
+            letter-spacing: 1px; }
+        .advantage .container .advantage_down .advantage_down_content li:nth-child(1) {
+          top: 0;
+          left: 10px; }
+        .advantage .container .advantage_down .advantage_down_content li:nth-child(2) {
+          top: 0;
+          right: 10px; }
+        .advantage .container .advantage_down .advantage_down_content li:nth-child(3) {
+          top: 200px;
+          left: 10px; }
+        .advantage .container .advantage_down .advantage_down_content li:nth-child(4) {
+          top: 200px;
+          right: 10px; }
 
 .research {
   width: 100vw;
   height: 800px;
   padding-top: 50px;
   background: #262730; }
-  .research .research_tit {
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular; }
-    .research .research_tit h2 {
-      font-size: 36px;
-      font-weight: 400;
-      color: #ffffff;
-      margin-top: 20px;
-      text-align: center; }
-    .research .research_tit section {
-      font-size: 20px;
-      font-weight: 400;
-      color: #ffffff;
-      margin-top: 30px;
-      text-align: center; }
-    .research .research_tit ul {
-      display: flex;
-      margin-top: 20px;
-      padding-left: 80px; }
-      .research .research_tit ul li {
-        padding-left: 20px; }
-        .research .research_tit ul li h1 {
-          color: #ffffff;
-          font-size: 26px;
-          margin-right: 210px;
-          position: relative; }
-        .research .research_tit ul li h1::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: -20px;
-          width: 10px;
-          height: 30px;
-          background-color: #006EFF; }
-        .research .research_tit ul li section {
-          color: #999999;
-          font-size: 14px;
-          margin-top: 20px;
-          text-align: left; }
-  .research .research_bottom ul {
-    margin-top: 20px; }
-    .research .research_bottom ul li {
-      margin-left: 80px;
-      background-color: rgba(255, 255, 255, 0.15);
-      border-radius: 5px;
-      width: 900px;
-      height: 100px;
-      padding: 10px 20px;
+  .research .container {
+    width: 1200px; }
+    .research .container .research_tit {
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular; }
+      .research .container .research_tit h2 {
+        font-size: 36px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 20px;
+        text-align: center; }
+      .research .container .research_tit section {
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 30px;
+        text-align: center; }
+      .research .container .research_tit ul {
+        display: flex;
+        margin-top: 20px;
+        padding-left: 80px; }
+        .research .container .research_tit ul li {
+          padding-left: 20px; }
+          .research .container .research_tit ul li h1 {
+            color: #ffffff;
+            font-size: 26px;
+            margin-right: 210px;
+            position: relative; }
+          .research .container .research_tit ul li h1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 10px;
+            height: 30px;
+            background-color: #006EFF; }
+          .research .container .research_tit ul li section {
+            color: #999999;
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: left; }
+    .research .container .research_bottom ul {
       margin-top: 20px; }
-      .research .research_bottom ul li div {
-        display: inline-block;
-        width: 750px;
-        margin-top: 10px; }
-        .research .research_bottom ul li div h4 {
-          padding: 0;
-          margin: 0;
-          width: 73px;
-          height: 19px;
-          font-size: 16px;
-          font-weight: 400;
-          text-align: left;
-          color: #ffffff; }
-        .research .research_bottom ul li div section {
-          width: 854px;
-          height: 17px;
-          font-size: 14px;
-          font-weight: 400;
-          text-align: left;
-          color: #ffffff;
+      .research .container .research_bottom ul li {
+        margin-left: 80px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 5px;
+        width: 900px;
+        height: 100px;
+        padding: 10px 20px;
+        margin-top: 20px; }
+        .research .container .research_bottom ul li div {
+          display: inline-block;
+          width: 750px;
           margin-top: 10px; }
-      .research .research_bottom ul li img {
-        width: 60px;
-        height: 60px;
-        transform: translate(15px, -17px); }
+          .research .container .research_bottom ul li div h4 {
+            padding: 0;
+            margin: 0;
+            width: 73px;
+            height: 19px;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+            color: #ffffff; }
+          .research .container .research_bottom ul li div section {
+            width: 854px;
+            height: 17px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: left;
+            color: #ffffff;
+            margin-top: 10px; }
+        .research .container .research_bottom ul li img {
+          width: 60px;
+          height: 60px;
+          transform: translate(15px, -17px); }
 
 .region {
   width: 100vw;
   height: 800px;
   padding-top: 50px;
   background: #ffffff; }
-  .region .region_tit h2 {
-    height: 35px;
-    font-size: 36px;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    text-align: center;
-    color: #333333; }
-  .region .region_tit section {
-    margin-top: 20px;
-    height: 24px;
-    font-size: 20px;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-    font-weight: 400;
-    text-align: center;
-    color: #666666; }
-  .region .region_down {
-    height: 500px;
-    margin-top: 30px;
-    padding-left: 80px; }
-    .region .region_down ul {
-      display: inline-block; }
-      .region .region_down ul li {
-        margin-top: 20px;
-        border-top: 2px solid #999999;
-        padding-top: 20px; }
-        .region .region_down ul li h2 {
-          font-size: 30px;
-          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-          font-weight: 700;
-          text-align: left;
-          color: #2589ff;
-          margin: 0;
-          padding: 0; }
-        .region .region_down ul li section {
-          font-size: 18px;
-          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-          font-weight: 400;
-          text-align: left;
-          color: #666666;
-          margin: 0;
-          margin-top: 6px;
-          padding: 0; }
-    .region .region_down div {
-      display: inline-block;
-      margin-left: 100px; }
-      .region .region_down div img {
-        width: 750px;
-        height: auto; }
+  .region .container {
+    width: 1200px; }
+    .region .container .region_tit h2 {
+      height: 35px;
+      font-size: 36px;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #333333; }
+    .region .container .region_tit section {
+      margin-top: 20px;
+      height: 24px;
+      font-size: 20px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: #666666; }
+    .region .container .region_down {
+      height: 500px;
+      margin-top: 30px;
+      padding-left: 80px; }
+      .region .container .region_down ul {
+        display: inline-block; }
+        .region .container .region_down ul li {
+          margin-top: 20px;
+          border-top: 2px solid #999999;
+          padding-top: 20px; }
+          .region .container .region_down ul li h2 {
+            font-size: 30px;
+            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+            font-weight: 700;
+            text-align: left;
+            color: #2589ff;
+            margin: 0;
+            padding: 0; }
+          .region .container .region_down ul li section {
+            font-size: 18px;
+            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+            font-weight: 400;
+            text-align: left;
+            color: #666666;
+            margin: 0;
+            margin-top: 6px;
+            padding: 0; }
+      .region .container .region_down div {
+        display: inline-block;
+        margin-left: 100px; }
+        .region .container .region_down div img {
+          width: 750px;
+          height: auto; }
 
 .service {
   width: 100vw;
@@ -681,76 +689,80 @@
     position: absolute;
     top: 0;
     left: 0; }
-  .service .service_tit h2 {
-    font-size: 24px;
-    text-align: center;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    color: #ffffff; }
-  .service .service_tit section {
-    font-size: 16px;
-    text-align: center;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-    font-weight: 400;
-    color: #ffffff;
-    margin-top: 30px; }
-  .service .service_down {
-    display: flex;
-    margin-top: 24px;
-    justify-content: space-between;
-    padding: 0 50px; }
-    .service .service_down li h2 {
-      font-size: 40px;
+  .service .container {
+    width: 1200px; }
+    .service .container .service_tit h2 {
+      font-size: 24px;
       text-align: center;
       font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
       font-weight: 700;
       color: #ffffff; }
-    .service .service_down li section {
-      font-size: 20px;
+    .service .container .service_tit section {
+      font-size: 16px;
       text-align: center;
       font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
       font-weight: 400;
-      color: #ffffff; }
+      color: #ffffff;
+      margin-top: 30px; }
+    .service .container .service_down {
+      display: flex;
+      margin-top: 24px;
+      justify-content: space-between;
+      padding: 0 50px; }
+      .service .container .service_down li h2 {
+        font-size: 40px;
+        text-align: center;
+        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+        font-weight: 700;
+        color: #ffffff; }
+      .service .container .service_down li section {
+        font-size: 20px;
+        text-align: center;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400;
+        color: #ffffff; }
 
 .cooperation {
   width: 100vw;
   height: 600px;
   padding-top: 50px;
   background: #ffffff; }
-  .cooperation .cooperation_tit h2 {
-    font-size: 36px;
-    text-align: center;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    text-align: center;
-    color: #333333; }
-  .cooperation .cooperation_tit section {
-    margin-top: 20px;
-    font-size: 20px;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-    font-weight: 400;
-    text-align: center;
-    color: #666666; }
-  .cooperation .cooperation_down ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 30px 0; }
-    .cooperation .cooperation_down ul li {
-      border: 1px dashed #999999;
+  .cooperation .container {
+    width: 1200px; }
+    .cooperation .container .cooperation_tit h2 {
+      font-size: 36px;
+      text-align: center;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #333333; }
+    .cooperation .container .cooperation_tit section {
       margin-top: 20px;
-      margin-right: 20px;
-      width: 180px;
-      height: 90px;
-      cursor: pointer; }
-      .cooperation .cooperation_down ul li img {
+      font-size: 20px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: #666666; }
+    .cooperation .container .cooperation_down ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 0; }
+      .cooperation .container .cooperation_down ul li {
+        border: 1px dashed #999999;
+        margin-top: 20px;
+        margin-right: 20px;
         width: 180px;
-        height: 90px; }
+        height: 90px;
+        cursor: pointer; }
+        .cooperation .container .cooperation_down ul li img {
+          width: 180px;
+          height: 90px; }
 
 .footer {
   background-color: #1c1e2b;
   width: 100vw;
-  height: 500px;
+  height: 450px;
   padding-top: 50px; }
   .footer .container {
     width: 1200px; }
@@ -842,7 +854,7 @@
           color: #ffffff; }
     .footer .container .footer_laster {
       height: 90px;
-      margin-top: 10px; }
+      margin-top: 20px; }
       .footer .container .footer_laster section {
         margin-top: 10px;
         font-size: 12px;

@@ -3,6 +3,8 @@
   height: 600px;
   padding-top: 50px;
   position: relative; }
+  .solve .container {
+    width: 1200px; }
   .solve .solve_tit {
     margin-bottom: 40px; }
     .solve .solve_tit h2 {

@@ -79,6 +79,8 @@
   height: 600px;
   padding-top: 50px;
   position: relative; }
+  .solve .container {
+    width: 1200px; }
   .solve .solve_tit {
     margin-bottom: 40px; }
     .solve .solve_tit h2 {
@@ -195,42 +197,44 @@
   padding-top: 40px;
   position: relative;
   background: #ffffff; }
-  .apply .apply_tit {
-    font-size: 36px;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    text-align: center;
-    color: #333333; }
-  .apply .apply_down {
-    margin-top: 60px;
-    display: flex;
-    flex-wrap: wrap; }
-    .apply .apply_down li {
-      width: 160px;
-      height: 160px;
-      margin-top: 20px;
-      background: #ffffff;
-      border: NaNpx solid #d7e7ff;
-      border-radius: 10px;
-      box-shadow: 5px 5px 18px 0px #d8e7ff;
+  .apply .container {
+    width: 1200px; }
+    .apply .container .apply_tit {
+      font-size: 36px;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
       text-align: center;
-      margin-left: 20px; }
-      .apply .apply_down li img {
-        width: 65px;
-        height: auto;
-        margin-top: 40px; }
-      .apply .apply_down li section {
-        margin-top: 10px;
-        font-size: 20px;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-        font-weight: 400;
+      color: #333333; }
+    .apply .container .apply_down {
+      margin-top: 60px;
+      display: flex;
+      flex-wrap: wrap; }
+      .apply .container .apply_down li {
+        width: 160px;
+        height: 160px;
+        margin-top: 20px;
+        background: #ffffff;
+        border: NaNpx solid #d7e7ff;
+        border-radius: 10px;
+        box-shadow: 5px 5px 18px 0px #d8e7ff;
         text-align: center;
-        color: #666666; }
+        margin-left: 20px; }
+        .apply .container .apply_down li img {
+          width: 65px;
+          height: auto;
+          margin-top: 40px; }
+        .apply .container .apply_down li section {
+          margin-top: 10px;
+          font-size: 20px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: 400;
+          text-align: center;
+          color: #666666; }
 
 .footer {
   background-color: #1c1e2b;
   width: 100vw;
-  height: 500px;
+  height: 450px;
   padding-top: 50px; }
   .footer .container {
     width: 1200px; }
@@ -322,7 +326,7 @@
           color: #ffffff; }
     .footer .container .footer_laster {
       height: 90px;
-      margin-top: 10px; }
+      margin-top: 20px; }
       .footer .container .footer_laster section {
         margin-top: 10px;
         font-size: 12px;

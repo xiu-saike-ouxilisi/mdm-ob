@@ -161,20 +161,21 @@
     top: 0;
     left: 0; }
   .highlights .highlights_tit h2 {
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
     font-weight: 700;
     color: #ffffff; }
   .highlights .highlights_tit section {
-    font-size: 16px;
+    margin-top: 20px;
+    font-size: 20px;
     text-align: center;
     font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
     font-weight: 400;
     color: #ffffff; }
   .highlights .highlights_down {
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
     justify-content: center;
     height: 160px; }
     .highlights .highlights_down li {
@@ -201,23 +202,25 @@
   padding-top: 40px;
   position: relative;
   background: #f8f8f8; }
-  .propaganda .propaganda_tit h2 {
-    font-size: 36px;
-    text-align: center;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-    font-weight: 700;
-    text-align: center;
-    color: #333333; }
-  .propaganda .propaganda_tit section {
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    color: #666666; }
-  .propaganda img {
-    margin-top: 40px;
-    width: inherit;
-    height: auto; }
+  .propaganda .container {
+    width: 1200px; }
+    .propaganda .container .propaganda_tit h2 {
+      font-size: 36px;
+      text-align: center;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #333333; }
+    .propaganda .container .propaganda_tit section {
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      color: #666666; }
+    .propaganda .container img {
+      margin-top: 40px;
+      width: inherit;
+      height: auto; }
 
 .marketing {
   width: 100vw;
@@ -240,6 +243,7 @@
       text-align: center;
       color: #666666; }
   .marketing .container {
+    width: 1200px;
     position: relative; }
     .marketing .container .marketing_bg {
       width: 600px;
@@ -291,7 +295,7 @@
 .footer {
   background-color: #1c1e2b;
   width: 100vw;
-  height: 500px;
+  height: 450px;
   padding-top: 50px; }
   .footer .container {
     width: 1200px; }
@@ -383,7 +387,7 @@
           color: #ffffff; }
     .footer .container .footer_laster {
       height: 90px;
-      margin-top: 10px; }
+      margin-top: 20px; }
       .footer .container .footer_laster section {
         margin-top: 10px;
         font-size: 12px;
