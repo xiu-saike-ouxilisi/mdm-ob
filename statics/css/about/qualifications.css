@@ -1,0 +1,49 @@
+.qualifications {
+  width: 100vw;
+  height: 700px;
+  background: #f4f7fe;
+  padding-top: 40px; }
+  .qualifications .qualifications_tit h2 {
+    font-size: 33px;
+    text-align: center;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .qualifications .qualifications_tit section {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #666666; }
+  .qualifications .swiper-container {
+    margin-top: 30px;
+    width: 1170px;
+    height: 400px; }
+    .qualifications .swiper-container .swiper-wrapper {
+      width: 1170px; }
+      .qualifications .swiper-container .swiper-wrapper .swiper-slide {
+        background: #f4f7fe;
+        height: 400px;
+        width: 1170px; }
+        .qualifications .swiper-container .swiper-wrapper .swiper-slide .swiper_item {
+          display: flex;
+          justify-content: center; }
+          .qualifications .swiper-container .swiper-wrapper .swiper-slide .swiper_item li {
+            margin-left: 10px; }
+            .qualifications .swiper-container .swiper-wrapper .swiper-slide .swiper_item li img {
+              width: 271px;
+              height: 354px; }
+    .qualifications .swiper-container .swiper-pagination {
+      transform: translate(0, 8px); }
+      .qualifications .swiper-container .swiper-pagination .swiper-pagination-bullet {
+        width: 30px;
+        background-color: #006EFF;
+        opacity: 0.35;
+        border-radius: 50px; }
+      .qualifications .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+        width: 48px;
+        opacity: 1; }
+
+/*# sourceMappingURL=qualifications.css.map */

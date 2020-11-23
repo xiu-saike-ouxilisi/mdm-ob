@@ -1,0 +1,55 @@
+.region {
+  width: 100vw;
+  height: 800px;
+  padding-top: 50px;
+  background: #ffffff; }
+  .region .region_tit h2 {
+    height: 35px;
+    font-size: 36px;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .region .region_tit section {
+    margin-top: 20px;
+    height: 24px;
+    font-size: 20px;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #666666; }
+  .region .region_down {
+    height: 500px;
+    margin-top: 30px;
+    padding-left: 80px; }
+    .region .region_down ul {
+      display: inline-block; }
+      .region .region_down ul li {
+        margin-top: 20px;
+        border-top: 2px solid #999999;
+        padding-top: 20px; }
+        .region .region_down ul li h2 {
+          font-size: 30px;
+          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+          font-weight: 700;
+          text-align: left;
+          color: #2589ff;
+          margin: 0;
+          padding: 0; }
+        .region .region_down ul li section {
+          font-size: 18px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: 400;
+          text-align: left;
+          color: #666666;
+          margin: 0;
+          margin-top: 6px;
+          padding: 0; }
+    .region .region_down div {
+      display: inline-block;
+      margin-left: 100px; }
+      .region .region_down div img {
+        width: 750px;
+        height: auto; }
+
+/*# sourceMappingURL=region.css.map */

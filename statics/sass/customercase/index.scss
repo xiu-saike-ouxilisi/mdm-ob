@@ -1,0 +1,21 @@
+// 导航
+@import '../components/nav.scss';
+
+.navbar-default {
+    .navbar-nav {
+        li:nth-child(4){
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+
+// 轮播
+@import '../components/swiper.scss';
+
+
+// 案例
+@import './case.scss';
+
+
+// 底部
+@import '../components/footer.scss';

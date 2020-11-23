@@ -1,0 +1,31 @@
+// 导航
+@import '../components/nav.scss';
+.navbar-default {
+    .navbar-nav {
+        li:nth-child(5){
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+// 轮播
+@import '../components/swiper.scss';
+
+// 简介
+@import './brief.scss';
+
+// 公司资质
+@import './qualifications.scss';
+
+// 团队风采
+@import './team.scss';
+
+// 公益活动
+@import './publicbenefit.scss';
+
+// 位置
+@import './position.scss';
+
+
+
+// 底部
+@import '../components/footer.scss';

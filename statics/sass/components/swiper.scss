@@ -1,0 +1,48 @@
+// 轮播
+.swiper-container {
+    width: 100vw;
+    height: 700px;
+
+    .swiper-wrapper {
+        .swiper-slide {
+            position: relative;
+
+            img {
+                width: 100vw;
+                height: 700px;
+            }
+
+            .swiper_btn {
+                color: #ffffff;
+                background-color: rgba(255, 255, 255, 0);
+                border: 1px solid #ffffff;
+                padding: 15px 45px;
+                margin-left: 20px;
+                font-size: 18px;
+                border-radius: 5px;
+                position: absolute;
+                // bottom: 370px;
+                bottom: 37%;
+                // left: 330px;
+                left:17.7%;
+            }
+        }
+    }
+
+    .swiper-pagination {
+        transform: translate(0, -20px);
+
+        .swiper-pagination-bullet {
+            width: 30px;
+            background-color: #ffffff;
+            opacity: 0.35;
+            border-radius: 50px;
+            ;
+        }
+
+        .swiper-pagination-bullet-active {
+            width: 57px;
+            opacity: 1;
+        }
+    }
+}

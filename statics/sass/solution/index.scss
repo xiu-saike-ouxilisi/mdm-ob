@@ -1,0 +1,29 @@
+// 导航
+@import '../components/nav.scss';
+.navbar-default {
+    .navbar-nav {
+        li:nth-child(3){
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+
+// 轮播
+@import '../components/swiper.scss';
+
+// 解决企业痛点
+@import './solve.scss';
+
+// 模式一
+@import './pattern_one.scss';
+
+// 模式二
+@import './pattern_two.scss';
+
+// 适用
+@import './apply.scss';
+
+
+
+// 底部
+@import '../components/footer.scss';

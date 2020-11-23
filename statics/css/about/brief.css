@@ -1,0 +1,35 @@
+.brief {
+  width: 100vw;
+  height: 700px;
+  padding-top: 40px; }
+  .brief .brief_tit {
+    font-size: 36px;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .brief .brief_down {
+    display: flex;
+    margin-top: 40px; }
+    .brief .brief_down .brief_left h1 {
+      font-size: 36px;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: left;
+      color: #333333;
+      margin-bottom: 20px; }
+    .brief .brief_down .brief_left p {
+      width: 494px;
+      font-size: 16px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: left;
+      color: #333333; }
+    .brief .brief_down .brief_right {
+      margin-left: 100px;
+      margin-top: 50px; }
+      .brief .brief_down .brief_right img {
+        width: 500px;
+        height: auto; }
+
+/*# sourceMappingURL=brief.css.map */

@@ -1,0 +1,49 @@
+// 导航
+@import '../components/nav.scss';
+
+.navbar-default {
+    .navbar-nav {
+        li:first-child {
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+
+// 轮播
+@import '../components/swiper.scss';
+
+.swiper-container {
+    height: 900px;
+
+    .swiper-wrapper {
+        .swiper-slide {
+            img {
+                height: 900px;
+            }
+            .swiper_btn{
+                bottom: 40%;
+            }
+        }
+    }
+}
+
+
+// 应用场景
+@import './application.scss';
+// 二维码营销平台
+@import './marketing.scss';
+// 解决方案
+@import './solution.scss';
+// 平台优势
+@import './advantage.scss';
+// 研发
+@import './research.scss';
+// 区域
+@import './region.scss';
+// 服务
+@import './service.scss';
+// 合作
+@import './cooperation.scss';
+
+// 底部
+@import '../components/footer.scss';

@@ -1,0 +1,33 @@
+// 宣传
+.propaganda {
+    width: 100vw;
+    height: 900px;
+    padding-top: 40px;
+    position: relative;
+    background: #f8f8f8;
+
+    .propaganda_tit {
+        h2 {
+            font-size: 36px;
+            text-align: center;
+            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+            font-weight: 700;
+            text-align: center;
+            color: #333333;
+        }
+
+        section {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            color: #666666;
+        }
+    }
+
+    img {
+        margin-top: 40px;
+        width: inherit;
+        height: auto;
+    }
+}

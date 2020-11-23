@@ -1,0 +1,235 @@
+// 应用场景 
+.application {
+    width: 100vw;
+    height: 700px;
+    padding-top: 50px;
+    position: relative;
+
+    .application_top {
+        margin-bottom: 40px;
+
+        .application_tit {
+            text-align: center;
+
+            h2 {
+                font-size: 36px;
+                font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                font-weight: 700;
+                text-align: center;
+                color: #333333;
+            }
+
+            section {
+                height: 25px;
+                font-size: 20px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: center;
+                color: #666666;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+    .application_down {
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: inherit;
+            height: inherit;
+        }
+
+        .application_down {
+            position: relative;
+            height: 500px;
+
+            // 左部
+            .application_down_left {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 400px;
+                height: 500px;
+
+                li {
+                    width: 335px;
+                    height: 80px;
+                    border-radius: 50px;
+                    position: absolute;
+                    padding-top: 10px;
+
+                    .left_left_item {
+                        width: 220px;
+                        margin-left: 30px;
+
+                        h4 {
+                            color: #ffffff;
+                            font-size: 16px;
+                            padding: 0;
+                            margin: 0;
+                            text-align: right;
+                            font-weight: 400;
+                        }
+
+                        section {
+                            text-align: right;
+                            color: #ffffff;
+                            font-size: 12px;
+                            padding: 0;
+                            margin: 0;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    .left_right_item {
+                        position: absolute;
+                        top: 10px;
+                        right: 10px;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+
+                        img {
+                            width: 40px;
+                            height: 40px;
+                            transform: translate(10px, 8px);
+                        }
+                    }
+                }
+            }
+
+            .application_down_left li:nth-child(1) {
+                top: 1px;
+                left: 28px;
+            }
+
+            .application_down_left li:nth-child(2) {
+                top: 114px;
+                left: -17px;
+            }
+
+            .application_down_left li:nth-child(3) {
+                top: 221px;
+                left: 24px;
+            }
+
+            .application_down_left li:nth-child(4) {
+                top: 328px;
+                left: 108px;
+            }
+
+            // 中部
+            .application_down_central {
+                width: 120px;
+                height: 320px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 10px;
+                    transform: translate(0, -8px);
+                }
+
+                p {
+                    font-size: 18px;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #ffffff;
+                    margin-top: 100px;
+                }
+
+            }
+
+            // 右部
+            .application_down_right {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 400px;
+                height: 500px;
+
+                li {
+                    width: 335px;
+                    height: 80px;
+                    border-radius: 50px;
+                    position: absolute;
+                    padding-top: 10px;
+
+                    .right_left_item {
+                        position: absolute;
+                        top: 10px;
+                        left: 10px;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+
+                        img {
+                            width: 38px;
+                            height: 38px;
+                            transform: translate(12px, 10px);
+                        }
+                    }
+
+                    .right_right_item {
+                        width: 220px;
+                        position: absolute;
+                        top: 10px;
+                        right: 35px;
+
+                        h4 {
+                            color: #ffffff;
+                            font-size: 16px;
+                            padding: 0;
+                            margin: 0;
+                            text-align: left;
+                            font-weight: 400;
+                        }
+
+                        section {
+                            text-align: left;
+                            color: #ffffff;
+                            font-size: 12px;
+                            padding: 0;
+                            margin: 0;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+
+            .application_down_right li:nth-child(1) {
+                top: 0px;
+                left: 36px;
+            }
+
+            .application_down_right li:nth-child(2) {
+                top: 112px;
+                left: 82px;
+            }
+
+            .application_down_right li:nth-child(3) {
+                top: 222px;
+                left: 40px;
+            }
+
+            .application_down_right li:nth-child(4) {
+                top: 328px;
+                left: -42px;
+            }
+
+
+        }
+    }
+
+
+}

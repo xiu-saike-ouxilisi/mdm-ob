@@ -1,0 +1,177 @@
+.ontrial {
+    width: 99.4vw;
+    height: 98vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 110px;
+
+    .ontrial_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 99vw;
+        height: 99vh;
+        z-index: -1;
+    }
+
+    .ontrial_content {
+        width: 1430px;
+        height: 730px;
+        display: flex;
+
+        .ontrial_left {
+            width: 700px;
+            height: 600px;
+            padding-top: 50px;
+
+            h1 {
+                font-size: 40px;
+                font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                font-weight: bold;
+                text-align: left;
+                color: #ffffff;
+                letter-spacing: 4px;
+                margin-bottom: 30px;
+                margin-left: 30px;
+
+            }
+
+            p {
+                font-size: 38px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: left;
+                color: #ffffff;
+                line-height: 40px;
+                margin-left: 30px;
+            }
+
+            img {
+                margin-top: 100px;
+                margin-left: 20px;
+                width: 500px;
+                height: auto;
+            }
+        }
+
+        .ontrial_right {
+            padding-top: 40px;
+            padding-left: 40px;
+
+            h2 {
+                font-size: 65px;
+                font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                font-weight: 700;
+                text-align: center;
+                color: #2882fe;
+                margin-left: 100px;
+            }
+
+            form {
+                margin-left: 100px;
+                margin-top: 40px;
+
+                .form-group {
+                    height: 50px;
+                    position: relative;
+
+                    input {
+                        height: 50px;
+                        padding-left: 55px;
+                    }
+
+                    img {
+                        width: 21px;
+                        height: 26px;
+                        position: absolute;
+                        top: 10px;
+                        left: 20px;
+                    }
+                }
+
+                button {
+                    width: 449px;
+                    height: 66px;
+                    background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+                    border-radius: 10px;
+                    font-size: 32px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    text-align: center;
+                    color: #ffffff;
+                    margin-top: 30px;
+                }
+            }
+
+        }
+    }
+
+    .ontrial_down {
+        font-size: 24px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .result {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+
+        .pop {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 389px;
+            height: 439px;
+
+            .pop_bg {
+                width: 389px;
+                height: 439px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            p {
+                width: 256px;
+                height: 47px;
+                font-size: 16px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: center;
+                color: #006eff;
+                line-height: 30px;
+                position: absolute;
+                bottom: 130px;
+                left: 60px;
+
+            }
+
+            button {
+                width: 296px;
+                height: 50px;
+                background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+                border-radius: 25px;
+                font-size: 19px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: center;
+                color: #ffffff;
+                position: absolute;
+                bottom: 40px;
+                left: 50px;
+            }
+        }
+    }
+    .on{
+        display: block;
+    }
+}

@@ -1,0 +1,91 @@
+.publicbenefit {
+  width: 100vw;
+  height: 700px;
+  background: #ffffff;
+  padding-top: 30px; }
+  .publicbenefit .publicbenefit_tit h2 {
+    font-size: 33px;
+    text-align: center;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .publicbenefit .publicbenefit_tit section {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #666666; }
+  .publicbenefit .publicbenefit_down {
+    display: flex;
+    margin-top: 30px; }
+    .publicbenefit .publicbenefit_down li {
+      margin-left: 20px;
+      width: 370px;
+      height: 450px;
+      background: #ffffff;
+      border: 1px solid #d7e7ff;
+      border-radius: 10px;
+      box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15); }
+      .publicbenefit .publicbenefit_down li img {
+        width: 370px;
+        height: 240px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        margin-bottom: 12px; }
+      .publicbenefit .publicbenefit_down li div {
+        text-align: center; }
+        .publicbenefit .publicbenefit_down li div h3 {
+          font-size: 20px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: bold;
+          text-align: center;
+          color: #333333; }
+        .publicbenefit .publicbenefit_down li div p {
+          font-size: 18px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: 400;
+          text-align: left;
+          color: #999999;
+          padding: 0 15px;
+          margin-top: 30px; }
+        .publicbenefit .publicbenefit_down li div div {
+          width: 60px;
+          height: 4px;
+          background: #ffffff;
+          display: none; }
+        .publicbenefit .publicbenefit_down li div button {
+          display: none;
+          color: #ffffff;
+          background-color: rgba(255, 255, 255, 0);
+          border: 1px solid #ffffff;
+          padding: 5px 20px;
+          margin-left: 20px;
+          font-size: 10px; }
+          .publicbenefit .publicbenefit_down li div button a {
+            color: #ffffff;
+            text-decoration: none; }
+          .publicbenefit .publicbenefit_down li div button a:hover {
+            color: #ffffff; }
+    .publicbenefit .publicbenefit_down li:hover {
+      background: #006eff;
+      border: 1 solid #006eff;
+      box-shadow: 5px 5px 27px 0px rgba(0, 110, 255, 0.5); }
+      .publicbenefit .publicbenefit_down li:hover div h3 {
+        color: #ffffff; }
+      .publicbenefit .publicbenefit_down li:hover div p {
+        display: none; }
+      .publicbenefit .publicbenefit_down li:hover div div {
+        display: inline-block; }
+      .publicbenefit .publicbenefit_down li:hover div button {
+        display: block;
+        color: #ffffff;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid #ffffff;
+        padding: 5px 20px;
+        margin-top: 20px;
+        margin-left: 130px;
+        font-size: 18px; }
+
+/*# sourceMappingURL=publicbenefit.css.map */

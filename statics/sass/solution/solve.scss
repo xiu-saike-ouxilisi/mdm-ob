@@ -1,0 +1,72 @@
+// 解决企业痛点
+.solve {
+    width: 100vw;
+    height: 600px;
+    padding-top: 50px;
+    position: relative;
+
+    .solve_tit {
+        margin-bottom: 40px;
+
+        h2 {
+            font-size: 36px;
+            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+            font-weight: 700;
+            text-align: center;
+            color: #333333;
+        }
+
+        section {
+            font-size: 24px;
+            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+            font-weight: 400;
+            text-align: center;
+            color: #666666;
+            margin-top: 20px;
+        }
+    }
+
+    .solve_down {
+        display: flex;
+
+        li {
+            width: 200px;
+            height: 280px;
+            background: #ffffff;
+            border: NaNpx solid #d7e7ff;
+            box-shadow: 5px 5px 18px 0px #d8e7ff;
+            margin-right: 20px;
+
+            section {
+                width: 147px;
+                height: 36px;
+                background: #eff5fe;
+                text-align: center;
+                line-height: 36px;
+                font-size: 15px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                color: #333333;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+
+            div {
+                font-size: 15px;
+                font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                font-weight: 400;
+                text-align: center;
+                color: #333333;
+                margin-top: 20px;
+            }
+
+            img {
+                margin-top: 70px;
+                margin-left: 50px;
+                width: 75px;
+                height: auto;
+            }
+        }
+
+    }
+}

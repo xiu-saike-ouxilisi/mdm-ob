@@ -1,0 +1,149 @@
+.case {
+  width: 100vw;
+  padding-top: 50px;
+  position: relative; }
+  .case .container .case_nav {
+    width: inherit; }
+    .case .container .case_nav ul {
+      width: inherit;
+      height: 120px;
+      background: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px 0px rgba(9, 85, 249, 0.2); }
+      .case .container .case_nav ul li {
+        width: 97px;
+        height: 120px;
+        text-align: center;
+        float: left;
+        padding-top: 30px;
+        cursor: pointer;
+        border-radius: 5px; }
+        .case .container .case_nav ul li img {
+          width: 45px;
+          height: auto; }
+        .case .container .case_nav ul li .select {
+          display: none; }
+        .case .container .case_nav ul li .unchecked {
+          display: inline-block; }
+        .case .container .case_nav ul li section {
+          margin-top: 10px;
+          font-size: 14px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: 400;
+          color: #0075ff; }
+      .case .container .case_nav ul .active {
+        background: #0075ff;
+        color: #ffffff; }
+        .case .container .case_nav ul .active .select {
+          display: inline-block; }
+        .case .container .case_nav ul .active .unchecked {
+          display: none; }
+        .case .container .case_nav ul .active section {
+          color: #ffffff; }
+      .case .container .case_nav ul li:first-child {
+        border: 0px; }
+    .case .container .case_nav .clear {
+      clear: both; }
+  .case .container .case_content {
+    margin-top: 20px;
+    width: 1171px;
+    position: relative;
+    overflow: hidden;
+    height: 1400px; }
+    .case .container .case_content .case_box {
+      position: absolute;
+      width: 1171px; }
+      .case .container .case_content .case_box ul {
+        float: left;
+        width: 1171px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start; }
+        .case .container .case_content .case_box ul li {
+          width: 277px;
+          height: 420px;
+          text-align: center;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          background: #ffffff;
+          border: 2px solid #d7e7ff;
+          border-radius: 5px;
+          padding-top: 50px; }
+          .case .container .case_content .case_box ul li img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid #ccc;
+            margin-bottom: 30px;
+            background-color: #ffffff; }
+          .case .container .case_content .case_box ul li h3 {
+            font-size: 24px;
+            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+            font-weight: 700;
+            text-align: center;
+            color: #333333; }
+          .case .container .case_content .case_box ul li div {
+            width: 24px;
+            height: 4px;
+            background: #333333;
+            margin: 0 auto;
+            margin-top: 20px; }
+          .case .container .case_content .case_box ul li button {
+            width: 140px;
+            height: 50px;
+            border: 1px solid #ffffff;
+            display: none;
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0);
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 50px; }
+          .case .container .case_content .case_box ul li p {
+            padding: 0 20px;
+            margin-top: 40px;
+            font-size: 14px;
+            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+            font-weight: 400;
+            text-align: left;
+            color: #999999;
+            display: block; }
+        .case .container .case_content .case_box ul li:nth-child(4) {
+          margin-right: 0; }
+        .case .container .case_content .case_box ul li:nth-child(8) {
+          margin-right: 0; }
+        .case .container .case_content .case_box ul li:nth-child(12) {
+          margin-right: 0; }
+        .case .container .case_content .case_box ul li:hover {
+          background: #0075ff; }
+          .case .container .case_content .case_box ul li:hover h3 {
+            color: #ffffff; }
+          .case .container .case_content .case_box ul li:hover div {
+            background: #ffffff; }
+          .case .container .case_content .case_box ul li:hover button {
+            display: inline-block; }
+          .case .container .case_content .case_box ul li:hover p {
+            display: none; }
+  .case .container .paging {
+    position: relative;
+    top: -50px;
+    left: 600px; }
+    .case .container .paging .form1 {
+      z-index: 2; }
+      .case .container .paging .form1 .arrow2 {
+        margin: 3px 8px 4px 0;
+        border-left: 5px dashed transparent;
+        border-bottom: 5px dashed transparent;
+        border-top: 5px dashed transparent;
+        border-right: 5px solid #ccc;
+        display: inline-block;
+        vertical-align: middle; }
+      .case .container .paging .form1 .arrow3 {
+        margin: 3px 0 4px 8px;
+        border-top: 5px dashed transparent;
+        border-bottom: 5px dashed transparent;
+        border-right: 5px dashed transparent;
+        border-left: 5px solid #ccc;
+        display: inline-block;
+        vertical-align: middle; }
+
+/*# sourceMappingURL=case.css.map */

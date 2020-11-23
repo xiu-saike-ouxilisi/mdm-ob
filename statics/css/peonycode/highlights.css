@@ -1,0 +1,48 @@
+.highlights {
+  width: 100vw;
+  height: 400px;
+  padding-top: 20px;
+  position: relative; }
+  .highlights .highlights_bg {
+    z-index: -1;
+    width: 100vw;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .highlights .highlights_tit h2 {
+    font-size: 24px;
+    text-align: center;
+    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-weight: 700;
+    color: #ffffff; }
+  .highlights .highlights_tit section {
+    font-size: 16px;
+    text-align: center;
+    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    font-weight: 400;
+    color: #ffffff; }
+  .highlights .highlights_down {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    height: 160px; }
+    .highlights .highlights_down li {
+      margin-right: 30px;
+      width: 160px; }
+      .highlights .highlights_down li img {
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+        background: #006eff;
+        padding: 14px;
+        border-radius: 10px; }
+      .highlights .highlights_down li section {
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: 400;
+        color: #ffffff; }
+
+/*# sourceMappingURL=highlights.css.map */

@@ -1,0 +1,27 @@
+// 导航
+@import '../components/nav.scss';
+
+.navbar-default {
+    .navbar-nav {
+        li:nth-child(2){
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+
+// 轮播
+@import '../components/swiper.scss';
+
+
+// 介绍
+@import './introduce.scss';
+// 亮点
+@import './highlights.scss';
+// 宣传
+@import './propaganda.scss';
+// 营销
+@import './marketing.scss';
+
+
+// 底部
+@import '../components/footer.scss';

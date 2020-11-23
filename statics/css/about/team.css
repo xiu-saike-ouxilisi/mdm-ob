@@ -1,0 +1,44 @@
+.team {
+  width: 100vw;
+  background: #ffffff;
+  padding-bottom: 50px; }
+  .team .container {
+    margin-bottom: 0; }
+    .team .container .team_tit h2 {
+      font-size: 33px;
+      text-align: center;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #333333; }
+    .team .container .team_tit section {
+      margin-top: 30px;
+      font-size: 22px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: #666666; }
+    .team .container #certify {
+      position: relative;
+      left: -70px; }
+      .team .container #certify .swiper-container {
+        margin-top: 30px;
+        width: 1200px;
+        height: 500px; }
+        .team .container #certify .swiper-container .swiper-wrapper {
+          border: 5px solid blue; }
+          .team .container #certify .swiper-container .swiper-wrapper .swiper-slide {
+            width: 520px;
+            height: 408px;
+            background: #fff;
+            box-shadow: 0 8px 30px #ddd; }
+            .team .container #certify .swiper-container .swiper-wrapper .swiper-slide img {
+              display: block;
+              width: 587px;
+              height: 443px; }
+      .team .container #certify .swiper-button-prev {
+        transform: translate(10px, 0); }
+      .team .container #certify .swiper-button-next {
+        transform: translate(100px, 0); }
+
+/*# sourceMappingURL=team.css.map */

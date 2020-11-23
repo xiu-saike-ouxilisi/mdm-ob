@@ -1,0 +1,185 @@
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100vw;
+  height: 70px;
+  padding-top: 10px; }
+  .navbar-default .container {
+    width: 1200px; }
+    .navbar-default .container .navbar-header .navbar-brand {
+      transform: translate(0, -7px); }
+      .navbar-default .container .navbar-header .navbar-brand .nav_logo {
+        width: 100px;
+        height: 35px; }
+    .navbar-default .container .navbar-nav {
+      border: none; }
+      .navbar-default .container .navbar-nav li a {
+        color: #ffffff; }
+      .navbar-default .container .navbar-nav li a:hover {
+        color: #ffffff;
+        font-weight: bold; }
+      .navbar-default .container .navbar-nav .is_true_Underline {
+        border-bottom: 2px solid #ffffff; }
+    .navbar-default .container .navbar-text span {
+      color: #ffffff;
+      font-size: 20px; }
+    .navbar-default .container .navbar-text .nav_right_ontrial {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid #ffffff;
+      padding: 5px 20px;
+      margin-left: 20px;
+      font-size: 10px;
+      border-radius: 5px;
+      transform: translate(0, -4px); }
+      .navbar-default .container .navbar-text .nav_right_ontrial a {
+        color: #ffffff;
+        text-decoration: none; }
+      .navbar-default .container .navbar-text .nav_right_ontrial a:hover {
+        color: #ffffff; }
+
+.nav_bg {
+  background-color: #006eff; }
+
+.navbar-default .navbar-nav li:first-child {
+  border-bottom: 2px solid #ffffff; }
+
+.swiper-container {
+  width: 100vw;
+  height: 700px; }
+  .swiper-container .swiper-wrapper .swiper-slide {
+    position: relative; }
+    .swiper-container .swiper-wrapper .swiper-slide img {
+      width: 100vw;
+      height: 700px; }
+    .swiper-container .swiper-wrapper .swiper-slide .swiper_btn {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid #ffffff;
+      padding: 15px 45px;
+      margin-left: 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 37%;
+      left: 17.7%; }
+  .swiper-container .swiper-pagination {
+    transform: translate(0, -20px); }
+    .swiper-container .swiper-pagination .swiper-pagination-bullet {
+      width: 30px;
+      background-color: #ffffff;
+      opacity: 0.35;
+      border-radius: 50px; }
+    .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+      width: 57px;
+      opacity: 1; }
+
+.footer {
+  background-color: #1c1e2b;
+  width: 100vw;
+  height: 500px;
+  padding-top: 50px; }
+  .footer .container {
+    width: 1200px; }
+    .footer .container .footer_tit {
+      border-bottom: 1px solid #dfdfdf;
+      padding-bottom: 20px; }
+      .footer .container .footer_tit img {
+        width: 150px;
+        height: 50px; }
+      .footer .container .footer_tit div {
+        height: 40px;
+        display: inline-block;
+        font-size: 16px;
+        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+        font-weight: 700;
+        text-align: center;
+        line-height: 40px;
+        color: #ffffff;
+        border-left: 1px solid #dfdfdf;
+        margin-left: 20px;
+        padding-left: 20px;
+        transform: translate(0, 6px); }
+    .footer .container .footer_contenr {
+      height: 220px;
+      margin-top: 10px;
+      display: flex; }
+      .footer .container .footer_contenr .footer_contenr_left {
+        width: 200px;
+        height: 200px; }
+        .footer .container .footer_contenr .footer_contenr_left p {
+          font-size: 14px;
+          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+          font-weight: 700;
+          text-align: left;
+          color: #ffffff; }
+        .footer .container .footer_contenr .footer_contenr_left h3 {
+          font-size: 20px;
+          font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+          font-weight: 700;
+          text-align: left;
+          color: #ffffff; }
+        .footer .container .footer_contenr .footer_contenr_left button {
+          color: #ffffff;
+          background-color: rgba(255, 255, 255, 0);
+          border: 1px solid #ffffff;
+          padding: 5px 20px;
+          font-size: 10px;
+          border-radius: 5px;
+          margin-top: 10px; }
+      .footer .container .footer_contenr .footer_contenr_center {
+        margin-left: 50px; }
+        .footer .container .footer_contenr .footer_contenr_center table {
+          width: 600px; }
+          .footer .container .footer_contenr .footer_contenr_center table thead tr th {
+            width: 56px;
+            height: 40px;
+            font-size: 14px;
+            font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+            font-weight: 700;
+            text-align: left;
+            color: #ffffff; }
+          .footer .container .footer_contenr .footer_contenr_center table thead tr th:nth-child(2) {
+            width: 24px; }
+          .footer .container .footer_contenr .footer_contenr_center table thead tr th:hover {
+            cursor: pointer; }
+          .footer .container .footer_contenr .footer_contenr_center table tbody tr td {
+            height: 24px; }
+            .footer .container .footer_contenr .footer_contenr_center table tbody tr td a {
+              color: #787b92;
+              font-size: 12px;
+              height: 24px; }
+          .footer .container .footer_contenr .footer_contenr_center table tbody tr a:hover {
+            color: #ffffff;
+            cursor: pointer; }
+      .footer .container .footer_contenr .footer_contenr_right {
+        width: 200px;
+        padding-top: 30px; }
+        .footer .container .footer_contenr .footer_contenr_right img {
+          width: 90px;
+          height: 90px;
+          margin-left: 50px; }
+        .footer .container .footer_contenr .footer_contenr_right p {
+          font-size: 12px;
+          margin: 0;
+          margin-top: 10px;
+          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+          font-weight: bold;
+          text-align: center;
+          color: #ffffff; }
+    .footer .container .footer_laster {
+      height: 90px;
+      margin-top: 10px; }
+      .footer .container .footer_laster section {
+        margin-top: 10px;
+        font-size: 12px;
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-weight: bold;
+        text-align: center;
+        color: #999999; }
+
+.information {
+  width: 100vw;
+  height: 500px; }
+
+/*# sourceMappingURL=information.css.map */

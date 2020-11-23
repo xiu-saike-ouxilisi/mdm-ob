@@ -1,0 +1,22 @@
+// 导航
+@import './components/nav.scss';
+
+.navbar-default {
+    .navbar-nav {
+        li:first-child {
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}
+
+// 轮播
+@import './components/swiper.scss';
+
+// 底部
+@import './components/footer.scss';
+
+// 信息内容
+.information {
+    width: 100vw;
+    height: 500px;
+}

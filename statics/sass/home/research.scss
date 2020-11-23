@@ -1,0 +1,112 @@
+// 研发
+.research {
+    width: 100vw;
+    height: 800px;
+    padding-top: 50px;
+    background: #262730;
+
+    .research_tit {
+        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        section {
+            font-size: 20px;
+            font-weight: 400;
+            color: #ffffff;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        ul {
+            display: flex;
+            margin-top: 20px;
+            padding-left: 80px;
+
+            li {
+                padding-left: 20px;
+
+                h1 {
+                    color: #ffffff;
+                    font-size: 26px;
+                    margin-right: 210px;
+                    position: relative;
+                }
+
+                h1::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -20px;
+                    width: 10px;
+                    height: 30px;
+                    background-color: #006EFF;
+                }
+
+                section {
+                    color: #999999;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    text-align: left;
+                }
+            }
+
+
+        }
+    }
+
+    .research_bottom {
+        ul {
+            margin-top: 20px;
+
+            li {
+                margin-left: 80px;
+                background-color: rgba(255, 255, 255, 0.15);
+                border-radius: 5px;
+                width: 900px;
+                height: 100px;
+                padding: 10px 20px;
+                margin-top: 20px;
+
+                div {
+                    display: inline-block;
+                    width: 750px;
+                    margin-top: 10px;
+
+                    h4 {
+                        padding: 0;
+                        margin: 0;
+                        width: 73px;
+                        height: 19px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #ffffff;
+                    }
+
+                    section {
+                        width: 854px;
+                        height: 17px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #ffffff;
+                        margin-top: 10px;
+                    }
+                }
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    transform: translate(15px, -17px);
+                }
+            }
+        }
+    }
+}

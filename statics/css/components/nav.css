@@ -1,0 +1,44 @@
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100vw;
+  height: 70px;
+  padding-top: 10px; }
+  .navbar-default .container {
+    width: 1200px; }
+    .navbar-default .container .navbar-header .navbar-brand {
+      transform: translate(0, -7px); }
+      .navbar-default .container .navbar-header .navbar-brand .nav_logo {
+        width: 100px;
+        height: 35px; }
+    .navbar-default .container .navbar-nav {
+      border: none; }
+      .navbar-default .container .navbar-nav li a {
+        color: #ffffff; }
+      .navbar-default .container .navbar-nav li a:hover {
+        color: #ffffff;
+        font-weight: bold; }
+      .navbar-default .container .navbar-nav .is_true_Underline {
+        border-bottom: 2px solid #ffffff; }
+    .navbar-default .container .navbar-text span {
+      color: #ffffff;
+      font-size: 20px; }
+    .navbar-default .container .navbar-text .nav_right_ontrial {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0);
+      border: 1px solid #ffffff;
+      padding: 5px 20px;
+      margin-left: 20px;
+      font-size: 10px;
+      border-radius: 5px;
+      transform: translate(0, -4px); }
+      .navbar-default .container .navbar-text .nav_right_ontrial a {
+        color: #ffffff;
+        text-decoration: none; }
+      .navbar-default .container .navbar-text .nav_right_ontrial a:hover {
+        color: #ffffff; }
+
+.nav_bg {
+  background-color: #006eff; }
+
+/*# sourceMappingURL=nav.css.map */
