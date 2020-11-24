@@ -1,98 +1,93 @@
 .advantage {
   width: 100vw;
-  height: 580px;
-  padding-top: 50px; }
-  .advantage .container {
-    width: 1200px; }
-    .advantage .container .advantage_tit h2 {
-      font-size: 36px;
-      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-      font-weight: 700;
-      text-align: center;
-      color: #333333; }
-    .advantage .container .advantage_tit section {
-      height: 25px;
-      font-size: 20px;
-      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-      font-weight: 400;
-      text-align: center;
-      color: #666666;
-      margin-top: 20px; }
-    .advantage .container .advantage_down {
-      height: 400px;
-      position: relative; }
-      .advantage .container .advantage_down img {
-        width: 300px;
-        height: auto;
+  height: 580px; }
+  .advantage .advantage_tit h2 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .advantage .advantage_tit section {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px; }
+  .advantage .advantage_down {
+    margin-top: 30px;
+    width: 1200px;
+    height: 400px;
+    position: relative;
+    transform: translate(-15px, 0); }
+    .advantage .advantage_down img {
+      width: 300px;
+      height: auto;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .advantage .advantage_down .advantage_down_content {
+      position: relative;
+      top: 0;
+      left: 0; }
+      .advantage .advantage_down .advantage_down_content li {
         position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%); }
-      .advantage .container .advantage_down .advantage_down_content {
-        position: relative;
-        top: 0;
-        left: 0; }
-        .advantage .container .advantage_down .advantage_down_content li {
-          position: absolute;
-          width: 340px;
-          height: 180px; }
-          .advantage .container .advantage_down .advantage_down_content li .item_one {
-            position: relative;
-            width: 300px;
-            height: 40px;
-            padding-top: 10px;
-            padding-left: 20px; }
-            .advantage .container .advantage_down .advantage_down_content li .item_one div {
-              position: absolute;
-              top: 0;
-              left: 0;
-              border: 2px solid #006EFF;
-              background-color: #fff;
-              width: 55px;
-              height: 55px;
-              border-radius: 50%;
-              font-size: 20px;
-              line-height: 55px;
-              font-weight: bold;
-              text-align: center;
-              color: #006eff; }
-            .advantage .container .advantage_down .advantage_down_content li .item_one section {
-              width: 320px;
-              height: 38px;
-              text-align: center;
-              padding-right: 20px;
-              border: 2px solid #006EFF;
-              font-size: 20px;
-              font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-              font-weight: 400;
-              color: #333333;
-              line-height: 34px; }
-              .advantage .container .advantage_down .advantage_down_content li .item_one section span {
-                color: #006EFF;
-                font-weight: 700;
-                display: inline-block;
-                margin-left: 5px; }
-          .advantage .container .advantage_down .advantage_down_content li p {
-            margin-top: 30px;
-            margin-left: 20px;
-            font-size: 14px;
-            font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        width: 340px;
+        height: 180px; }
+        .advantage .advantage_down .advantage_down_content li .item_one {
+          position: relative;
+          width: 300px;
+          height: 40px;
+          padding-top: 10px;
+          padding-left: 20px; }
+          .advantage .advantage_down .advantage_down_content li .item_one div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 2px solid #006EFF;
+            background-color: #fff;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            font-size: 20px;
+            line-height: 55px;
+            font-weight: bold;
+            text-align: center;
+            color: #006eff; }
+          .advantage .advantage_down .advantage_down_content li .item_one section {
+            width: 320px;
+            height: 38px;
+            text-align: center;
+            padding-right: 20px;
+            border: 2px solid #006EFF;
+            font-size: 20px;
             font-weight: 400;
-            text-align: left;
-            color: #666666;
-            line-height: 24px;
-            letter-spacing: 1px; }
-        .advantage .container .advantage_down .advantage_down_content li:nth-child(1) {
-          top: 0;
-          left: 10px; }
-        .advantage .container .advantage_down .advantage_down_content li:nth-child(2) {
-          top: 0;
-          right: 10px; }
-        .advantage .container .advantage_down .advantage_down_content li:nth-child(3) {
-          top: 200px;
-          left: 10px; }
-        .advantage .container .advantage_down .advantage_down_content li:nth-child(4) {
-          top: 200px;
-          right: 10px; }
+            color: #333333;
+            line-height: 34px; }
+            .advantage .advantage_down .advantage_down_content li .item_one section span {
+              color: #006EFF;
+              font-weight: 700;
+              display: inline-block;
+              margin-left: 5px; }
+        .advantage .advantage_down .advantage_down_content li p {
+          margin-top: 30px;
+          margin-left: 20px;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: left;
+          color: #666666;
+          line-height: 24px;
+          letter-spacing: 1px; }
+      .advantage .advantage_down .advantage_down_content li:nth-child(1) {
+        top: 0;
+        left: 10px; }
+      .advantage .advantage_down .advantage_down_content li:nth-child(2) {
+        top: 0;
+        right: 10px; }
+      .advantage .advantage_down .advantage_down_content li:nth-child(3) {
+        top: 200px;
+        left: 10px; }
+      .advantage .advantage_down .advantage_down_content li:nth-child(4) {
+        top: 200px;
+        right: 10px; }
 
 /*# sourceMappingURL=advantage.css.map */

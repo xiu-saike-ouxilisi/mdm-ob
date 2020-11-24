@@ -2,7 +2,7 @@
 // 案例 tabs
 $(function () {
 
-    var width = 1171; //跟外面盒子的宽度一样，或者写成 var width = $(".content").width();
+    var width = 1200; //跟外面盒子的宽度一样，或者写成 var width = $(".content").width();
     var ulNum = $(".case_content ul").length; //获取ul的个数
     var contentWidth = width * ulNum; //获取整个box应该的长度，刚开始box设置成了1100，但是应该把所有的ul防到一行里面去，这样box向左移动的时候才是无缝滚动
 

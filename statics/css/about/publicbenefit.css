@@ -1,35 +1,33 @@
 .publicbenefit {
   width: 100vw;
   height: 700px;
-  background: #ffffff;
-  padding-top: 30px; }
+  background: #ffffff; }
   .publicbenefit .publicbenefit_tit h2 {
-    font-size: 33px;
-    text-align: center;
-    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    font-size: 34px;
     font-weight: 700;
     text-align: center;
     color: #333333; }
   .publicbenefit .publicbenefit_tit section {
-    margin-top: 30px;
-    font-size: 22px;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+    margin-top: 20px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #666666; }
   .publicbenefit .publicbenefit_down {
+    width: 1200px;
+    transform: translate(-15px, 0);
     display: flex;
     margin-top: 30px; }
     .publicbenefit .publicbenefit_down li {
-      margin-left: 20px;
-      width: 370px;
+      margin-right: 20px;
+      width: 386px;
       height: 450px;
       background: #ffffff;
       border: 1px solid #d7e7ff;
       border-radius: 10px;
       box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15); }
       .publicbenefit .publicbenefit_down li img {
-        width: 370px;
+        width: 386px;
         height: 240px;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -38,13 +36,11 @@
         text-align: center; }
         .publicbenefit .publicbenefit_down li div h3 {
           font-size: 20px;
-          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
           font-weight: bold;
           text-align: center;
           color: #333333; }
         .publicbenefit .publicbenefit_down li div p {
           font-size: 18px;
-          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
           font-weight: 400;
           text-align: left;
           color: #999999;
@@ -87,5 +83,7 @@
         margin-top: 20px;
         margin-left: 130px;
         font-size: 18px; }
+    .publicbenefit .publicbenefit_down li:nth-child(3) {
+      margin-right: none; }
 
 /*# sourceMappingURL=publicbenefit.css.map */

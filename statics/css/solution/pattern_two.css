@@ -1,30 +1,27 @@
 .pattern_two {
   width: 100vw;
   height: 700px;
-  padding-top: 120px;
   position: relative;
   background: #ffffff; }
-  .pattern_two .container {
-    display: flex; }
-    .pattern_two .container .pattern_two_left img {
-      width: 470px;
+  .pattern_two .pad {
+    padding-top: 80px; }
+    .pattern_two .pad .pattern_two_left img {
+      width: 500px;
       height: auto; }
-    .pattern_two .container .pattern_two_right {
-      margin-top: 60px;
-      margin-left: 100px; }
-      .pattern_two .container .pattern_two_right h1 {
-        font-size: 36px;
-        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+    .pattern_two .pad .pattern_two_right {
+      padding-left: 90px;
+      padding-top: 50px; }
+      .pattern_two .pad .pattern_two_right h1 {
+        font-size: 34px;
         font-weight: 700;
         text-align: left;
         color: #0754ff; }
-      .pattern_two .container .pattern_two_right p {
+      .pattern_two .pad .pattern_two_right p {
+        margin-top: 20px;
         width: 456px;
         height: 176px;
-        font-size: 24px;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+        font-size: 20px;
         font-weight: 400;
-        text-align: left;
         color: #333333;
         line-height: 38px; }
 

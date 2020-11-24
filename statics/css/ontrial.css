@@ -21,7 +21,6 @@
       padding-top: 50px; }
       .ontrial .ontrial_content .ontrial_left h1 {
         font-size: 40px;
-        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
         font-weight: bold;
         text-align: left;
         color: #ffffff;
@@ -30,7 +29,6 @@
         margin-left: 30px; }
       .ontrial .ontrial_content .ontrial_left p {
         font-size: 38px;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
         font-weight: 400;
         text-align: left;
         color: #ffffff;
@@ -46,7 +44,6 @@
       padding-left: 40px; }
       .ontrial .ontrial_content .ontrial_right h2 {
         font-size: 65px;
-        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
         font-weight: 700;
         text-align: center;
         color: #2882fe;
@@ -72,14 +69,12 @@
           background: linear-gradient(#33a1ff 0%, #33cdff 100%);
           border-radius: 10px;
           font-size: 32px;
-          font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
           font-weight: 400;
           text-align: center;
           color: #ffffff;
           margin-top: 30px; }
   .ontrial .ontrial_down {
     font-size: 24px;
-    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
     font-weight: 400;
     text-align: center;
     color: #ffffff; }
@@ -109,7 +104,6 @@
         width: 256px;
         height: 47px;
         font-size: 16px;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
         font-weight: 400;
         text-align: center;
         color: #006eff;
@@ -123,7 +117,6 @@
         background: linear-gradient(#33a1ff 0%, #33cdff 100%);
         border-radius: 25px;
         font-size: 19px;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
         font-weight: 400;
         text-align: center;
         color: #ffffff;

@@ -1,7 +1,6 @@
 .service {
   width: 100vw;
   height: 350px;
-  padding-top: 30px;
   position: relative; }
   .service img {
     z-index: -1;
@@ -10,37 +9,32 @@
     position: absolute;
     top: 0;
     left: 0; }
-  .service .container {
-    width: 1200px; }
-    .service .container .service_tit h2 {
-      font-size: 24px;
+  .service .service_tit h2 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff; }
+  .service .service_tit section {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px; }
+  .service .service_down {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    width: 1200px;
+    transform: translate(-15px, 0); }
+    .service .service_down li h2 {
+      font-size: 50px;
       text-align: center;
-      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
       font-weight: 700;
       color: #ffffff; }
-    .service .container .service_tit section {
-      font-size: 16px;
+    .service .service_down li section {
+      font-size: 24px;
       text-align: center;
-      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
       font-weight: 400;
-      color: #ffffff;
-      margin-top: 30px; }
-    .service .container .service_down {
-      display: flex;
-      margin-top: 24px;
-      justify-content: space-between;
-      padding: 0 50px; }
-      .service .container .service_down li h2 {
-        font-size: 40px;
-        text-align: center;
-        font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
-        font-weight: 700;
-        color: #ffffff; }
-      .service .container .service_down li section {
-        font-size: 20px;
-        text-align: center;
-        font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
-        font-weight: 400;
-        color: #ffffff; }
+      color: #ffffff; }
 
 /*# sourceMappingURL=service.css.map */

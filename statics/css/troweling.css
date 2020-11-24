@@ -2,6 +2,16 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
+ /* 全局 */
+ *{
+     font-family: Microsoft YaHei Regular;
+ }
+ .fixed_width{
+    width: 1200px!important;
+    padding-top: 50px;
+ }
+
+ /*  */
  html, body, div, span, applet, object, iframe,
  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
  a, abbr, acronym, address, big, cite, code,
