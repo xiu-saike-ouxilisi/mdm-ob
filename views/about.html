@@ -153,6 +153,7 @@
 
     <!-- 团队风采 开始 -->
     <div class="team">
+        <!-- container fixed_width -->
         <div class="container fixed_width">
             <div class="team_tit">
                 <h2>团队风采</h2>
@@ -390,73 +391,54 @@
             // },
         })
     </script>
+    <!-- 轮播 2-->
     <script>
         // 轮播
         var swiper = new Swiper('.two .swiper-container', {
             autoplay: {
-                delay: 100, // 几秒切换一次
+                delay: 10, // 几秒切换一次
                 disableOnInteraction: false,
             }, // 可选选项自动滑动
             freeMode: true,
             // autoplay: 1, //自动滚动
             loop: true, //循环
-            speed: 4000, //滚动速度
+            speed: 5000, //滚动速度
             slidesPerView: 4, //slide可见数量
             spaceBetween: 10 //slide之间的距离（单位px）
         });
     </script>
     <!-- 层叠轮播 -->
     <script>
-        // 层叠轮播
-        var certifySwiper = new Swiper('#certify .swiper-container', {
+        var mySwiper = new Swiper('#certify .swiper-container', {
+            effect: 'coverflow',
+            centeredSlides: true, // 设定为true时，active slide会居中，而不是默认状态下的居左。
             watchSlidesProgress: true,
             slidesPerView: 'auto',
-            centeredSlides: true,
             loop: true,
-            autoplay: true,
             loopedSlides: 5,
-            // autoplay: true,
+            // speed: 5000, //滚动速度
+            autoplay: true,
             autoplay: {
                 delay: 3000, // 3秒切换一次
                 disableOnInteraction: false,
             }, // 可选选项自动滑动
+            // 轮播效果
+            coverflowEffect: {
+                rotate: 0, // slide做3d旋转时Y轴的旋转角度
+                stretch: 100, // 每个slide之间的拉伸值，越大slide靠得越紧。5.3.6 后可使用%百分比
+                depth: 500, // slide的位置深度。值越大z轴距离越远，看起来越小。
+                modifier: 1, // depth和rotate和stretch的倍率，相当于depth*modifier、rotate*modifier、stretch*modifier，值越大这三个参数的效果越明显。
+                slideShadows: true, // 是否开启slide阴影
+            },
+            // 指示器
+            pagination: {
+                el: '.swp-pagination-honor',
+            },
+            // 前后键
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            pagination: {
-                el: '.swiper-pagination',
-                //clickable :true,
-            },
-            on: {
-                progress: function (progress) {
-                    for (i = 0; i < this.slides.length; i++) {
-                        var slide = this.slides.eq(i);
-                        var slideProgress = this.slides[i].progress;
-                        modify = 1;
-                        if (Math.abs(slideProgress) > 1) {
-                            modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
-                        }
-                        translate = slideProgress * modify * 260 + 'px';
-                        scale = 1 - Math.abs(slideProgress) / 5;
-                        zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
-                        slide.transform('translateX(' + translate + ') scale(' + scale + ')');
-                        slide.css('zIndex', zIndex);
-                        slide.css('opacity', 1);
-                        if (Math.abs(slideProgress) > 3) {
-                            slide.css('opacity', 0);
-                        }
-                    }
-                },
-                setTransition: function (transition) {
-                    for (var i = 0; i < this.slides.length; i++) {
-                        var slide = this.slides.eq(i)
-                        slide.transition(transition);
-                    }
-
-                }
-            }
-
         })
     </script>
     <script>

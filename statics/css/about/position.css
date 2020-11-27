@@ -1,6 +1,6 @@
 .position {
   width: 100vw;
-  height: 700px;
+  height: 580px;
   background: #ffffff; }
   .position .position_map #position_map {
     width: 550px;
@@ -8,7 +8,7 @@
     border: 2px solid red; }
   .position .position_contact {
     height: 450px;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-left: 40px; }
     .position .position_contact div {
       display: flex; }

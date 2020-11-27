@@ -13,6 +13,9 @@
     <!--swiper  -->
     <link rel="stylesheet" href="../statics/css/swiper-bundle.min.css">
 
+    <!--  -->
+    <link rel="stylesheet" href="../statics/css/pagination.css">
+
     <!-- 主要样式 -->
     <link rel="stylesheet" href="../statics/css/customercase/index.css">
     <title>customercase</title>
@@ -95,11 +98,6 @@
                         <img class="unchecked" src="../statics/images/customercase/unchecked/icon_1.png" alt="">
                         <section>快销行业</section>
                     </li>
-                    <li>
-                        <img class="select" src="../statics/images/customercase/select/icon_1.png" alt="">
-                        <img class="unchecked" src="../statics/images/customercase/unchecked/icon_1.png" alt="">
-                        <section>饮料行业</section>
-                    </li>
                 </ul>
                 <div class="clear"></div>
             </div>
@@ -127,7 +125,6 @@
                         <li>1</li>
                         <li>1</li>
                         <li>1</li>
-                        <li>1</li>
                     </ul>
                     <ul>
                         <li>2</li>
@@ -136,32 +133,12 @@
                         <li>2</li>
                         <li>2</li>
                         <!--数量自己定义,只要总宽度跟content的宽度一样就好-->
+
                     </ul>
-                    <ul>
-                        <li>3</li>
-                        <li>3</li>
-                        <li>3</li>
-                        <li>3</li>
-                        <li>3</li>
-                        <!--数量自己定义,只要总宽度跟content的宽度一样就好-->
-                    </ul>
+
                 </div>
-            </div>
-            <!-- 分页 -->
-            <div class="paging">
-                <form id="form1" runat="server">
-                    <div>
-                    </div>
-                    <div>
-                        <ul class="pagination" id="pagination">
-                        </ul>
-                        <input type="hidden" id="PageCount" runat="server" />
-                        <input type="hidden" id="PageSize" runat="server" value="8" />
-                        <input type="hidden" id="countindex" runat="server" value="10" />
-                        <!--设置最多显示的页码数 可以手动设置 默认为7-->
-                        <input type="hidden" id="visiblePages" runat="server" value="7" />
-                    </div>
-                </form>
+                <!--  -->
+                <div id="pages"></div>
             </div>
 
         </div>
@@ -292,43 +269,23 @@
     <script src="../statics/js/index.js"></script>
     <script src="../statics/js/case.js"></script>
 
-
-    <script src="../statics/js/jqPaginator.min.js"></script>
+    <script src="../statics/js/pagination.js"></script>
     <script>
-        function loadData(num) {
-            $("#PageCount").val("89");
-        }
-
-        function exeData(num, type) {
-            loadData(num);
-            loadpage();
-        }
-
-        function loadpage() {
-            var myPageCount = parseInt($("#PageCount").val());
-            var myPageSize = parseInt($("#PageSize").val());
-            var countindex = myPageCount % myPageSize > 0 ? (myPageCount / myPageSize) + 1 : (myPageCount / myPageSize);
-            $("#countindex").val(countindex);
-
-            $.jqPaginator('#pagination', {
-                totalPages: parseInt($("#countindex").val()),
-                visiblePages: parseInt($("#visiblePages").val()),
-                currentPage: 1,
-                first: '<li class="first"><a href="javascript:;">首页</a></li>',
-                prev: '<li class="prev"><a href="javascript:;"><i class="arrow arrow2"></i>上一页</a></li>',
-                next: '<li class="next"><a href="javascript:;">下一页<i class="arrow arrow3"></i></a></li>',
-                last: '<li class="last"><a href="javascript:;">末页</a></li>',
-                page: '<li class="page"><a href="javascript:;">{{page}}</a></li>',
-                onPageChange: function (num, type) {
-                    if (type == "change") {
-                        exeData(num, type);
-                    }
-                }
-            });
-        }
-        $(function () {
-            loadData(1);
-            loadpage();
+        new Pagination({
+            element: '#pages',
+            type: 1,
+            pageIndex: 1, // 页码
+            pageSize: 10, // 每页数据数量
+            pageCount: 5,
+            total: 50,
+            jumper: false, // 填入页面跳转
+            singlePageHide: false,
+            prevText: '上一页',
+            nextText: '下一页',
+            disabled: false,
+            currentChange: function(index) {
+                console.log(index);
+            }
         });
     </script>
 

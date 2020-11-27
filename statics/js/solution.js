@@ -13,8 +13,32 @@ function qwe() {
                 },
                 {
                     name: '商标2',
-                    src: '../statics/images/home/icon/small/small_1.png',
+                    src: '../statics/images/home/icon/small/small_2.png',
                 },
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_3.png',
+                },
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_5.png',
+                },
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_6.png',
+                },
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标8',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }
             ],
             business: [
                 {
@@ -25,7 +49,15 @@ function qwe() {
                     src1: '../statics/images/home/icon/big/big_1.png',
                     src2: '../statics/images/home/code.png',
                 },
-
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+        
             ]
         },
         {
@@ -39,12 +71,32 @@ function qwe() {
                 },
                 {
                     name: '商标2',
-                    src: '../statics/images/home/icon/small/small_1.png',
+                    src: '../statics/images/home/icon/small/small_2.png',
                 },
                 {
                     name: '商标3',
-                    src: '../statics/images/home/icon/small/small_1.png',
+                    src: '../statics/images/home/icon/small/small_3.png',
                 },
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_5.png',
+                },
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_6.png',
+                },
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标8',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }
             ],
             business: [
                 {
@@ -59,12 +111,132 @@ function qwe() {
                     src1: '../statics/images/home/icon/big/big_1.png',
                     src2: '../statics/images/home/code.png',
                 },
-
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+        
             ]
         },
         {
             type: '美妆行业',
             bg: '../statics/images/home/solutionbg/bg_3.jpg',
+            brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
+            brand: [
+                {
+                    name: '商标1',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },
+                {
+                    name: '商标2',
+                    src: '../statics/images/home/icon/small/small_2.png',
+                },
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_3.png',
+                },
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_5.png',
+                },
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_6.png',
+                },
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标8',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }
+            ],
+            business: [
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+        
+            ]
+        },
+        {
+            type: '快销行业',
+            bg: '../statics/images/home/solutionbg/bg_4.jpg',
+            brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
+            brand: [
+                {
+                    name: '商标1',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },
+                {
+                    name: '商标2',
+                    src: '../statics/images/home/icon/small/small_2.png',
+                },
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_3.png',
+                },
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_5.png',
+                },
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_6.png',
+                },
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标8',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }
+            ],
+            business: [
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+        
+            ]
+        },
+        {
+            type: '母婴行业',
+            bg: '../statics/images/home/solutionbg/bg_5.jpg',
             brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
             brand: [
                 {
@@ -97,7 +269,154 @@ function qwe() {
                     src1: '../statics/images/home/icon/big/big_1.png',
                     src2: '../statics/images/home/code.png',
                 },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                }
         
+            ]
+        },
+        {
+            type: '食品行业',
+            bg: '../statics/images/home/solutionbg/bg_1.jpg',
+            brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
+            brand: [
+                {
+                    name: '商标1',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },
+                {
+                    name: '商标2',
+                    src: '../statics/images/home/icon/small/small_2.png',
+                },
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_3.png',
+                },
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_5.png',
+                },
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_6.png',
+                },
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_4.png',
+                },
+                {
+                    name: '商标8',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }
+            ],
+            business: [
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                }
+            ]
+        },
+        {
+            type: '日化行业',
+            bg: '../statics/images/home/solutionbg/bg_2.jpg',
+            brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
+            brand: [
+                {
+                    name: '商标1',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },
+                {
+                    name: '商标2',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标6',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标7',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },                
+            ],
+            business: [
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                }
+            ]
+        },
+        {
+            type: '其他行业',
+            bg: '../statics/images/home/solutionbg/bg_3.jpg',
+            brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
+            brand: [
+                {
+                    name: '商标1',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                },
+                {
+                    name: '商标2',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标3',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标4',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }, 
+                {
+                    name: '商标5',
+                    src: '../statics/images/home/icon/small/small_1.png',
+                }              
+            ],
+            business: [
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                },
+                {
+                    src1: '../statics/images/home/icon/big/big_1.png',
+                    src2: '../statics/images/home/code.png',
+                }
             ]
         },
       

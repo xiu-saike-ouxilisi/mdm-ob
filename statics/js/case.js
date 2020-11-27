@@ -8,8 +8,9 @@ $(function () {
 
     $(".case_box").width(contentWidth); //给box设置宽度  .width() 是获取宽度  .width(value)是设置宽度
 
-    $(".case_nav ul li").click(function () {
+    $(".case_nav ul li").click(function (e) {
 
+        console.log($(this).context.innerText)
         //$(this)表示点击的这个元素 ，.addClass()表示添加的样式名称，.siblings()表示这个元素的所有兄弟级元素，此处表示span，
         // .removeClass()表示删除的样式名称
         $(this).addClass('active').siblings().removeClass('active');
@@ -27,6 +28,19 @@ $(function () {
         //第二个参数为时间，表示从当前位置移动到第一个参数用时，单位为ms，1000ms=1秒
         //点击的时候一定要点开审查元素，查看box元素的行内样式
     })
+
+    var data = 5
+    // 高度调整
+    if (data.length<4){
+        $(".case_content").height('530px')
+        $("#pages").bottom('580px')
+    }else if(data.length>4){
+        $(".case_content").height('950px')
+        $("#pages").bottom('580px')
+    } else if (data.length>8){
+        $(".case_content").height('1400px')
+        $("#pages").bottom('160px')
+    }
 })
 
 // 数据
@@ -104,7 +118,44 @@ var textdata = [
                 name: '红牛25',
                 avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
                 introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-            }
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+            {
+                id: "5",
+                name: '红牛25',
+                avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
+                introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
+            },
+
         ]
     },
     {
@@ -493,6 +544,7 @@ var textdata = [
 
 
 function asd() {
+
     // 上方类别
     var str1 = ''
     var str2 = ''
@@ -521,6 +573,10 @@ function asd() {
     var all = ''
 
     for (var i = 0; i < textdata.length; i++) {
+        // console.log(textdata[i].list)
+        // var page = Math.ceil(textdata[i].list.length / 16)
+        // Math.ceil(textdata[i].list.length / 16)
+        // console.log(page)
         for (var k = 0; k < textdata[i].list.length; k++) {
             content += '<li>' +
                 '<img src="' + textdata[i].list[k].avatar + '" alt="">' +

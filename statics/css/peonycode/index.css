@@ -146,7 +146,7 @@
           margin-top: 5px; }
     .introduce .introduce_down .introduce_right {
       padding-left: 80px;
-      padding-top: 40px; }
+      padding-top: 90px; }
       .introduce .introduce_down .introduce_right img {
         width: 500px;
         height: auto; }
@@ -220,7 +220,8 @@
 
 .marketing {
   width: 100vw;
-  position: relative; }
+  position: relative;
+  padding-bottom: 40px; }
   .marketing .marketing_tit {
     margin-bottom: 30px; }
     .marketing .marketing_tit h2 {
@@ -238,7 +239,8 @@
     width: 1200px;
     position: relative; }
     .marketing .container .marketing_bg {
-      width: 1200px;
+      margin-left: 200px;
+      width: 800px;
       height: auto;
       transform: translate(-15px, 0); }
 

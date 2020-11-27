@@ -6,9 +6,10 @@
 
     .fixed_width {
         padding-top: 0;
+
         .case_nav {
             width: inherit;
-            transform: translate(-15px,0);
+            transform: translate(-15px, 0);
 
             ul {
                 width: inherit;
@@ -67,6 +68,7 @@
                     border-top-left-radius: 5px;
                     border-bottom-left-radius: 5px;
                 }
+
                 li:last-child {
                     border-top-right-radius: 5px;
                     border-bottom-right-radius: 5px;
@@ -79,12 +81,13 @@
         }
 
         .case_content {
-            transform: translate(-15px,0);
+            transform: translate(-15px, 0);
             margin-top: 20px;
             width: 1200px;
             position: relative;
             overflow: hidden;
             height: 1400px;
+            
             .case_box {
                 position: absolute;
                 width: 1200px;
@@ -95,6 +98,7 @@
                     display: flex;
                     flex-wrap: wrap;
                     align-content: flex-start;
+                    position: relative;
 
                     li {
                         width: 285px;
@@ -153,13 +157,16 @@
                             display: block;
                         }
                     }
-                    li:nth-child(4){
+
+                    li:nth-child(4) {
                         margin-right: 0;
                     }
-                    li:nth-child(8){
+
+                    li:nth-child(8) {
                         margin-right: 0;
                     }
-                    li:nth-child(12){
+
+                    li:nth-child(12) {
                         margin-right: 0;
                     }
 
@@ -183,39 +190,19 @@
                         }
                     }
                 }
+
+
+            }
+            
+            #pages{
+                position: absolute;
+                bottom: 160px;
+                right: 50px;
             }
 
         }
 
-        .paging {
-            position: relative;
-            top: -50px;
-            left: 600px;
 
-            .form1 {
-                z-index: 2;
-
-                .arrow2 {
-                    margin: 3px 8px 4px 0;
-                    border-left: 5px dashed transparent;
-                    border-bottom: 5px dashed transparent;
-                    border-top: 5px dashed transparent;
-                    border-right: 5px solid #ccc;
-                    display: inline-block;
-                    vertical-align: middle;
-                }
-
-                .arrow3 {
-                    margin: 3px 0 4px 8px;
-                    border-top: 5px dashed transparent;
-                    border-bottom: 5px dashed transparent;
-                    border-right: 5px dashed transparent;
-                    border-left: 5px solid #ccc;
-                    display: inline-block;
-                    vertical-align: middle;
-                }
-            }
-        }
         // .case_content .case_box ul li+li {
         //     margin-left: -1px;
         // }

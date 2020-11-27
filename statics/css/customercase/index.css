@@ -149,7 +149,8 @@
           width: 1200px;
           display: flex;
           flex-wrap: wrap;
-          align-content: flex-start; }
+          align-content: flex-start;
+          position: relative; }
           .case .fixed_width .case_content .case_box ul li {
             width: 285px;
             height: 420px;
@@ -212,28 +213,10 @@
               display: inline-block; }
             .case .fixed_width .case_content .case_box ul li:hover p {
               display: none; }
-    .case .fixed_width .paging {
-      position: relative;
-      top: -50px;
-      left: 600px; }
-      .case .fixed_width .paging .form1 {
-        z-index: 2; }
-        .case .fixed_width .paging .form1 .arrow2 {
-          margin: 3px 8px 4px 0;
-          border-left: 5px dashed transparent;
-          border-bottom: 5px dashed transparent;
-          border-top: 5px dashed transparent;
-          border-right: 5px solid #ccc;
-          display: inline-block;
-          vertical-align: middle; }
-        .case .fixed_width .paging .form1 .arrow3 {
-          margin: 3px 0 4px 8px;
-          border-top: 5px dashed transparent;
-          border-bottom: 5px dashed transparent;
-          border-right: 5px dashed transparent;
-          border-left: 5px solid #ccc;
-          display: inline-block;
-          vertical-align: middle; }
+      .case .fixed_width .case_content #pages {
+        position: absolute;
+        bottom: 160px;
+        right: 50px; }
 
 .footer {
   background-color: #1c1e2b;
