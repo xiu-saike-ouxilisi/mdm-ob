@@ -1,23 +1,14 @@
 .publicbenefit {
-  width: 100vw;
-  height: 700px;
-  background: #ffffff; }
-  .publicbenefit .publicbenefit_tit h2 {
-    font-size: 34px;
-    font-weight: 700;
-    text-align: center;
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 40px; }
+  .publicbenefit .content_title h2 {
     color: #333333; }
-  .publicbenefit .publicbenefit_tit section {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+  .publicbenefit .content_title section {
     color: #666666; }
   .publicbenefit .publicbenefit_down {
-    width: 1200px;
-    transform: translate(-15px, 0);
-    display: flex;
-    margin-top: 30px; }
+    padding: 0;
+    display: flex; }
     .publicbenefit .publicbenefit_down li {
       margin-right: 20px;
       width: 386px;
@@ -85,5 +76,94 @@
         font-size: 18px; }
     .publicbenefit .publicbenefit_down li:nth-child(3) {
       margin-right: none; }
+
+@media (max-width: 1200px) {
+  .publicbenefit {
+    padding-bottom: 40px; }
+    .publicbenefit .publicbenefit_down {
+      padding: 0;
+      display: block; }
+      .publicbenefit .publicbenefit_down li {
+        display: flex;
+        margin-right: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        height: 180px;
+        background: #ffffff;
+        border: 1px solid #d7e7ff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15); }
+        .publicbenefit .publicbenefit_down li img {
+          width: 30%;
+          height: 178px;
+          border-radius: 10px 0 0 10px; }
+        .publicbenefit .publicbenefit_down li div {
+          text-align: center; }
+          .publicbenefit .publicbenefit_down li div h3 {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            color: #333333; }
+          .publicbenefit .publicbenefit_down li div p {
+            font-size: 18px;
+            font-weight: 400;
+            text-align: left;
+            color: #999999;
+            padding: 0 15px;
+            margin-top: 30px; }
+          .publicbenefit .publicbenefit_down li div div {
+            width: 60px;
+            height: 4px;
+            background: #ffffff;
+            display: none; }
+          .publicbenefit .publicbenefit_down li div button {
+            display: none; }
+            .publicbenefit .publicbenefit_down li div button a {
+              color: #ffffff;
+              text-decoration: none; }
+            .publicbenefit .publicbenefit_down li div button a:hover {
+              color: #ffffff; }
+      .publicbenefit .publicbenefit_down li:hover {
+        background: #ffffff;
+        border: 1px solid #d7e7ff;
+        box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15); }
+        .publicbenefit .publicbenefit_down li:hover div h3 {
+          color: #333333; }
+        .publicbenefit .publicbenefit_down li:hover div p {
+          display: block; }
+        .publicbenefit .publicbenefit_down li:hover div button {
+          display: none; }
+      .publicbenefit .publicbenefit_down li:nth-child(3) {
+        margin-right: none; } }
+@media (max-width: 1200px) {
+  .publicbenefit {
+    padding-bottom: 40px; }
+    .publicbenefit .publicbenefit_down {
+      padding: 0;
+      display: block; }
+      .publicbenefit .publicbenefit_down li {
+        display: flex;
+        margin-right: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+        height: 120px;
+        background: #ffffff;
+        border: 1px solid #d7e7ff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15); }
+        .publicbenefit .publicbenefit_down li img {
+          width: 30%;
+          height: 118px;
+          border-radius: 10px 0 0 10px; }
+        .publicbenefit .publicbenefit_down li div h3 {
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+          color: #333333; }
+        .publicbenefit .publicbenefit_down li div p {
+          margin-top: 10px;
+          font-size: 12px; } }
 
 /*# sourceMappingURL=publicbenefit.css.map */

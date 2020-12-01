@@ -1,36 +1,54 @@
 .cooperation {
   width: 100vw;
-  background: #ffffff; }
-  .cooperation .cooperation_tit h2 {
-    font-size: 34px;
-    text-align: center;
-    font-weight: 700;
-    text-align: center;
+  background: #ffffff;
+  padding-bottom: 40px; }
+  .cooperation .content_title h2 {
     color: #333333; }
-  .cooperation .cooperation_tit section {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+  .cooperation .content_title section {
     color: #666666; }
-  .cooperation .cooperation_down {
-    width: 1200px;
-    transform: translate(-15px, 0); }
+  .cooperation .cooperation_down ul li {
+    margin-left: 3%;
+    padding: 0;
+    text-align: center; }
+    .cooperation .cooperation_down ul li img {
+      width: 205px;
+      height: auto; }
+
+@media (max-width: 992px) {
+  .cooperation {
+    width: 100vw;
+    background: #ffffff;
+    padding-bottom: 40px; }
+    .cooperation .content_title h2 {
+      color: #333333; }
+    .cooperation .content_title section {
+      color: #666666; }
     .cooperation .cooperation_down ul {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 30px 0; }
+      display: none; }
       .cooperation .cooperation_down ul li {
-        margin-top: 20px;
-        margin-right: 20px;
-        width: 223.5px;
-        height: 108px; }
+        margin-left: 5%;
+        margin-bottom: 20px; }
         .cooperation .cooperation_down ul li img {
-          width: 223.5px;
-          height: 108px; }
-      .cooperation .cooperation_down ul li:nth-child(5),
-      .cooperation .cooperation_down ul li:nth-child(10),
-      .cooperation .cooperation_down ul li:nth-child(15) {
-        margin-right: 0; }
+          width: 205px;
+          height: auto; }
+    .cooperation .cooperation_down ul:first-child {
+      display: block; } }
+@media (max-width: 768px) {
+  .cooperation {
+    padding-bottom: 20px; }
+    .cooperation .content_title h2 {
+      color: #333333; }
+    .cooperation .content_title section {
+      color: #666666; }
+    .cooperation .cooperation_down ul {
+      display: none; }
+      .cooperation .cooperation_down ul li {
+        margin-left: 6%;
+        margin-bottom: 18px; }
+        .cooperation .cooperation_down ul li img {
+          width: 170px;
+          height: auto; }
+    .cooperation .cooperation_down ul:first-child {
+      display: block; } }
 
 /*# sourceMappingURL=cooperation.css.map */

@@ -1,32 +1,22 @@
-// 
+// 公益活动
 .publicbenefit {
-    width: 100vw;
-    height: 700px;
+    width: 100%;
     background: #ffffff;
+    padding-bottom: 40px;
 
-    .publicbenefit_tit {
+    .content_title {
         h2 {
-            font-size: 34px;
-            font-weight: 700;
-            text-align: center;
             color: #333333;
         }
 
         section {
-            margin-top: 20px;
-            font-size: 20px;
-            font-weight: 400;
-            text-align: center;
             color: #666666;
-
         }
     }
 
     .publicbenefit_down {
-        width: 1200px;
-        transform: translate(-15px,0);
+        padding: 0;
         display: flex;
-        margin-top: 30px;
         li {
             margin-right: 20px;
             width: 386px;
@@ -94,7 +84,6 @@
             background: #006eff;
             border: 1 solid #006eff;
             box-shadow: 5px 5px 27px 0px rgba(0, 110, 255, 0.5);
-
             img {}
 
             div {
@@ -123,6 +112,141 @@
         }
         li:nth-child(3){
             margin-right: none;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .publicbenefit {
+        padding-bottom: 40px;
+        .publicbenefit_down {
+            padding: 0;
+            display: block;
+            li {
+                display: flex;
+                margin-right:0;
+                width: 90%;
+                margin-left: 5%;
+                margin-bottom: 20px;
+                height: 180px;
+                background: #ffffff;
+                border: 1px solid #d7e7ff;
+                border-radius: 10px;
+                box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15);
+                img {
+                    width: 30%;
+                    height: 178px;
+                    border-radius: 10px 0 0 10px;
+                }
+    
+                div {
+                    text-align: center;
+    
+                    h3 {
+                        font-size: 20px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #333333;
+                    }
+    
+                    p {
+                        font-size: 18px;
+                        font-weight: 400;
+                        text-align: left;
+                        color: #999999;
+                        padding: 0 15px;
+                        margin-top: 30px;
+                    }
+    
+                    div {
+                        width: 60px;
+                        height: 4px;
+                        background: #ffffff;
+                        display: none;
+                    }
+    
+                    button {
+                        display: none;  
+                        a {
+                            color: #ffffff;
+                            text-decoration: none;
+                        }
+    
+                        a:hover {
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+    
+            li:hover {
+                background: #ffffff;
+                border: 1px solid #d7e7ff;
+                box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15);
+    
+                img {}
+    
+                div {
+                    h3{
+                        color: #333333;
+                    }
+                    p {
+                        display: block;
+                    }
+    
+                    div {
+                        // display: inline-block;
+                    }
+    
+                    button {
+                        display: none;
+                    }
+                }
+            }
+            li:nth-child(3){
+                margin-right: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .publicbenefit {
+        padding-bottom: 40px;
+        .publicbenefit_down {
+            padding: 0;
+            display: block;
+            li {
+                display: flex;
+                margin-right:0;
+                width: 90%;
+                margin-left: 5%;
+                margin-bottom: 20px;
+                height: 120px;
+                background: #ffffff;
+                border: 1px solid #d7e7ff;
+                border-radius: 10px;
+                box-shadow: 0 0 5px 0px rgba(0, 110, 255, 0.15);
+                img {
+                    width: 30%;
+                    height: 118px;
+                    border-radius: 10px 0 0 10px;
+                }
+    
+                div {    
+                    h3 {
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #333333;
+                    }
+    
+                    p {
+                        margin-top: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
         }
     }
 }

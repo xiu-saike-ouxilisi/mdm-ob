@@ -1,13 +1,13 @@
 .position {
-  width: 100vw;
-  height: 580px;
-  background: #ffffff; }
-  .position .position_map #position_map {
-    width: 550px;
-    height: 450px;
-    border: 2px solid red; }
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 40px; }
+  .position .position_map {
+    padding: 0; }
+    .position .position_map #position_map {
+      width: 100%;
+      height: 450px; }
   .position .position_contact {
-    height: 450px;
     padding-top: 100px;
     padding-left: 40px; }
     .position .position_contact div {
@@ -26,5 +26,23 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 34px; }
+
+@media (max-width: 768px) {
+  .position {
+    padding-bottom: 20px; }
+    .position .position_map {
+      margin-left: 8%; }
+      .position .position_map #position_map {
+        width: 100%;
+        height: 280px; }
+    .position .position_contact {
+      padding-top: 10px;
+      margin-left: 8%; }
+      .position .position_contact div section {
+        font-size: 18px;
+        width: 30%; }
+      .position .position_contact div span {
+        font-size: 14px;
+        width: 60%; } }
 
 /*# sourceMappingURL=position.css.map */

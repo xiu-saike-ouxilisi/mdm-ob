@@ -1,69 +1,103 @@
 .introduce {
-  width: 100vw;
-  height: 760px;
-  position: relative; }
-  .introduce .introduce_tit h2 {
-    font-size: 34px;
-    text-align: center;
-    font-weight: 700;
+  width: 100%;
+  position: relative;
+  padding-bottom: 60px; }
+  .introduce .content_title h2 {
     color: #333333; }
-  .introduce .introduce_tit section {
+  .introduce .content_title section {
+    color: #666666; }
+  .introduce .introduce_down .introduce_left div {
+    width: 175px;
+    height: 10px;
+    background: #006eff;
+    margin-top: 60px; }
+  .introduce .introduce_down .introduce_left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .introduce .introduce_down .introduce_left p {
+    margin-top: 16px;
+    width: 90%;
     font-size: 20px;
     font-weight: 400;
-    text-align: center;
-    color: #666666;
-    margin-top: 20px; }
-  .introduce .introduce_down {
+    text-align: left;
+    color: #333333; }
+  .introduce .introduce_down .introduce_left ul {
     display: flex;
-    height: 500px; }
-    .introduce .introduce_down .introduce_left div {
-      width: 175px;
-      height: 10px;
-      background: #006eff;
-      margin-top: 60px; }
-    .introduce .introduce_down .introduce_left h2 {
-      font-size: 34px;
-      font-weight: 700;
-      text-align: left;
-      color: #333333;
-      margin-top: 30px;
-      margin-bottom: 30px; }
-    .introduce .introduce_down .introduce_left p {
-      margin-top: 16px;
-      width: 466px;
-      font-size: 20px;
-      font-weight: 400;
-      text-align: left;
-      color: #333333; }
-    .introduce .introduce_down .introduce_left ul {
-      display: flex;
-      margin-top: 30px; }
-      .introduce .introduce_down .introduce_left ul li {
-        width: 100px;
-        height: 100px;
-        background: #ffffff;
-        border: NaNpx solid #d7e7ff;
-        box-shadow: 5px 5px 18px 0px rgba(0, 110, 255, 0.3);
-        margin-right: 20px;
-        padding-top: 18px; }
-        .introduce .introduce_down .introduce_left ul li img {
-          width: 44px;
-          height: 44px;
-          display: block;
-          margin-left: 28px; }
-        .introduce .introduce_down .introduce_left ul li span {
-          display: inline-block;
-          font-size: 16px;
-          font-weight: 400;
-          text-align: center;
-          color: #666666;
-          margin-left: 10px;
-          margin-top: 5px; }
-    .introduce .introduce_down .introduce_right {
-      padding-left: 80px;
-      padding-top: 90px; }
-      .introduce .introduce_down .introduce_right img {
-        width: 500px;
+    margin-top: 30px; }
+    .introduce .introduce_down .introduce_left ul li {
+      background: #ffffff;
+      border: 1px solid #d7e7ff;
+      border-radius: 1px;
+      box-shadow: 5px 5px 18px 0px rgba(0, 110, 255, 0.3);
+      margin-right: 20px;
+      padding: 12px 10px;
+      text-align: center; }
+      .introduce .introduce_down .introduce_left ul li img {
+        width: 44px;
         height: auto; }
+      .introduce .introduce_down .introduce_left ul li section {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #666666;
+        margin-top: 8px; }
+  .introduce .introduce_down .introduce_right {
+    padding-top: 60px; }
+    .introduce .introduce_down .introduce_right img {
+      width: 550px;
+      height: auto; }
+
+@media (max-width: 1200px) {
+  .introduce .introduce_down .introduce_right {
+    padding-top: 60px; }
+    .introduce .introduce_down .introduce_right img {
+      width: 450px;
+      height: auto; } }
+@media (max-width: 992px) {
+  .introduce .introduce_down .introduce_left div {
+    width: 145px;
+    height: 8px;
+    margin-top: 50px; }
+  .introduce .introduce_down .introduce_left h2 {
+    font-size: 28px; }
+  .introduce .introduce_down .introduce_left p {
+    font-size: 16px; }
+  .introduce .introduce_down .introduce_left ul li {
+    padding: 8px 10px; }
+    .introduce .introduce_down .introduce_left ul li img {
+      width: 38px; }
+    .introduce .introduce_down .introduce_left ul li section {
+      font-size: 12px; }
+  .introduce .introduce_down .introduce_right {
+    padding-top: 60px; }
+    .introduce .introduce_down .introduce_right img {
+      width: 350px;
+      height: auto; } }
+@media (max-width: 768px) {
+  .introduce .introduce_down {
+    padding-left: 10%; }
+    .introduce .introduce_down .introduce_left div {
+      width: 145px;
+      height: 8px;
+      margin-top: 40px; }
+    .introduce .introduce_down .introduce_left h2 {
+      font-size: 20px; }
+    .introduce .introduce_down .introduce_left p {
+      font-size: 14px; }
+    .introduce .introduce_down .introduce_left ul li {
+      padding: 8px 10px; }
+      .introduce .introduce_down .introduce_left ul li img {
+        width: 38px; }
+      .introduce .introduce_down .introduce_left ul li section {
+        font-size: 10px; }
+    .introduce .introduce_down .introduce_right {
+      padding-top: 60px; }
+      .introduce .introduce_down .introduce_right img {
+        width: 350px;
+        height: auto; } }
 
 /*# sourceMappingURL=introduce.css.map */

@@ -1,9 +1,17 @@
+
+
+@import '../components/important.scss';
 // 导航
 @import '../components/nav.scss';
 .navbar-default {
     .navbar-nav {
         li:nth-child(3){
             border-bottom: 2px solid #ffffff;
+        }
+    }
+    .navbar-nav:hover{
+        li{
+            border: none;
         }
     }
 }

@@ -1,38 +1,65 @@
 .team {
-  width: 100vw;
-  background: #ffffff; }
-  .team .team_tit h2 {
-    font-size: 34px;
-    text-align: center;
-    font-weight: 700;
-    text-align: center;
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 40px; }
+  .team .content_title h2 {
     color: #333333; }
-  .team .team_tit section {
-    margin-top: 20px;
-    font-size: 22px;
-    font-weight: 400;
-    text-align: center;
+  .team .content_title section {
     color: #666666; }
   .team #certify {
-    position: relative;
-    transform: translate(-15px, 0); }
-    .team #certify .swiper-container {
-      margin-top: 30px;
-      width: 1200px;
-      height: 500px; }
-      .team #certify .swiper-container .swiper-wrapper .swiper-slide {
-        width: 520px;
-        height: 440px;
-        background: #fff;
-        box-shadow: 0 8px 30px #ddd; }
-        .team #certify .swiper-container .swiper-wrapper .swiper-slide img {
-          display: block;
-          width: 587px;
-          height: 440px;
-          transform: translate(-40px, 0); }
+    position: relative; }
+    .team #certify .swiper-container .swiper-wrapper .swiper-slide {
+      width: 520px;
+      height: 390px;
+      background: #fff;
+      box-shadow: 0 8px 30px #ddd;
+      cursor: pointer; }
+      .team #certify .swiper-container .swiper-wrapper .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: auto; }
     .team #certify .swiper-button-prev {
-      transform: translate(-10px, 0); }
+      transform: translate(-10px, 0);
+      outline: none !important;
+      color: #ffffff; }
+    .team #certify .swiper-button-prev:hover {
+      color: #006eff;
+      border: 1px solid #006eff; }
     .team #certify .swiper-button-next {
-      transform: translate(38px, 0); }
+      transform: translate(10px, 0);
+      outline: none !important;
+      color: #ffffff; }
+    .team #certify .swiper-button-next:hover {
+      color: #006eff;
+      border: 1px solid #006eff; }
+
+@media (max-width: 992px) {
+  .team {
+    padding-bottom: 40px; }
+    .team #certify .swiper-container .swiper-wrapper .swiper-slide {
+      width: 380px;
+      height: 290px; }
+      .team #certify .swiper-container .swiper-wrapper .swiper-slide img {
+        width: 100%; }
+    .team #certify .swiper-button-prev {
+      display: none; }
+    .team #certify .swiper-button-prev:hover {
+      display: none; }
+    .team #certify .swiper-button-next {
+      display: none; }
+    .team #certify .swiper-button-next:hover {
+      display: none; } }
+@media (max-width: 768px) {
+  .team {
+    padding-bottom: 20px; }
+    .team #certify .swiper-container {
+      margin-left: 8%; }
+      .team #certify .swiper-container .swiper-wrapper .swiper-slide {
+        width: 300px;
+        height: 200px; } }
+@media (max-width: 500px) {
+  .team #certify .swiper-container .swiper-wrapper .swiper-slide {
+    width: 220px;
+    height: 170px; } }
 
 /*# sourceMappingURL=team.css.map */

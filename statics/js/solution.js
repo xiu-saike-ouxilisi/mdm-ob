@@ -236,7 +236,7 @@ function qwe() {
         },
         {
             type: '母婴行业',
-            bg: '../statics/images/home/solutionbg/bg_5.jpg',
+            bg: '../statics/images/home/solutionbg/bg_1.jpg',
             brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
             brand: [
                 {
@@ -278,7 +278,7 @@ function qwe() {
         },
         {
             type: '食品行业',
-            bg: '../statics/images/home/solutionbg/bg_1.jpg',
+            bg: '../statics/images/home/solutionbg/bg_2.jpg',
             brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
             brand: [
                 {
@@ -327,7 +327,7 @@ function qwe() {
         },
         {
             type: '日化行业',
-            bg: '../statics/images/home/solutionbg/bg_2.jpg',
+            bg: '../statics/images/home/solutionbg/bg_3.jpg',
             brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
             brand: [
                 {
@@ -380,7 +380,7 @@ function qwe() {
         },
         {
             type: '其他行业',
-            bg: '../statics/images/home/solutionbg/bg_3.jpg',
+            bg: '../statics/images/home/solutionbg/bg_4.jpg',
             brief: '牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。',
             brand: [
                 {
@@ -502,3 +502,19 @@ function qwe() {
     $('#box_up_bottom_right').html(all);
 }
 qwe()
+
+$(function () {
+    $('.box_up_bottom_left li').each(function () {
+        $('.box_up_bottom_left li').mouseover(function () {
+            var index = $(this).index();
+            $('.box_up_bottom_left li').removeClass('select')
+            $('.box_up_bottom_left li').eq(index).addClass('select')
+
+            $('.box_up_bottom_right li').removeClass('on')
+            $('.box_up_bottom_right li').eq(index).addClass('on')
+            
+            $('.box_down li').removeClass('on')
+            $('.box_down li').eq(index).addClass('on')
+        })
+    })
+})

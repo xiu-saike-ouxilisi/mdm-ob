@@ -1,9 +1,9 @@
 // 模式
 .pattern_two {
-    width: 100vw;
-    height: 700px;
+    width: 100%;
     position: relative;
     background: #ffffff;
+    padding-bottom: 70px;
 
     .pad {
         padding-top: 80px;
@@ -13,7 +13,6 @@
                 width: 500px;
                 height: auto;
             }
-
         }
 
         .pattern_two_right {
@@ -29,16 +28,61 @@
 
             p {
                 margin-top: 20px;
-                width: 456px;
-                height: 176px;
+                width: 70%;
                 font-size: 20px;
                 font-weight: 400;
                 color: #333333;
-                line-height: 38px;
+                line-height: 32px;
             }
         }
     }
+}
 
+@media (max-width: 992px) {
+    .pattern_two {
+        .pad {
+            .pattern_two_left {
+                text-align: center;
 
+                img {
+                    width: 300px;
+                    height: auto;
+                }
+            }
 
+            .pattern_two_right {
+                padding-left: 10%;
+                padding-top: 10px;
+
+                h1 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .pattern_two {
+        .pad {
+            .pattern_two_left {
+                img {}
+            }
+
+            .pattern_two_right {
+                h1 {
+                    font-size: 22px;
+                }
+
+                p {
+                    width: 80%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }

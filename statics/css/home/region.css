@@ -1,21 +1,12 @@
 .region {
-  width: 100vw;
-  height: 800px;
-  background: #ffffff; }
-  .region .region_tit h2 {
-    font-size: 34px;
-    font-weight: 700;
-    text-align: center;
+  width: 100%;
+  background: #ffffff;
+  padding-bottom: 40px; }
+  .region .content_title h2 {
     color: #333333; }
-  .region .region_tit section {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+  .region .content_title section {
     color: #666666; }
   .region .region_down {
-    height: 500px;
-    margin-top: 30px;
     padding-left: 80px; }
     .region .region_down ul {
       display: inline-block; }
@@ -39,10 +30,19 @@
           margin-top: 6px;
           padding: 0; }
     .region .region_down div {
-      display: inline-block;
-      margin-left: 100px; }
+      display: block; }
       .region .region_down div img {
-        width: 750px;
+        width: inherit;
         height: auto; }
+
+@media (max-width: 768px) {
+  .region .region_down {
+    padding-left: 12%; }
+    .region .region_down ul {
+      display: none; }
+      .region .region_down ul li h2 {
+        font-size: 20px; }
+      .region .region_down ul li section {
+        font-size: 12px; } }
 
 /*# sourceMappingURL=region.css.map */

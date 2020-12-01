@@ -1,47 +1,35 @@
 // 团队风采
 .team {
-    width: 100vw;
+    width: 100%;
     background: #ffffff;
+    padding-bottom: 40px;
 
-    .team_tit {
+    .content_title {
         h2 {
-            font-size: 34px;
-            text-align: center;
-            font-weight: 700;
-            text-align: center;
             color: #333333;
         }
 
         section {
-            margin-top: 20px;
-            font-size: 22px;
-            font-weight: 400;
-            text-align: center;
             color: #666666;
         }
     }
 
     #certify {
         position: relative;
-        transform: translate(-15px, 0);
 
         .swiper-container {
-            margin-top: 30px;
-            width: 1200px;
-            height: 500px;
-
             .swiper-wrapper {
                 .swiper-slide {
                     width: 520px;
-                    height: 440px;
+                    height: 390px;
                     background: #fff;
                     box-shadow: 0 8px 30px #ddd;
-                    
+                    cursor: pointer;
+
                     img {
                         display: block;
-                        width: 587px;
-                        height: 440px;
-                        transform: translate(-40px,0);
+                        width: 100%;
+                        height: auto;
                     }
                 }
             }
@@ -49,11 +37,106 @@
 
         .swiper-button-prev {
             transform: translate(-10px, 0);
+            outline: none !important;
+            // border: 1px solid #ffffff;
+            // width: 80px;
+            // height: 80px;
+            // border-radius: 50%;
+            color: #ffffff;
+        }
+
+        .swiper-button-prev:hover {
+            color: #006eff;
+            border: 1px solid #006eff;
         }
 
         .swiper-button-next {
-            transform: translate(38px, 0);
+            transform: translate(10px, 0);
+            outline: none !important;
+            // border: 1px solid #ffffff;
+            // width: 80px;
+            // height: 80px;
+            // border-radius: 50%;
+            color: #ffffff;
+        }
+
+        .swiper-button-next:hover {
+            color: #006eff;
+            border: 1px solid #006eff;
         }
     }
 
+}
+
+@media (max-width: 992px) {
+    .team {
+        padding-bottom: 40px;
+
+        #certify {
+            .swiper-container {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 380px;
+                        height: 290px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .swiper-button-prev {
+                display: none;
+            }
+
+            .swiper-button-prev:hover {
+                display: none;
+            }
+
+            .swiper-button-next {
+                display: none;
+            }
+
+            .swiper-button-next:hover {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .team {
+        padding-bottom: 20px;
+
+        #certify {
+            .swiper-container {
+                margin-left: 8%;
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 300px;
+                        height: 200px;
+                        img {}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .team {
+        #certify {
+            .swiper-container {
+                .swiper-wrapper {
+                    .swiper-slide {
+                        width: 220px;
+                        height: 170px;
+
+                        img {}
+                    }
+                }
+            }
+        }
+    }
 }

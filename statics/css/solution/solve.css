@@ -1,53 +1,83 @@
 .solve {
-  width: 100vw;
-  height: 540px;
-  position: relative; }
-  .solve .solve_tit {
-    margin-bottom: 30px; }
-    .solve .solve_tit h2 {
-      font-size: 34px;
-      font-weight: 700;
-      text-align: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 40px; }
+  .solve .container {
+    padding: 0; }
+    .solve .container .content_title h2 {
       color: #333333; }
-    .solve .solve_tit section {
-      font-size: 20px;
-      font-weight: 400;
+    .solve .container .content_title section {
+      color: #666666; }
+    .solve .container .solve_down li {
       text-align: center;
-      color: #666666;
-      margin-top: 20px; }
-  .solve .solve_down {
-    display: flex;
-    width: 1200px;
-    transform: translate(-15px, 0); }
-    .solve .solve_down li {
-      width: 200px;
-      height: 280px;
-      background: #ffffff;
-      border: NaNpx solid #d7e7ff;
-      box-shadow: 5px 5px 18px 0px #d8e7ff;
-      margin-right: 20px; }
-      .solve .solve_down li section {
-        width: 147px;
-        height: 36px;
-        background: #eff5fe;
-        text-align: center;
-        line-height: 36px;
-        font-size: 22px;
-        font-weight: 550;
-        color: #006eff;
-        margin: 20px auto; }
-      .solve .solve_down li div {
-        font-size: 16px;
-        font-weight: 500;
-        text-align: center;
-        color: #333333;
-        margin-top: 20px; }
-      .solve .solve_down li img {
-        margin-top: 70px;
-        margin-left: 50px;
-        width: 75px;
+      padding: 0;
+      margin-bottom: 10px; }
+      .solve .container .solve_down li .solve_item {
+        background: #ffffff;
+        border: 1px solid #d7e7ff;
+        box-shadow: 5px 5px 18px 0px #d8e7ff;
+        margin-left: 10%;
+        width: 90%;
+        padding-bottom: 50px;
+        padding-top: 18px;
+        text-align: center; }
+        .solve .container .solve_down li .solve_item section {
+          width: 80%;
+          margin-left: 10%;
+          background: #eff5fe;
+          font-size: 22px;
+          font-weight: 550;
+          color: #006eff; }
+        .solve .container .solve_down li .solve_item div {
+          margin-top: 20px;
+          font-size: 14px;
+          font-weight: 500;
+          text-align: center;
+          color: #333333; }
+        .solve .container .solve_down li .solve_item img {
+          margin-top: 50px;
+          width: 80px;
+          height: auto; }
+
+@media (max-width: 1200px) {
+  .solve {
+    padding-bottom: 40px; }
+    .solve .container .solve_down li .solve_item img {
+      margin-top: 50px;
+      width: 60px;
+      height: auto; } }
+@media (max-width: 992px) {
+  .solve {
+    padding-bottom: 40px; }
+    .solve .container .solve_down li .solve_item {
+      padding-bottom: 30px; }
+      .solve .container .solve_down li .solve_item section {
+        font-size: 18px; }
+      .solve .container .solve_down li .solve_item div {
+        font-size: 12px; }
+      .solve .container .solve_down li .solve_item img {
+        margin-top: 30px;
+        width: 40px;
+        height: auto; } }
+@media (max-width: 768px) {
+  .solve {
+    padding-bottom: 40px; }
+    .solve .container .solve_down li .solve_item {
+      width: 70%;
+      margin-left: 10%; }
+      .solve .container .solve_down li .solve_item section {
+        font-size: 16px; }
+      .solve .container .solve_down li .solve_item div {
+        font-size: 10px; }
+      .solve .container .solve_down li .solve_item img {
+        margin-top: 30px;
+        width: 38px;
         height: auto; }
-    .solve .solve_down li:nth-child(6) {
-      margin-right: 0; }
+    .solve .container .solve_down li:nth-child(1) .solve_item,
+    .solve .container .solve_down li:nth-child(4) .solve_item {
+      margin-left: 20%; }
+    .solve .container .solve_down li:nth-child(2) .solve_item,
+    .solve .container .solve_down li:nth-child(5) .solve_item {
+      margin-left: 15%; } }
 
 /*# sourceMappingURL=solve.css.map */

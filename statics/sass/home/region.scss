@@ -1,29 +1,20 @@
 // 区域
 .region {
-    width: 100vw;
-    height: 800px;
+    width: 100%;
     background: #ffffff;
+    padding-bottom: 40px;
 
-    .region_tit {
+    .content_title {
         h2 {
-            font-size: 34px;
-            font-weight: 700;
-            text-align: center;
             color: #333333;
         }
 
         section {
-            margin-top: 20px;
-            font-size: 20px;
-            font-weight: 400;
-            text-align: center;
             color: #666666;
         }
     }
 
     .region_down {
-        height: 500px;
-        margin-top: 30px;
         padding-left: 80px;
 
         ul {
@@ -56,13 +47,32 @@
         }
 
         div {
-            display: inline-block;
-            margin-left: 100px;
+            display: block;
             // border: 1px dashed #999999;
 
             img {
-                width: 750px;
+                width: inherit;
                 height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .region {
+        .region_down {
+            padding-left: 12%;
+            ul {
+                display: none;
+                li {
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    section {
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }

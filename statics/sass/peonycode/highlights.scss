@@ -1,62 +1,150 @@
 // 亮点
 .highlights {
-    width: 100vw;
-    height: 450px;
+    width: 100%;
     position: relative;
+    padding-bottom: 40px;
+    ;
 
     .highlights_bg {
         z-index: -1;
-        width: 100vw;
-        height: 450px;
+        width: inherit;
+        height: auto;
         position: absolute;
         top: 0;
         left: 0;
     }
 
-    .highlights_tit {
-        h2 {
-            font-size: 34px;
-            text-align: center;
-            font-weight: 700;
-            color: #ffffff;
-        }
+    .container {
+        padding: 0;
 
-        section {
-            margin-top: 20px;
-            font-size: 20px;
-            text-align: center;
-            font-weight: 400;
-            color: #ffffff;
-        }
-    }
-
-    .highlights_down {
-        display: flex;
-        justify-content: space-between;
-        width: 1200px;
-        transform: translate(-15px,0);
-        margin-top: 40px;
-        height: 160px;
-
-        li {
-            width: 125px;
-            height: 170px;
-
-            img {
-                width: 125px;
-                height: 125px;
-                background: #006eff;
-                padding: 14px;
-                border-radius: 10px;
+        .content_title {
+            h2 {
+                color: #ffffff;
             }
 
             section {
-                margin-top: 10px;
-                font-size: 18px;
-                text-align: center;
-                font-weight: 400;
                 color: #ffffff;
+            }
+        }
 
+        .highlights_down {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                text-align: center;
+
+                img {
+                    width: 125px;
+                    padding: 15px;
+                    height: auto;
+                    background: #006eff;
+                    border-radius: 10px;
+                }
+
+                section {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: 400;
+                    color: #ffffff;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .highlights {
+        padding-bottom: 60px;
+        .highlights_bg {
+            height: 400px;
+        }
+        .container {
+            .highlights_down {
+                li {
+                    img {
+                        width: 100px;
+                    }
+                    section {}
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .highlights {
+        padding-bottom: 40px;
+        .highlights_bg {}
+        .container {
+            .highlights_down {
+                li {
+                    img {
+                        width: 80px;
+                        padding: 10px;
+                    }
+                    section {
+                        width: 80px;
+                        font-size: 14px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .highlights {
+        padding-bottom: 40px;
+
+        .highlights_bg {}
+
+        .container {
+            .highlights_down {
+                margin-left: 4%;
+
+                li {
+                    img {
+                        width: 60px;
+                        padding: 10px;
+                    }
+
+                    section {
+                        width: 60px;
+                        font-size: 12px;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .highlights {
+        padding-bottom: 20px;
+
+        .highlights_bg {
+            height: 360px;
+        }
+
+        .container {
+            .highlights_down {
+                li {
+                    img {
+                        width: 50px;
+                        padding: 6px;
+                    }
+
+                    section {
+                        width: 50px;
+                        font-size: 8px;
+                        margin-top: 5px;
+                    }
+                }
             }
         }
     }

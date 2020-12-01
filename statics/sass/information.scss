@@ -1,22 +1,143 @@
+@import './components/important.scss';
+
 // 导航
 @import './components/nav.scss';
 
-.navbar-default {
-    .navbar-nav {
-        li:first-child {
-            border-bottom: 2px solid #ffffff;
-        }
-    }
-}
+// .navbar-default {
+//     .navbar-nav {
+//         li:first-child {
+//             border-bottom: 2px solid #ffffff;
+//         }
+//     }
+// }
 
 // 轮播
 @import './components/swiper.scss';
 
+#carousel-example-generic {
+    .carousel-inner {
+        .item {
+            .pc_pic {}
+
+            .phone_pic {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #carousel-example-generic {
+        .carousel-inner {
+            .item {
+                .pc_pic {
+                    display: none;
+                }
+
+                .phone_pic {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
 // 底部
 @import './components/footer.scss';
 
+
 // 信息内容
 .information {
-    width: 100vw;
-    height: 500px;
+    width: 100%;
+    padding-bottom: 40px;
+
+    .container {
+        padding: 0;
+        .content_title {
+            padding-bottom: 0;
+            h2 {
+                color: #333333;
+            }
+    
+            section {
+                color: #666666;
+            }
+        }
+
+        .information_time {
+            width: inherit;
+            height: 50px;
+            margin-bottom: 30px;
+            margin-top: 0;
+            border-bottom: 1px solid #cecece;
+            position: relative;
+            .information_time_right {
+                position: absolute;
+                right: 10px;
+                top: 0;
+                display: flex;
+
+                section {
+                    margin-left: 30px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-align: left;
+                    color: #555555;
+                }
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: Normal;
+            text-align: left;
+            color: #333333;
+        }
+
+        div{
+            margin: 20px 0;
+            text-align: center;
+            img {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 768px){
+    .information {
+        padding-bottom: 20px;
+        .container {
+            .information_time {
+                width: 90%;
+                margin-left: 5%;
+                height: 30px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid #cecece;
+       
+                .information_time_right {
+                    top: -10px;
+                    section {
+                        font-size: 10px;
+                    }
+                }
+            }
+    
+            p {
+                margin-left: 4%;
+            }
+            
+            div{
+                text-align: center;
+                img {
+                    margin-left: 8%;
+                    width: 60%;
+                    height: auto;
+                }
+            }
+        }
+    }
 }

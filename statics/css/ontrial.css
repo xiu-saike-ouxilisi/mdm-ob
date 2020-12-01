@@ -1,25 +1,79 @@
+@import "https://common.zwwltkl.com/fonts/pingfang/pingfang.css";
+.fixed_width {
+  width: 1200px !important; }
+
+button {
+  outline: none !important; }
+
+.content_title {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .content_title h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333; }
+  .content_title section {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #666666;
+    margin-top: 20px; }
+
+.container {
+  padding: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.38px; }
+
+@media (max-width: 992px) {
+  .content_title {
+    padding-top: 30px;
+    padding-bottom: 20px; }
+    .content_title h2 {
+      font-size: 28px; }
+    .content_title section {
+      font-size: 18px;
+      margin-top: 20px; } }
+@media (max-width: 768px) {
+  .content_title {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .content_title h2 {
+      font-size: 22px;
+      padding: 0 16%;
+      line-height: 34px; }
+    .content_title section {
+      font-size: 14px;
+      margin-top: 10px;
+      padding: 0 16%; } }
 .ontrial {
-  width: 99.4vw;
-  height: 98vh;
+  width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
-  padding-top: 110px; }
+  padding-top: 100px; }
   .ontrial .ontrial_bg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 99vw;
-    height: 99vh;
+    width: inherit;
+    height: inherit;
     z-index: -1; }
   .ontrial .ontrial_content {
-    width: 1430px;
-    height: 730px;
-    display: flex; }
+    width: 1200px;
+    height: 700px; }
     .ontrial .ontrial_content .ontrial_left {
-      width: 700px;
-      height: 600px;
+      height: 700px;
+      background: linear-gradient(0deg, #338bff 0%, #33b8ff 100%);
+      border-radius: 10px 0px 0px 10px;
       padding-top: 50px; }
-      .ontrial .ontrial_content .ontrial_left h1 {
+      .ontrial .ontrial_content .ontrial_left h2 {
         font-size: 40px;
         font-weight: bold;
         text-align: left;
@@ -28,53 +82,74 @@
         margin-bottom: 30px;
         margin-left: 30px; }
       .ontrial .ontrial_content .ontrial_left p {
-        font-size: 38px;
+        font-size: 34px;
         font-weight: 400;
         text-align: left;
         color: #ffffff;
         line-height: 40px;
         margin-left: 30px; }
       .ontrial .ontrial_content .ontrial_left img {
-        margin-top: 100px;
-        margin-left: 20px;
-        width: 500px;
+        transform: translate(0, 80px);
+        width: 100%;
         height: auto; }
     .ontrial .ontrial_content .ontrial_right {
-      padding-top: 40px;
-      padding-left: 40px; }
+      background: #ffffff;
+      border-radius: 0px 10px 10px 0px;
+      height: 700px;
+      padding-top: 50px; }
       .ontrial .ontrial_content .ontrial_right h2 {
-        font-size: 65px;
-        font-weight: 700;
+        font-size: 56px;
+        font-weight: bold;
         text-align: center;
-        color: #2882fe;
-        margin-left: 100px; }
+        color: #2882fe; }
       .ontrial .ontrial_content .ontrial_right form {
-        margin-left: 100px;
-        margin-top: 40px; }
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 70%; }
         .ontrial .ontrial_content .ontrial_right form .form-group {
           height: 50px;
-          position: relative; }
+          position: relative;
+          margin-bottom: 24px; }
           .ontrial .ontrial_content .ontrial_right form .form-group input {
             height: 50px;
-            padding-left: 55px; }
+            height: 50px;
+            padding-left: 55px;
+            color: #CECECE; }
+          .ontrial .ontrial_content .ontrial_right form .form-group input:focus {
+            border: 1px solid #33cdff;
+            box-shadow: 0px 0px 3px 1px  #33cdff; }
+          .ontrial .ontrial_content .ontrial_right form .form-group .help-block {
+            transform: translate(58px, -7px); }
+          .ontrial .ontrial_content .ontrial_right form .form-group input::-webkit-input-placeholder {
+            color: #CECECE; }
+          .ontrial .ontrial_content .ontrial_right form .form-group input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #CECECE; }
+          .ontrial .ontrial_content .ontrial_right form .form-group input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #CECECE; }
+          .ontrial .ontrial_content .ontrial_right form .form-group input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #CECECE; }
           .ontrial .ontrial_content .ontrial_right form .form-group img {
             width: 21px;
-            height: 26px;
-            position: absolute;
-            top: 10px;
-            left: 20px; }
+            height: auto;
+            transform: translate(20px, 36px); }
+        .ontrial .ontrial_content .ontrial_right form .has-success input {
+          border: 1px solid #33cdff; }
         .ontrial .ontrial_content .ontrial_right form button {
-          width: 449px;
+          width: 100%;
           height: 66px;
-          background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+          background: linear-gradient(to right, #33a1ff, #33cdff);
           border-radius: 10px;
           font-size: 32px;
           font-weight: 400;
           text-align: center;
           color: #ffffff;
-          margin-top: 30px; }
+          margin-top: 40px; }
   .ontrial .ontrial_down {
-    font-size: 24px;
+    margin-top: 40px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: #ffffff; }
@@ -100,17 +175,18 @@
         top: 0;
         left: 0;
         z-index: -1; }
-      .ontrial .result .pop p {
-        width: 256px;
-        height: 47px;
-        font-size: 16px;
+      .ontrial .result .pop h2 {
+        font-size: 30px;
         font-weight: 400;
         text-align: center;
+        color: #ffffff;
+        margin-top: 50px; }
+      .ontrial .result .pop p {
+        padding: 0 76px;
+        text-align: center;
         color: #006eff;
-        line-height: 30px;
         position: absolute;
-        bottom: 130px;
-        left: 60px; }
+        bottom: 130px; }
       .ontrial .result .pop button {
         width: 296px;
         height: 50px;
@@ -125,5 +201,224 @@
         left: 50px; }
   .ontrial .on {
     display: block; }
+
+@media (max-width: 992px) {
+  .ontrial .ontrial_content {
+    margin-left: 20%;
+    height: 640px; }
+    .ontrial .ontrial_content .ontrial_left {
+      display: none; }
+    .ontrial .ontrial_content .ontrial_right {
+      height: 640px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding-top: 40px; }
+      .ontrial .ontrial_content .ontrial_right h2 {
+        font-size: 45px; }
+      .ontrial .ontrial_content .ontrial_right form button {
+        font-size: 24px;
+        height: 48px; }
+  .ontrial .ontrial_down {
+    margin-top: 40px;
+    padding: 0 20%;
+    font-size: 18px;
+    color: #ffffff; }
+  .ontrial .result {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); }
+    .ontrial .result .pop {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 389px;
+      height: 439px; }
+      .ontrial .result .pop .pop_bg {
+        width: 389px;
+        height: 439px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; }
+      .ontrial .result .pop h2 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 50px; }
+      .ontrial .result .pop p {
+        padding: 0 76px;
+        text-align: center;
+        color: #006eff;
+        position: absolute;
+        bottom: 130px; }
+      .ontrial .result .pop button {
+        width: 296px;
+        height: 50px;
+        background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+        border-radius: 25px;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        bottom: 40px;
+        left: 50px; }
+  .ontrial .on {
+    display: block; } }
+@media (max-width: 768px) {
+  .ontrial .ontrial_content {
+    margin-left: 10%; }
+    .ontrial .ontrial_content .ontrial_left {
+      display: none; }
+    .ontrial .ontrial_content .ontrial_right {
+      background: #ffffff;
+      border-radius: 10px;
+      padding-top: 40px; }
+  .ontrial .ontrial_down {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 10%; }
+  .ontrial .result {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); }
+    .ontrial .result .pop {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 389px;
+      height: 439px; }
+      .ontrial .result .pop .pop_bg {
+        width: 389px;
+        height: 439px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; }
+      .ontrial .result .pop h2 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 50px; }
+      .ontrial .result .pop p {
+        padding: 0 76px;
+        text-align: center;
+        color: #006eff;
+        position: absolute;
+        bottom: 130px; }
+      .ontrial .result .pop button {
+        width: 296px;
+        height: 50px;
+        background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+        border-radius: 25px;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        position: absolute;
+        bottom: 40px;
+        left: 50px; }
+  .ontrial .on {
+    display: block; } }
+@media (max-width: 668px) {
+  .ontrial {
+    padding-top: 10%; }
+    .ontrial .ontrial_content {
+      margin-left: 10%;
+      height: 460px;
+      width: 80%; }
+      .ontrial .ontrial_content .ontrial_left {
+        display: none; }
+      .ontrial .ontrial_content .ontrial_right {
+        width: 100%;
+        background: #ffffff;
+        border-radius: 10px;
+        padding-top: 10px;
+        height: 460px; }
+        .ontrial .ontrial_content .ontrial_right h2 {
+          font-size: 30px; }
+        .ontrial .ontrial_content .ontrial_right form {
+          width: 100%;
+          margin-top: 0px; }
+          .ontrial .ontrial_content .ontrial_right form .form-group {
+            margin-top: 0;
+            margin-bottom: 6px; }
+            .ontrial .ontrial_content .ontrial_right form .form-group input {
+              height: 40px;
+              padding-left: 45px;
+              width: 92%;
+              margin-left: 4%; }
+            .ontrial .ontrial_content .ontrial_right form .form-group .help-block {
+              transform: translate(58px, -7px); }
+            .ontrial .ontrial_content .ontrial_right form .form-group img {
+              width: 16px;
+              transform: translate(30px, 28px); }
+          .ontrial .ontrial_content .ontrial_right form button {
+            height: 44px;
+            font-size: 18px; }
+    .ontrial .ontrial_down {
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 0 10%; }
+    .ontrial .result {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5); }
+      .ontrial .result .pop {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+        width: 250px;
+        height: 290px; }
+        .ontrial .result .pop .pop_bg {
+          width: 250px;
+          height: 290px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1; }
+        .ontrial .result .pop h2 {
+          font-size: 24px;
+          font-weight: 400;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 30px; }
+        .ontrial .result .pop p {
+          padding: 0 11%;
+          text-align: center;
+          color: #006eff;
+          font-size: 10px;
+          position: absolute;
+          bottom: 70px; }
+        .ontrial .result .pop button {
+          width: 66%;
+          height: 32px;
+          background: linear-gradient(#33a1ff 0%, #33cdff 100%);
+          border-radius: 25px;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          color: #ffffff;
+          position: absolute;
+          bottom: 10%;
+          left: 16%; }
+    .ontrial .on {
+      display: block; } }
 
 /*# sourceMappingURL=ontrial.css.map */

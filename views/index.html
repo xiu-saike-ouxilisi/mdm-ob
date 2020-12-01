@@ -11,9 +11,6 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link href="../statics/css/bootstrap.min.css" rel="stylesheet">
 
-    <!--swiper  -->
-    <link rel="stylesheet" href="../statics/css/swiper-bundle.min.css">
-
     <!-- 主要样式 -->
     <link rel="stylesheet" href="../statics/css/home/index.css">
 
@@ -23,73 +20,97 @@
 <body>
     <!-- 首页 -->
     <!-- 导航栏 开始 -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top nav_index" role="navigation">
         <div class="container">
             <div class="container-fluid">
                 <div class="navbar-header">
+                    <p class="navbar-text navbar-right navbar_phone">
+                        <button type="button" class="btn btn-default nav_right_ontrial">
+                            <a href="./ontrial.html">免费试用</a>
+                        </button>
+                    </p>
+                    <button type="button" class="navbar-toggle navbar_switch" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="navbar-brand" href="#">
                         <img class="nav_logo" alt="Brand" src="../statics/images/logo.png">
                     </a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="is_true_Underline"><a href="./index.html">首页</a></li>
-                    <li><a href="./peonycode.html">牡丹码</a></li>
-                    <li><a href="./solution.html">解决方案</a></li>
-                    <li><a href="./customercase.html">客户案例</a></li>
-                    <li><a href="./about.html">关于我们</a></li>
-                </ul>
-                <p class="navbar-text navbar-right">
-                    <span>4008-654-655</span>
-                    <!-- <button class="nav_right_ontrial">免费试用</button> -->
-                    <button type="button" class="btn btn-default nav_right_ontrial">
-                        <a href="./ontrial.html">免费试用</a>
-                    </button>
-                </p>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="is_true_Underline"><a href="./index.html">首页</a></li>
+                        <li><a href="./peonycode.html">牡丹码</a></li>
+                        <li><a href="./solution.html">解决方案</a></li>
+                        <li><a href="./customercase.html">客户案例</a></li>
+                        <li><a href="./about.html">关于我们</a></li>
+                    </ul>
+                    <p class="navbar-text navbar-right">
+                        <span>4008-654-655</span>
+                        <button type="button" class="btn btn-default">
+                            <a href="./ontrial.html">免费试用</a>
+                        </button>
+                    </p>
+                </div>
             </div>
         </div>
     </nav>
     <!-- 导航栏 结束 -->
 
     <!-- 轮播 开始 -->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="../statics/images/banner/banner1_bg.png" alt="">
-                <button type="button" class="btn btn-default swiper_btn">了解详情 >></button>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                <div class="carousel-caption">
+                    <!-- 123 -->
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img src="../statics/images/banner/banner1_bg.png" alt="">
-                <button type="button" class="btn btn-default swiper_btn">了解详情 >></button>
+            <div class="item">
+                <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                <div class="carousel-caption">
+                    <!-- 456 -->
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img src="../statics/images/banner/banner1_bg.png" alt="">
-                <button type="button" class="btn btn-default swiper_btn">了解详情 >></button>
-            </div>
-            <div class="swiper-slide">
-                <img src="../statics/images/banner/banner1_bg.png" alt="">
-                <button type="button" class="btn btn-default swiper_btn">了解详情 >></button>
+            <div class="item">
+                <img src="../statics/images/banner/banner1_bg.png" alt="...">
+                <div class="carousel-caption">
+                    <!-- 789 -->
+                </div>
             </div>
         </div>
-        <!-- 如果需要分页器 -->
-        <div class="swiper-pagination"></div>
 
-        <!-- 如果需要导航按钮 -->
-        <!-- <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
-
-        <!-- 如果需要滚动条 -->
-        <!-- <div class="swiper-scrollbar"></div> -->
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-
     <!-- 轮播 结束 -->
 
     <!-- 八大应用场景 开始 -->
     <div class="application">
-        <div class="container fixed_width">
-            <div class="application_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>八大应用场景</h2>
                 <section>基于一物一码技术八大应用场景，涵盖了商品在流通环节的核心场景应用</section>
             </div>
+            <!-- pc -->
             <div class="application_down">
                 <img src="../statics/images/home/application_bg.png" alt="">
                 <div class="application_down">
@@ -179,6 +200,43 @@
                     </ul>
                 </div>
             </div>
+            <!-- phone -->
+            <div class="application_down_phone">
+                <ul class="row">
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_1.png" alt="">
+                        <section>红包促销</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_2.png" alt="">
+                        <section>防伪系统</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_3.png" alt="">
+                        <section>溯源系统</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_4.png" alt="">
+                        <section>积分商城</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_1.png" alt="">
+                        <section>防窜预报</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_2.png" alt="">
+                        <section>营销风控</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_3.png" alt="">
+                        <section>线下红包墙</section>
+                    </li>
+                    <li class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="../statics/images/home/application_phone/icon_4.png" alt="">
+                        <section>大数据分析</section>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </div>
@@ -186,13 +244,15 @@
 
     <!-- 二维码营销平台 开始 -->
     <div class="marketing">
-        <div class="container fixed_width">
-            <div class="marketing_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>二维码营销平台</h2>
                 <section>专注于一物一码精准营销与管理</section>
             </div>
-            <div class="marketing_down">
-                <div class="marketing_down_item">
+        </div>
+        <div class="container">
+            <div class="row marketing_down">
+                <div class="marketing_down_item col-md-5 col-sm-10 col-xs-10 ">
                     <div class="marketing_down_item_left">
                         <h3>简介高效</h3>
                         <p>系统简洁高效易操作，营销玩法多样，落地性强；</p>
@@ -201,16 +261,16 @@
                         <img src="../statics/images/home/marketing_1.png" alt="">
                     </div>
                 </div>
-                <div class="marketing_down_item">
+                <div class="marketing_down_item col-md-5 col-sm-10 col-xs-10">
                     <div class="marketing_down_item_left">
                         <h3>运营支持</h3>
                         <p>提供市场方面的问题咨询及指导，一对一培训讲解后台答疑</p>
                     </div>
-                    <div class="marketing_down_item_right">
+                    <div class="marketing_down_item_right ">
                         <img src="../statics/images/home/marketing_2.png" alt="">
                     </div>
                 </div>
-                <div class="marketing_down_item">
+                <div class="marketing_down_item col-md-5 col-sm-10 col-xs-10 ">
                     <div class="marketing_down_item_left">
                         <h3>专属定制</h3>
                         <p>可根据客户要求按需定制系统及电子版、实物有奖二维码</p>
@@ -219,7 +279,7 @@
                         <img src="../statics/images/home/marketing_3.png" alt="">
                     </div>
                 </div>
-                <div class="marketing_down_item">
+                <div class="marketing_down_item col-md-5 col-sm-10 col-xs-10 ">
                     <div class="marketing_down_item_left">
                         <h3>在线客服</h3>
                         <p>6 * 8小时在线解决疑难，提供软件和活动指导服务</p>
@@ -229,7 +289,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!-- 二维码营销平台 结束 -->
@@ -238,22 +297,34 @@
     <div class="solution">
         <div class="solution_box">
             <!-- 背景 -->
-            <div id="box_down" class="box_down">
-                <ul>
-                    <li class="on"><img src="../statics/images/home/solutionbg/bg_1.jpg" alt=""></li>
-                    <li><img src="../statics/images/home/solutionbg/bg_2.jpg" alt=""></li>
-                    <li><img src="../statics/images/home/solutionbg/bg_3.jpg" alt=""></li>
-                    <li><img src="../statics/images/home/solutionbg/bg_4.jpg" alt=""></li>
+            <div id="box_down" class="container box_down">
+                <ul class="row">
+                    <li class="on col-md-12 col-sm-12 col-xs-12">
+                        <img class="box_down_pc" src="../statics/images/home/solutionbg/pc/解决方案-饮料.jpg" alt="">
+                        <img class="box_down_phone" src="../statics/images/home/solutionbg/phone/饮料.png" alt="">
+                    </li>
+                    <li class="col-md-12 col-sm-12 col-xs-12">
+                        <img class="box_down_pc" src="../statics/images/home/solutionbg/pc/解决方案-食品行业.jpg" alt="">
+                        <img class="box_down_phone" src="../statics/images/home/solutionbg/phone/食品.png" alt="">
+                    </li>
+                    <li class="col-md-12 col-sm-12 col-xs-12">
+                        <img class="box_down_pc" src="../statics/images/home/solutionbg/pc/酒水.jpg" alt="">
+                        <img class="box_down_phone" src="../statics/images/home/solutionbg/phone/酒水.png" alt="">
+                    </li>
+                    <li class="col-md-12 col-sm-12 col-xs-12">
+                        <img class="box_down_pc" src="../statics/images/home/solutionbg/pc/解决方案-美妆行业.jpg" alt="">
+                        <img class="box_down_phone" src="../statics/images/home/solutionbg/phone/美妝.png" alt="">
+                    </li>
                 </ul>
             </div>
             <!-- 上方内容 -->
             <div class="container box_up">
-                <div class="solution_tit">
+                <div class="content_title">
                     <h2>为您量身定制解决方案</h2>
-                    <p>满足广泛的业务需求</p>
+                    <section>满足广泛的业务需求</section>
                 </div>
-                <div class="container box_up_bottom fixed_width">
-                    <div id="box_up_bottom_left" class="box_up_bottom_left">
+                <div class="container box_up_bottom ">
+                    <div id="box_up_bottom_left" class="box_up_bottom_left col-md-2 col-sm-12 col-xs-12 ">
                         <ul>
                             <li class="select">
                                 <h2>酒水行业</h2>
@@ -269,13 +340,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="solution_content_establish"></div>
-                    <div id="box_up_bottom_right" class="box_up_bottom_right">
+                    <div id="box_up_bottom_right" class="box_up_bottom_right col-md-10 col-sm-12 col-xs-12">
                         <ul>
                             <li class="on">
                                 <div class="solution_item_one">
                                     <h2>酒水行业解决方案</h2>
-                                    <button type="button" class="btn btn-default nav_right_ontrial">查看详情</button>
+                                    <button type="button" class="btn btn-default">查看详情</button>
                                 </div>
                                 <p>牡丹码物联平台，快速录入产品信息，扫码即可全面了解全部商品信息并溯源产品源头，解决商家与客户之间的信息沟通障碍，增强消费者对门店/企业的忠诚度。</p>
                                 <div class="solution_item_small">
@@ -295,9 +365,6 @@
                                 <div class="solution_item_big">
                                     <div class="solution_item_big_item">
                                         <img src="../statics/images/home/icon/big/big_1.png" alt="">
-                                        <div class="solution_item_big_up">
-                                            <img src="../statics/images/home/code.png" alt="">
-                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -333,51 +400,61 @@
 
     <!-- 平台优势 开始 -->
     <div class="advantage">
-        <div class="container fixed_width">
-            <div class="advantage_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>平台优势</h2>
                 <section>一物一码物联全生态赋码引擎</section>
             </div>
             <div class="advantage_down">
                 <img src="../statics/images/home/advantage.png" alt="">
-                <ul class="advantage_down_content">
-                    <li>
-                        <div class="item_one">
-                            <div>01</div>
-                            <section>
-                                渠道有效动销提升<span>30%</span>
-                            </section>
-                        </div>
-                        <p>激励经销商有效开展店内与店外的双重动销活动提升销售终端开箱率、上架率，让渠道动起来</p>
-                    </li>
-                    <li>
-                        <div class="item_one">
-                            <div>02</div>
-                            <section>
-                                营销费用减少<span>50%</span>
-                            </section>
-                        </div>
-                        <p>能将促销激励直达消费者或导购员，减少中间渠道环节层层截留，营销费用在原有的基础上可降低50%</p>
-                    </li>
-                    <li>
-                        <div class="item_one">
-                            <div>03</div>
-                            <section>
-                                聚合精准粉丝<span>100%</span>
-                            </section>
-                        </div>
-                        <p>基于一物一码技术进行创新营销，将所有用户收集起来，构筑成企业专属流量池，助力企业聚合精准粉丝</p>
-                    </li>
-                    <li>
-                        <div class="item_one">
-                            <div>04</div>
-                            <section>
-                                一物一码<span>品牌营销</span>
-                            </section>
-                        </div>
-                        <p>帮助企业采集消费者原生数据、行为数据、流量数据、场景数据，以人为中心，对用户进行持续营销</p>
-                    </li>
-                </ul>
+
+                <div class="advantage_down_content">
+                    <ul class="row">
+                        <li class="col-md-4 col-sm-6 col-xs-8">
+                            <div class="item_one">
+                                <div>01</div>
+                                <section>
+                                    渠道有效动销提升<span>30%</span>
+                                </section>
+                            </div>
+                            <p>激励经销商有效开展店内与店外的双重动销活动提升销售终端开箱率、上架率，让渠道动起来</p>
+                        </li>
+                        <li class="col-md-4"></li>
+                        <li class="col-md-4 col-sm-6 col-xs-8">
+                            <div class="item_one">
+                                <div>02</div>
+                                <section>
+                                    营销费用减少<span>50%</span>
+                                </section>
+                            </div>
+                            <p>能将促销激励直达消费者或导购员，减少中间渠道环节层层截留，营销费用在原有的基础上可降低50%</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advantage_down_content">
+                    <ul class="row">
+                        <li class="col-md-4 col-sm-6 col-xs-8">
+                            <div class="item_one">
+                                <div>03</div>
+                                <section>
+                                    聚合精准粉丝<span>100%</span>
+                                </section>
+                            </div>
+                            <p>基于一物一码技术进行创新营销，将所有用户收集起来，构筑成企业专属流量池，助力企业聚合精准粉丝</p>
+                        </li>
+                        <li class="col-md-4"></li>
+                        <li class="col-md-4 col-sm-6 col-xs-8">
+                            <div class="item_one">
+                                <div>04</div>
+                                <section>
+                                    一物一码<span>品牌营销</span>
+                                </section>
+                            </div>
+                            <p>帮助企业采集消费者原生数据、行为数据、流量数据、场景数据，以人为中心，对用户进行持续营销</p>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
@@ -385,49 +462,52 @@
 
     <!-- 研发 开始 -->
     <div class="research">
-        <div class="container fixed_width">
-            <div class="research_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>强大的研发实力，安全稳定可靠的系统支持</h2>
                 <section>来自互联网优秀的技术研发团队，打造安全稳定可用的系统</section>
-                <ul>
-                    <li>
-                        <h1>99.9%</h1>
-                        <section>系统可用</section>
-                    </li>
-                    <li>
-                        <h1>2000笔</h1>
-                        <section>每秒处理订单数</section>
-                    </li>
-                    <li>
-                        <h1>
-                            < 200毫秒 </h1> <section>服务平均响应</section>
-                    </li>
-                </ul>
+                <div class="row">
+                    <ul class="col-md-12 col-sm-12 col-xs-12">
+                        <li>
+                            <h1>99.9%</h1>
+                            <section>系统可用</section>
+                        </li>
+                        <li>
+                            <h1>2000笔</h1>
+                            <section>每秒处理订单数</section>
+                        </li>
+                        <li>
+                            <h1>
+                                < 200毫秒 </h1> <section>服务平均响应</section>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
             <div class="research_bottom">
-                <ul>
-                    <li>
+                <ul class="row">
+                    <li class="col-md-12 col-sm-12 col-xs-10">
                         <div>
                             <h4>数据完整</h4>
                             <section>代码深度优化，资源利用率高，时间复杂度低，可扩展性强，系统容量大，数据库以及服务器每天备份，保证数据完整性。</section>
                         </div>
                         <img src="../statics/images/home/research/research_1.png" alt="">
                     </li>
-                    <li>
+                    <li class="col-md-12 col-sm-12 col-xs-10">
                         <div>
                             <h4>系统安全</h4>
                             <section>定期修改数据库及服务器密码，提高密码复杂度防止密码泄露；多层加密保护机制，非法代码过滤功能，保证账户安全。</section>
                         </div>
                         <img src="../statics/images/home/research/research_2.png" alt="">
                     </li>
-                    <li>
+                    <li class="col-md-12 col-sm-12 col-xs-10">
                         <div>
                             <h4>软件稳定</h4>
                             <section>使用laravel框架开发，专人维护，实时更新对系统及代码漏洞进行升级维护。</section>
                         </div>
                         <img src="../statics/images/home/research/research_3.png" alt="">
                     </li>
-                    <li>
+                    <li class="col-md-12 col-sm-12 col-xs-10">
                         <div>
                             <h4>技术可靠</h4>
                             <section>采用一物一码技术，加密算法强度复杂、加密过程不可逆、二维码分段更换加密密钥保证不可破解。</section>
@@ -443,13 +523,13 @@
 
     <!-- 区域 开始 -->
     <div class="region">
-        <div class="container fixed_width">
-            <div class="region_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>全国遍布1000+服务商</h2>
                 <section>越来越多的人选择我们，也一直信赖我们的产品和服务</section>
             </div>
-            <div class="region_down">
-                <ul>
+            <div class="row region_down">
+                <ul class="col-md-2 col-sm-2">
                     <li>
                         <h2>1000+</h2>
                         <section>服务商</section>
@@ -459,7 +539,7 @@
                         <section>在线客服</section>
                     </li>
                 </ul>
-                <div>
+                <div class="col-md-10 col-sm-10 col-xs-11">
                     <img src="../statics/images/home/map.png" alt="">
                 </div>
 
@@ -471,11 +551,12 @@
     <!-- 服务 开始 -->
     <div class="service">
         <img src="../statics/images/home/service_bg.png" alt="">
-        <div class="container fixed_width">
-            <div class="service_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>我们的服务坚若磐石</h2>
                 <section>自牡丹码推出后，已累计助力企业实现</section>
             </div>
+
             <ul class="service_down">
                 <li>
                     <h2>80亿+</h2>
@@ -501,30 +582,49 @@
 
     <!-- 合作 开始 -->
     <div class="cooperation">
-        <div class="container fixed_width">
-            <div class="cooperation_tit">
+        <div class="container">
+            <div class="content_title">
                 <h2>品牌合作商</h2>
                 <section>品牌合作商一起见证，幻新企业活力</section>
             </div>
-            <div class="cooperation_down">
-                <ul>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                    <li><img src="../statics/images/home/cooperation/icon_1.png" alt=""></li>
-                </ul>
-            </div>
+        </div>
+        <div class="container cooperation_down">
+            <ul class="row">
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+            </ul>
+            <ul class="row">
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+            </ul>
+            <ul class="row">
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+                <li class="col-md-2 col-sm-4 col-xs-5"><img src="../statics/images/home/cooperation/icon_1.png" alt="">
+                </li>
+            </ul>
         </div>
     </div>
     <!-- 合作 结束 -->
@@ -536,78 +636,65 @@
                 <img src="../statics/images/logo.png" alt="">
                 <div>一物一码智能营销系统</div>
             </div>
-            <div class="footer_contenr">
-                <div class="footer_contenr_left">
+            <div class="row footer_contenr">
+                <div class="footer_contenr_left col-md-3 col-xs-6">
                     <p>客服咨询热线</p>
                     <h3>135-2459-1185</h3>
                     <button type="button" class="btn btn-default">在线咨询</button>
                 </div>
-                <div class="footer_contenr_center">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>友情链接</th>
-                                <th>解决方案</th>
-                                <th></th>
-                                <th>产品中心</th>
-                                <th>关于我们</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="">智网网络</a></td>
-                                <td><a href="">酒水行业</a></td>
-                                <td><a href="">饮料行业</a></td>
-                                <td><a href="">防伪系统</a></td>
-                                <td><a href="">公司简介</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="">拓客来</a></td>
-                                <td><a href="">拓客来</a></td>
-                                <td><a href="">日化行业</a></td>
-                                <td><a href="">溯源系统</a></td>
-                                <td><a href="">团队风采</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="">码上拓客</a></td>
-                                <td><a href="">食品行业</a></td>
-                                <td><a href="">美妆行业</a></td>
-                                <td><a href="">红包促销</a></td>
-                                <td><a href="">联系我们</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="">拓客多多</a></td>
-                                <td><a href="">母婴行业</a></td>
-                                <td><a href="">其他行业</a></td>
-                                <td><a href="">积分商城</a></td>
-                                <td><a href=""></a></td>
-                            </tr>
-                            <tr>
-                                <td><a href=""></a></td>
-                                <td><a href=""></a></td>
-                                <td><a href=""></a></td>
-                                <td><a href="">防窜预报</a></td>
-                                <td><a href=""></a></td>
-                            </tr>
-                            <tr>
-                                <td><a href=""></a></td>
-                                <td><a href=""></a></td>
-                                <td><a href=""></a></td>
-                                <td><a href="">大数据分析</a></td>
-                                <td><a href=""></a></td>
-                            </tr>
-                        </tbody>
-
-                    </table>
+                <div class="footer_contenr_center col-md-6 col-xs-12">
+                    <ul>
+                        <li><a href="">友情链接</a></li>
+                        <li><a href="">智网网络</a></li>
+                        <li><a href="">拓客来</a></li>
+                        <li><a href="">码上拓客</a></li>
+                        <li><a href="">拓客多多</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">解决方案</a></li>
+                        <li><a href="">酒水行业</a></li>
+                        <li><a href="">快销行业</a></li>
+                        <li><a href="">食品行业</a></li>
+                        <li><a href="">母婴行业</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href=""> </a></li>
+                        <li><a href="">饮料行业</a></li>
+                        <li><a href="">日化行业</a></li>
+                        <li><a href="">美妆行业</a></li>
+                        <li><a href="">其他行业</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">产品中心</a></li>
+                        <li><a href="">防伪系统</a></li>
+                        <li><a href="">溯源系统</a></li>
+                        <li><a href="">红包促销</a></li>
+                        <li><a href="">积分商城</a></li>
+                        <li><a href="">防窜预报</a></li>
+                        <li><a href="">大数据分析</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">公司简介</a></li>
+                        <li><a href="">团队风采</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
                 </div>
-                <div class="footer_contenr_right">
-                    <img src="../statics/images/code.png" alt="">
-                    <p>添加客服微信</p>
-                    <p>立即获取数字化营销方案</p>
+                <div class="footer_contenr_right col-md-3 col-xs-12">
+                    <div class="footer_contenr_right_left">
+                        <p>客服咨询热线</p>
+                        <h3>135-2459-1185</h3>
+                    </div>
+                    <div class="footer_contenr_right_right">
+                        <img src="../statics/images/code.png" alt="">
+                        <p>添加客服微信</p>
+                        <p>立即获取数字化营销方案</p>
+                    </div>
+
                 </div>
 
             </div>
-            <div class="footer_laster">
+            <div class="footer_last">
                 <section>版权所有洛阳智网网络科技有限公司豫ICP备12039819号-2</section>
                 <section>豫公网安备11010502038687号</section>
             </div>
@@ -623,55 +710,11 @@
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
     <script src="../statics/js/bootstrap.min.js"></script>
 
-    <!-- swiper -->
-    <script src="../statics/js/swiper-bundle.min.js"></script>
-    <script>
-        var mySwiper = new Swiper('.swiper-container', {
-            // direction: 'vertical', // 垂直切换选项
-            loop: true, // 循环模式选项
-            autoplay: {
-                delay: 3000, // 3秒切换一次
-                disableOnInteraction: false,
-            }, // 可选选项自动滑动
-            // 如果需要分页器
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-
-            // 如果需要前进后退按钮
-            // navigation: {
-            //     nextEl: '.swiper-button-next',
-            //     prevEl: '.swiper-button-prev',
-            // },
-
-            // 如果需要滚动条
-            // scrollbar: {
-            //     el: '.swiper-scrollbar',
-            // },
-        })
-    </script>
-
-    <script>
-        // siblings()
-        $(function () {
-            $('.box_up_bottom_left li').each(function () {
-                $('.box_up_bottom_left li').mouseover(function () {
-                    var index = $(this).index();
-                    $('.box_up_bottom_left li').removeClass('select')
-                    $('.box_up_bottom_left li').eq(index).addClass('select')
-                    $('.box_up_bottom_right li').removeClass('on')
-                    $('.box_up_bottom_right li').eq(index).addClass('on')
-                    $('.box_down li').removeClass('on')
-                    $('.box_down li').eq(index).addClass('on')
-                })
-            })
-        })
-    </script>
-    <script src="../statics/js/solution.js"></script>
-
-    <!--  -->
+    <!-- 通用 导航 滚动 -->
     <script src="../statics/js/index.js"></script>
+
+    <!-- 解决方案 -->
+    <script src="../statics/js/solution.js"></script>
 
 </body>
 

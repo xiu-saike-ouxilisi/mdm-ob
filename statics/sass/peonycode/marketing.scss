@@ -4,33 +4,24 @@
     position: relative;
     padding-bottom: 40px;
 
-    .marketing_tit {
-        margin-bottom: 30px;
+    .content_title {
         h2 {
-            font-size: 34px;
-            font-weight: 700;
-            text-align: center;
             color: #333333;
         }
 
         section {
-            margin-top: 20px;
-            font-size: 20px;
-            font-weight: 400;
-            text-align: center;
             color: #666666;
         }
-        
+
     }
 
     .container {
-        width: 1200px;
         position: relative;
+
         .marketing_bg {
-            margin-left: 200px;
-            width: 800px;
+            width: 100%;
             height: auto;
-            transform: translate(-15px, 0);
+            margin-left: 5%;
         }
     }
 }

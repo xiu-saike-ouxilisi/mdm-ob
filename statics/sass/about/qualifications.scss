@@ -1,40 +1,41 @@
 // 公司资质
 .qualifications {
-    width: 100vw;
-    height: 700px;
+    width: 100%;
     background: #f4f7fe;
+    padding-bottom: 40px;
 
-    .qualifications_tit {
+    .content_title {
         h2 {
-            font-size: 34px;
-            text-align: center;
-            font-weight: 700;
-            text-align: center;
             color: #333333;
         }
 
         section {
-            margin-top: 20px;
-            font-size: 20px;
-            font-weight: 400;
-            text-align: center;
             color: #666666;
         }
     }
 
     .swiper-container {
-        margin-top: 30px;
-        width: 1200px;
-        height: 400px;
-        transform: translate(-15px,0);
         .swiper-wrapper {
             transition-timing-function: linear;
             .swiper-slide {
-                height: 400px;
-                width: 260px;
                 img {
-                    width: 260px;
-                    height: 354px;
+                    // width: 260px;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .qualifications {
+        padding-bottom: 20px;
+        .swiper-container {
+            margin-left: 8%;
+            .swiper-wrapper {
+                .swiper-slide {
+                    img {}
                 }
             }
         }

@@ -1,31 +1,21 @@
 .qualifications {
-  width: 100vw;
-  height: 700px;
-  background: #f4f7fe; }
-  .qualifications .qualifications_tit h2 {
-    font-size: 34px;
-    text-align: center;
-    font-weight: 700;
-    text-align: center;
+  width: 100%;
+  background: #f4f7fe;
+  padding-bottom: 40px; }
+  .qualifications .content_title h2 {
     color: #333333; }
-  .qualifications .qualifications_tit section {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+  .qualifications .content_title section {
     color: #666666; }
-  .qualifications .swiper-container {
-    margin-top: 30px;
-    width: 1200px;
-    height: 400px;
-    transform: translate(-15px, 0); }
-    .qualifications .swiper-container .swiper-wrapper {
-      transition-timing-function: linear; }
-      .qualifications .swiper-container .swiper-wrapper .swiper-slide {
-        height: 400px;
-        width: 260px; }
-        .qualifications .swiper-container .swiper-wrapper .swiper-slide img {
-          width: 260px;
-          height: 354px; }
+  .qualifications .swiper-container .swiper-wrapper {
+    transition-timing-function: linear; }
+    .qualifications .swiper-container .swiper-wrapper .swiper-slide img {
+      width: 100%;
+      height: auto; }
+
+@media (max-width: 768px) {
+  .qualifications {
+    padding-bottom: 20px; }
+    .qualifications .swiper-container {
+      margin-left: 8%; } }
 
 /*# sourceMappingURL=qualifications.css.map */

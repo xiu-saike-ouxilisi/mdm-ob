@@ -1,0 +1,26 @@
+@import "https://common.zwwltkl.com/fonts/pingfang/pingfang.css";
+.fixed_width {
+  width: 1200px !important; }
+
+button {
+  outline: none !important; }
+
+.content_title h2 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: #333333; }
+.content_title section {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+  margin-top: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.38px; }
+
+/*# sourceMappingURL=important.css.map */
