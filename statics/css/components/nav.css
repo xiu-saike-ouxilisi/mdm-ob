@@ -46,7 +46,8 @@
         background-color: #ffffff;
         border: 1px solid #006eff; }
         .nav_index .container .navbar-collapse .navbar-text button:hover a {
-          color: #006eff; }
+          color: #006eff;
+          text-decoration: none; }
 
 @media (max-width: 992px) {
   .nav_index .navbar-text {

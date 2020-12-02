@@ -7,8 +7,13 @@
         .case_nav {
             width: inherit;
             padding: 0;
+            display: flex;
+            white-space: nowrap;
+            justify-content: space-between;
+            overflow: auto;
 
             ul {
+                flex: 1 0 auto;
                 padding: 0;
                 width: inherit;
                 background: #ffffff;
@@ -186,7 +191,139 @@
             }
         }
     }
+}
 
+@media (max-width: 992px) {
+    .case {
+        padding-top: 40px;
 
+        .container {
+            .case_nav {
+                ul {
+                    li {
+                        img {}
 
+                        .select {}
+
+                        .unchecked {}
+
+                        section {}
+                    }
+
+                    .active {
+                        .select {}
+
+                        .unchecked {}
+
+                        section {}
+                    }
+
+                    li:first-child {}
+
+                    li:last-child {}
+                }
+            }
+
+            .case_content {
+                ul {
+                    li {
+                        .case_content_item {
+                            img {}
+
+                            h3 {}
+
+                            div {}
+
+                            button {}
+
+                            p {}
+                        }
+                    }
+
+                    .case_content_item:hover {
+                        h3 {}
+
+                        div {}
+
+                        button {}
+
+                        p {}
+                    }
+                }
+
+                .on {}
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .case {
+        padding-top: 20px;
+
+        .container {
+            .case_nav {
+                margin-left: 4%;
+                ul {
+                    li {
+                        img {}
+
+                        .select {}
+
+                        .unchecked {}
+
+                        section {}
+                    }
+
+                    .active {
+                        .select {}
+
+                        .unchecked {}
+
+                        section {}
+                    }
+
+                    li:first-child {}
+
+                    li:last-child {}
+                }
+            }
+
+            .case_content {
+                ul {
+
+                    // margin-left: 5%;
+                    li {
+                        margin-left: 5%;
+
+                        .case_content_item {
+                            width: 100%;
+
+                            img {}
+
+                            h3 {}
+
+                            div {}
+
+                            button {}
+
+                            p {}
+                        }
+                    }
+
+                    .case_content_item:hover {
+                        h3 {}
+
+                        div {}
+
+                        button {}
+
+                        p {}
+                    }
+                }
+
+                .on {}
+            }
+        }
+    }
 }

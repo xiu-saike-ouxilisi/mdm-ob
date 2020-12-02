@@ -100,7 +100,8 @@ button {
         background-color: #ffffff;
         border: 1px solid #006eff; }
         .nav_index .container .navbar-collapse .navbar-text button:hover a {
-          color: #006eff; }
+          color: #006eff;
+          text-decoration: none; }
 
 @media (max-width: 992px) {
   .nav_index .navbar-text {
@@ -214,8 +215,13 @@ button {
   padding-top: 40px; }
   .case .container .case_nav {
     width: inherit;
-    padding: 0; }
+    padding: 0;
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+    overflow: auto; }
     .case .container .case_nav ul {
+      flex: 1 0 auto;
       padding: 0;
       width: inherit;
       background: #ffffff;
@@ -324,6 +330,18 @@ button {
     .case .container .case_content .on {
       display: block; }
 
+@media (max-width: 992px) {
+  .case {
+    padding-top: 40px; } }
+@media (max-width: 768px) {
+  .case {
+    padding-top: 20px; }
+    .case .container .case_nav {
+      margin-left: 4%; }
+    .case .container .case_content ul li {
+      margin-left: 5%; }
+      .case .container .case_content ul li .case_content_item {
+        width: 100%; } }
 .footer {
   background-color: #1c1e2b;
   width: 100vw;
