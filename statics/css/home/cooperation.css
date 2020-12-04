@@ -11,61 +11,16 @@
     .cooperation .cooperation_down ul li {
       padding: 0;
       margin: 0;
-      margin-bottom: 40px;
-      margin-right: 4%; }
+      margin-bottom: 20px;
+      text-align: center; }
       .cooperation .cooperation_down ul li img {
-        width: 100%;
+        width: 92%;
         height: auto; }
-    .cooperation .cooperation_down ul li:nth-child(5),
-    .cooperation .cooperation_down ul li:nth-child(10),
-    .cooperation .cooperation_down ul li:nth-child(15) {
-      margin-right: 0; }
 
-@media (max-width: 992px) {
-  .cooperation {
-    padding-bottom: 40px; }
-    .cooperation .cooperation_down ul li {
-      margin-bottom: 40px;
-      margin-right: 12%; }
-      .cooperation .cooperation_down ul li img {
-        width: 100%;
-        height: auto; }
-    .cooperation .cooperation_down ul li:nth-child(5),
-    .cooperation .cooperation_down ul li:nth-child(10),
-    .cooperation .cooperation_down ul li:nth-child(15) {
-      margin-right: 12%; }
-    .cooperation .cooperation_down ul li:nth-child(3),
-    .cooperation .cooperation_down ul li:nth-child(6),
-    .cooperation .cooperation_down ul li:nth-child(9),
-    .cooperation .cooperation_down ul li:nth-child(12),
-    .cooperation .cooperation_down ul li:nth-child(15) {
-      margin-right: 0; } }
 @media (max-width: 768px) {
   .cooperation {
     padding-bottom: 20px; }
     .cooperation .cooperation_down ul {
-      padding: 0 12%; }
-      .cooperation .cooperation_down ul li {
-        margin-bottom: 20px; }
-        .cooperation .cooperation_down ul li img {
-          width: 100%;
-          height: auto; }
-      .cooperation .cooperation_down ul li:nth-child(1),
-      .cooperation .cooperation_down ul li:nth-child(3),
-      .cooperation .cooperation_down ul li:nth-child(5),
-      .cooperation .cooperation_down ul li:nth-child(7),
-      .cooperation .cooperation_down ul li:nth-child(9),
-      .cooperation .cooperation_down ul li:nth-child(11),
-      .cooperation .cooperation_down ul li:nth-child(13),
-      .cooperation .cooperation_down ul li:nth-child(15) {
-        margin-right: 14%; }
-      .cooperation .cooperation_down ul li:nth-child(2),
-      .cooperation .cooperation_down ul li:nth-child(4),
-      .cooperation .cooperation_down ul li:nth-child(6),
-      .cooperation .cooperation_down ul li:nth-child(8),
-      .cooperation .cooperation_down ul li:nth-child(10),
-      .cooperation .cooperation_down ul li:nth-child(12),
-      .cooperation .cooperation_down ul li:nth-child(14) {
-        margin-right: 0; } }
+      padding: 0 7%; } }
 
 /*# sourceMappingURL=cooperation.css.map */

@@ -166,31 +166,15 @@
                                             // border: 1px dashed #ffffff;
                                         }
 
-                                        .solution_item_big_up {
-                                            width: 160px;
-                                            height: 0px;
-                                            transition: all 0.8s;
-                                            background-color: #ffffff;
-                                            position: absolute;
-                                            bottom: 0;
-                                            left: 0;
-                                            overflow: hidden;
-
-                                            img {
-                                                width: 160px;
-                                                height: 160px;
-                                                margin: 0;
-                                            }
-                                        }
                                     }
 
                                     .solution_item_big_item:hover {
                                         img {
-                                            top: -5px;
-                                            left: -7px;
-                                            width: 210px;
+                                            top: -2.5px;
+                                            left: -3.5px;
+                                            width: 200px;
                                             height: auto;
-                                            transition: all 1s;
+                                            // transition: all 1s;
                                         }
 
                                         transition: all 1s;
@@ -295,6 +279,7 @@
                                     height: 110px;
                                     overflow: hidden;
                                     border-bottom: 1px dashed #ffffff;
+
                                     .solution_item_small {
                                         margin-top: 10px;
                                         padding-bottom: 20px;
@@ -319,6 +304,7 @@
                                 .solution_handle_big {
                                     height: 99px;
                                     overflow: hidden;
+
                                     .solution_item_big {
                                         display: flex;
                                         white-space: nowrap;
@@ -426,8 +412,9 @@
                             }
                         }
                     }
-                    .box_up_bottom_left::-webkit-scrollbar-thumb{
-                        background-color: rgba(255, 255, 255,0.4);
+
+                    .box_up_bottom_left::-webkit-scrollbar-thumb {
+                        background-color: rgba(255, 255, 255, 0.4);
                     }
 
                     .box_up_bottom_right {

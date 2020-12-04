@@ -21,57 +21,17 @@
             li {
                 padding: 0;
                 margin: 0;
-                margin-bottom: 40px;
-                margin-right: 4%;
+                margin-bottom: 20px;
+                text-align: center;
 
                 img {
-                    width: 100%;
+                    width: 92%;
                     height: auto;
                 }
             }
-
-            li:nth-child(5),
-            li:nth-child(10),
-            li:nth-child(15) {
-                margin-right: 0;
-            }
         }
     }
 
-}
-
-@media (max-width: 992px) {
-    .cooperation {
-        padding-bottom: 40px;
-
-        .cooperation_down {
-            ul {
-                li {
-                    margin-bottom: 40px;
-                    margin-right: 12%;
-
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-
-                li:nth-child(5),
-                li:nth-child(10),
-                li:nth-child(15) {
-                    margin-right: 12%;
-                }
-
-                li:nth-child(3),
-                li:nth-child(6),
-                li:nth-child(9),
-                li:nth-child(12),
-                li:nth-child(15) {
-                    margin-right: 0;
-                }
-            }
-        }
-    }
 }
 
 @media (max-width: 768px) {
@@ -80,37 +40,7 @@
 
         .cooperation_down {
             ul {
-                padding: 0 12%;
-                li {
-                    margin-bottom: 20px;
-                    // margin-right: 5%;
-
-                    img {
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-
-                li:nth-child(1),
-                li:nth-child(3),
-                li:nth-child(5),
-                li:nth-child(7),
-                li:nth-child(9),
-                li:nth-child(11),
-                li:nth-child(13),
-                li:nth-child(15) {
-                    margin-right: 14%;
-                }
-
-                li:nth-child(2),
-                li:nth-child(4),
-                li:nth-child(6),
-                li:nth-child(8),
-                li:nth-child(10),
-                li:nth-child(12),
-                li:nth-child(14){
-                    margin-right: 0;
-                }
+                padding: 0 7%;
             }
         }
     }

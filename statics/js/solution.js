@@ -43,18 +43,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_4.png',
             src2: '../statics/images/home/code.png',
         },
-
         ]
     },
     {
@@ -100,18 +99,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_4.png',
             src2: '../statics/images/home/code.png',
         },
-
         ]
     },
     {
@@ -157,18 +155,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_4.png',
             src2: '../statics/images/home/code.png',
         },
-
         ]
     },
     {
@@ -214,18 +211,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_4.png',
             src2: '../statics/images/home/code.png',
         },
-
         ]
     },
     {
@@ -259,14 +255,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
-        }
-
+        },
+        {
+            src1: '../statics/images/home/icon/big/big_4.png',
+            src2: '../statics/images/home/code.png',
+        },
         ]
     },
     {
@@ -312,9 +311,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
-        }
+        },
+        {
+            src1: '../statics/images/home/icon/big/big_3.png',
+            src2: '../statics/images/home/code.png',
+        },
+        {
+            src1: '../statics/images/home/icon/big/big_4.png',
+            src2: '../statics/images/home/code.png',
+        },
         ]
     },
     {
@@ -356,17 +363,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_4.png',
             src2: '../statics/images/home/code.png',
-        }
+        },
         ]
     },
     {
@@ -400,13 +407,17 @@ function qwe() {
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_2.png',
             src2: '../statics/images/home/code.png',
         },
         {
-            src1: '../statics/images/home/icon/big/big_1.png',
+            src1: '../statics/images/home/icon/big/big_3.png',
             src2: '../statics/images/home/code.png',
-        }
+        },
+        {
+            src1: '../statics/images/home/icon/big/big_4.png',
+            src2: '../statics/images/home/code.png',
+        },
         ]
     },
     ]

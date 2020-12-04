@@ -218,56 +218,85 @@
             display: block;
 
             ul {
+                padding: 0;
+
                 li {
-                    border-radius: 10px;
-                    text-align: center;
-                    padding: 20px 0;
-                    margin-left: 6%;
-                    margin-bottom: 10px;
+                    div {
+                        width: 100%;
+                        border-radius: 10px;
+                        text-align: center;
+                        padding: 20px 0;
+                        margin-bottom: 20px;
 
-                    img {
-                        width: 66px;
-                        height: auto;
+                        img {
+                            width: 66px;
+                            height: auto;
+                        }
+
+                        section {
+                            margin-top: 10px;
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #ffffff;
+                        }
                     }
 
-                    section {
-                        margin-top: 10px;
-                        font-size: 20px;
-                        font-weight: 700;
-                        color: #ffffff;
-                    }
                 }
 
                 li:nth-child(1) {
-                    background: linear-gradient(0deg, #22c7bf 0%, #78f7e2 100%);
+                    div {
+                        background: linear-gradient(0deg, #22c7bf 0%, #78f7e2 100%);
+                    }
+
                 }
 
                 li:nth-child(2) {
-                    background: linear-gradient(0deg, #4e81fd 0%, #7fa4ff 100%);
+                    div {
+                        background: linear-gradient(0deg, #4e81fd 0%, #7fa4ff 100%);
+                    }
+
                 }
 
                 li:nth-child(3) {
-                    background: linear-gradient(0deg, #2673ff 0%, #71c5ff 100%);
+                    div {
+                        background: linear-gradient(0deg, #2673ff 0%, #71c5ff 100%);
+                    }
+
                 }
 
                 li:nth-child(4) {
-                    background: linear-gradient(0deg, #6f69ee 0%, #afa9fd 100%);
+                    div {
+                        background: linear-gradient(0deg, #6f69ee 0%, #afa9fd 100%);
+                    }
+
                 }
 
                 li:nth-child(5) {
-                    background: linear-gradient(0deg, #6f69ee 0%, #afa9fd 100%);
+                    div {
+                        background: linear-gradient(0deg, #6f69ee 0%, #afa9fd 100%);
+                    }
+
                 }
 
                 li:nth-child(6) {
-                    background: linear-gradient(0deg, #2673ff 0%, #71c5ff 100%);
+                    div {
+                        background: linear-gradient(0deg, #2673ff 0%, #71c5ff 100%);
+                    }
+
                 }
 
                 li:nth-child(7) {
-                    background: linear-gradient(0deg, #4e81fd 0%, #7fa4ff 100%);
+                    div {
+                        background: linear-gradient(0deg, #4e81fd 0%, #7fa4ff 100%);
+                    }
+
                 }
 
                 li:nth-child(8) {
-                    background: linear-gradient(0deg, #22c7bf 0%, #78f7e2 100%);
+                    div {
+                        background: linear-gradient(0deg, #22c7bf 0%, #78f7e2 100%);
+                    }
+
                 }
 
             }
@@ -275,26 +304,22 @@
     }
 }
 
-@media (max-width: 992px) {
-    .application {
-        padding-bottom: 20px;
 
+
+@media (max-width: 700px) {
+    .application {
+        padding-bottom: 10px;
         .application_down_phone {
             ul {
                 li {
-                    padding: 20px 0;
-                    // margin-left: 6%;
+                    div {
+                        img {
+                            width: 40%;
+                        }
 
-                    img {
-                        width: 55px;
-                        height: auto;
-                    }
-
-                    section {
-                        margin-top: 10px;
-                        font-size: 18px;
-                        font-weight: 700;
-                        color: #ffffff;
+                        section {
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -302,28 +327,23 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .application {
         padding-bottom: 10px;
 
         .application_down_phone {
             ul {
-                padding-left: 3%;
+                padding: 0 2%;
+
                 li {
-                    padding: 0;
-                    padding: 10px 0;
-                    margin-bottom: 26px;
+                    padding: 0 5px;
 
-                    img {
-                        width: 36px;
-                        height: auto;
-                    }
+                    div {
+                        img {}
 
-                    section {
-                        margin-top: 6px;
-                        font-size: 12px;
-                        font-weight: 700;
-                        color: #ffffff;
+                        section {
+                            font-size: 12px;
+                        }
                     }
                 }
             }

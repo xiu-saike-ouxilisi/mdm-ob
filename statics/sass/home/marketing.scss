@@ -2,7 +2,7 @@
 .marketing {
     background: #fafafa;
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 
     .content_title {
         h1 {
@@ -16,95 +16,200 @@
     }
 
     .marketing_down {
+        // border: 1px solid blue;
+
         .marketing_down_item {
             display: flex;
-            padding: 30px 50px;
+            width: 49%;
+            padding: 0 50px;
+            padding-top: 40px;
+            padding-bottom: 24px;
             box-shadow: 0px 0px 21px 8px rgba(56, 56, 0, 0.08);
-            margin-left: 6%;
-            margin-bottom: 50px;
+            // border: 1px solid red;
+            margin-right: 2%;
+            margin-bottom: 20px;
             background: #ffffff;
             border-radius: 10px;
 
             .marketing_down_item_left {
-                width: 76%;
+                width: 64%;
 
                 h3 {
                     font-weight: bold;
-                    font-size: 26px;
+                    font-size: 30px;
                     color: #0754ff;
                     letter-spacing: 4px;
                     margin: 0;
                 }
-
-                p {
-                    margin-top: 15px;
-                    font-size: 16px;
-                    text-align: left;
-                    color: #333333;
-                    letter-spacing: 2px;
+                div{
+                    margin-top: 10px;
+                    // border: 1px solid #0754ff;
+                    p {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 22px;
+                        text-align: left;
+                        color: #333333;
+                        font-weight: 400;
+                        letter-spacing: 2px;
+                        // border: 1px solid red;
+                    }
                 }
+                
             }
 
             .marketing_down_item_right {
+                width: 37%;
+                // border: 1px solid red;
+                text-align: right;
+
                 img {
-                    width: 110px;
+                    width: 77%;
                     height: auto;
+                }
+            }
+        }
+
+        .marketing_down_item:nth-child(2),
+        .marketing_down_item:nth-child(4) {
+            margin-right: 0;
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .marketing {
+        .marketing_down {
+            .marketing_down_item {
+                padding: 0 40px;
+                padding-top: 30px;
+                padding-bottom: 18px;
+
+                .marketing_down_item_left {
+                    width: 60%;
+
+                    h3 {
+                        font-size: 24px;
+                    }
+                    div{
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                    
+                }
+
+                .marketing_down_item_right {
+                    width: 40%;
+
+                    img {
+                        width: 70%;
+                    }
                 }
             }
         }
     }
 }
-
 
 @media (max-width: 992px) {
     .marketing {
         .marketing_down {
             .marketing_down_item {
-                margin-bottom: 10px;
-                padding: 16px 20px;
-                margin-left: 8%;
-                margin-bottom: 20px;
+                width: 100%;
+                padding: 0 50px;
+                padding-top: 40px;
+                padding-bottom: 24px;
 
                 .marketing_down_item_left {
-                    h3 {
-                        font-size: 18px;
-                    }
+                    width: 46%;
 
-                    p {
-                        font-size: 12px;
+                    h3 {
+                        font-size: 30px;
                     }
+                    div{
+                        p {
+                            font-size: 22px;
+                        }
+                    }
+                    
                 }
 
                 .marketing_down_item_right {
+                    width: 54%;
                     img {
-                        width: 80px;
+                        width: 40%;
                     }
                 }
             }
         }
     }
 }
+
 @media (max-width: 768px) {
     .marketing {
+        padding-bottom: 30px;
         .marketing_down {
+            padding: 0 8%;
             .marketing_down_item {
-                margin-bottom: 10px;
-                padding: 16px 20px;
-                margin-left: 8%;
+                width: 100%;
+                padding: 0 8%;
+                padding-top: 18px;
+                padding-bottom: 10px;
 
                 .marketing_down_item_left {
-                    h3 {
-                        font-size: 18px;
-                    }
+                    width: 60%;
 
-                    p {
-                        font-size: 12px;
+                    h3 {
+                        font-size: 20px;
                     }
+                    div{
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                    
                 }
 
                 .marketing_down_item_right {
+                    width: 40%;
                     img {
-                        width: 80px;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 430px){
+    .marketing {
+        padding-bottom: 20px;
+        .marketing_down {
+            padding: 0 8%;
+            .marketing_down_item {
+                width: 100%;
+                padding: 0 8%;
+                padding-top: 18px;
+                padding-bottom: 10px;
+
+                .marketing_down_item_left {
+                    width: 70%;
+
+                    h3 {
+                        font-size: 20px;
+                    }
+                    div{
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                    
+                }
+
+                .marketing_down_item_right {
+                    width: 30%;
+                    img {
+                        width: 100%;
                     }
                 }
             }

@@ -27,7 +27,7 @@
                     box-shadow: 5px 5px 18px 0px #d8e7ff;
                     margin-left: 10%;
                     width: 90%;
-                    padding-bottom: 50px;
+                    padding-bottom: 40px;
                     padding-top: 18px;
                     text-align: center;
 
@@ -49,14 +49,11 @@
                     }
 
                     img {
-                        margin-top: 50px;
+                        margin-top: 30px;
                         width: 80px;
                         height: auto;
                     }
                 }
-
-
-
             }
         }
     }
@@ -75,9 +72,8 @@
                         div {}
 
                         img {
-                            margin-top: 50px;
+                            margin-top: 30px;
                             width: 60px;
-                            height: auto;
                         }
                     }
                 }
@@ -127,6 +123,7 @@
                 li {
                     .solve_item {
                         width: 90%;
+                        padding-bottom: 30px;
                         section {
                             font-size: 16px;
                         }
@@ -155,6 +152,7 @@
                 li {
                     .solve_item {
                         width: 90%;
+                        padding-bottom: 20px;
                         section {
                             font-size: 16px;
                             margin-bottom: 20px;

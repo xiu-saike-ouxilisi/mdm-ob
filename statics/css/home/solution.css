@@ -104,28 +104,14 @@
                 left: 0;
                 width: 190px;
                 height: auto; }
-              .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_handle_big .solution_item_big .solution_item_big_item .solution_item_big_up {
-                width: 160px;
-                height: 0px;
-                transition: all 0.8s;
-                background-color: #ffffff;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                overflow: hidden; }
-                .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_handle_big .solution_item_big .solution_item_big_item .solution_item_big_up img {
-                  width: 160px;
-                  height: 160px;
-                  margin: 0; }
             .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_handle_big .solution_item_big .solution_item_big_item:hover {
               transition: all 1s;
               cursor: pointer; }
               .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_handle_big .solution_item_big .solution_item_big_item:hover img {
-                top: -5px;
-                left: -7px;
-                width: 210px;
-                height: auto;
-                transition: all 1s; }
+                top: -2.5px;
+                left: -3.5px;
+                width: 200px;
+                height: auto; }
             .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_handle_big .solution_item_big .solution_item_big_item:last-child {
               margin-right: 0; }
   .solution .select {

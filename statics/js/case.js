@@ -589,11 +589,11 @@ $(window).scroll(function () {
     var loadcontent = ''
     var loadall = ''
     for (var i = 0; i < loaddata.length; i++) {
-        loadcontent += '<li class="col-md-3 col-sm-3 col-xs-5">' +
+        loadcontent += '<li class="col-md-3 col-sm-3 col-xs-6">' +
             '<div class="case_content_item">' +
             '<img src="' + loaddata[i].avatar + '" alt="">' +
             '<h3>' + loaddata[i].name + '</h3>' +
-            '<div></div><button type="button" class="btn btn-default">查看详情</button>' +
+            '<div></div><div class="case_content_item_btn"><button type="button" class="btn btn-default"><a href="./information.html">查看详情</a></button></div>' +
             '<p>' + loaddata[i].introduce + '</p>' +
             '</div>' +
             '</li>'

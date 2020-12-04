@@ -292,6 +292,8 @@ button {
             border-radius: 5px 0px 0px 5px; }
           .case .container .case_handle .case_nav ul li:last-child {
             border-radius: 0px 5px 5px 0px; }
+            .case .container .case_handle .case_nav ul li:last-child img {
+              margin: 0 28.5px; }
     .case .container .case_content {
       width: inherit;
       margin: 0;
@@ -413,9 +415,9 @@ button {
       -webkit-box-orient: vertical; } }
 @media (max-width: 768px) {
   .case .container .case_handle {
-    padding: 0 5%;
+    margin: 0 5%;
     overflow: hidden;
-    height: 99px;
+    height: 94px;
     box-shadow: 0px 0px 20px 0px rgba(9, 85, 249, 0.2); }
     .case .container .case_handle .case_nav ul li img {
       width: 28px; }
