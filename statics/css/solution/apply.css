@@ -3,7 +3,7 @@
   position: relative;
   background: #ffffff;
   padding-bottom: 40px; }
-  .apply .content_title h2 {
+  .apply .content_title h1 {
     color: #333333; }
   .apply .apply_down {
     padding: 0; }
@@ -43,28 +43,19 @@
         font-size: 16px; } }
 @media (max-width: 768px) {
   .apply {
-    padding-bottom: 40px; }
-    .apply .apply_down li div {
-      width: 80%;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      margin-left: 0; }
-      .apply .apply_down li div img {
-        width: 32px;
-        height: auto; }
-      .apply .apply_down li div section {
-        font-size: 10px; }
-    .apply .apply_down li:nth-child(1) div, .apply .apply_down li:nth-child(7) div {
-      margin-left: 30%; }
-    .apply .apply_down li:nth-child(2) div, .apply .apply_down li:nth-child(8) div {
-      margin-left: 20%; }
-    .apply .apply_down li:nth-child(3) div, .apply .apply_down li:nth-child(9) div {
-      margin-left: 10%; }
-    .apply .apply_down li:nth-child(4) div, .apply .apply_down li:nth-child(10) div {
-      margin-left: 0; }
-    .apply .apply_down li:nth-child(5) div, .apply .apply_down li:nth-child(11) div {
-      margin-left: -5%; }
-    .apply .apply_down li:nth-child(6) div, .apply .apply_down li:nth-child(12) div {
-      margin-left: -10%; } }
+    padding-bottom: 20px; }
+    .apply .apply_down {
+      padding-left: 8%;
+      padding-right: 5%; }
+      .apply .apply_down li div {
+        width: 80%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: 0; }
+        .apply .apply_down li div img {
+          width: 50%;
+          height: auto; }
+        .apply .apply_down li div section {
+          font-size: 10px; } }
 
 /*# sourceMappingURL=apply.css.map */

@@ -2,13 +2,11 @@
 .solve {
     width: 100%;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 
     .container {
-        padding: 0;
-
         .content_title {
-            h2 {
+            h1 {
                 color: #333333;
             }
 
@@ -21,7 +19,6 @@
             li {
                 text-align: center;
                 padding: 0;
-                // border: 1px solid red;
                 margin-bottom: 10px;
 
                 .solve_item {
@@ -39,13 +36,13 @@
                         margin-left: 10%;
                         background: #eff5fe;
                         font-size: 22px;
-                        font-weight: 550;
+                        font-weight: bold;
                         color: #006eff;
+                        margin-bottom: 30px;
                     }
 
                     div {
-                        margin-top: 20px;
-                        font-size: 14px;
+                        font-size: 16px;
                         font-weight: 500;
                         text-align: center;
                         color: #333333;
@@ -121,15 +118,15 @@
 
 @media (max-width: 768px) {
     .solve {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
 
         .container {
             .solve_down {
+                padding-left: 6%;
+                padding-right: 8%;
                 li {
                     .solve_item {
-                        width: 70%;
-                        margin-left: 10%;
-
+                        width: 90%;
                         section {
                             font-size: 16px;
                         }
@@ -145,17 +142,33 @@
                         }
                     }
                 }
+            }
+        }
+    }
+}
+@media (max-width: 550px) {
+    .solve {
+        .container {
+            .solve_down {
+                padding-left: 6%;
+                padding-right: 8%;
+                li {
+                    .solve_item {
+                        width: 90%;
+                        section {
+                            font-size: 16px;
+                            margin-bottom: 20px;
+                        }
 
-                li:nth-child(1),
-                li:nth-child(4) {
-                    .solve_item {
-                        margin-left: 20%;
-                    }
-                }
-                li:nth-child(2),
-                li:nth-child(5) {
-                    .solve_item {
-                        margin-left: 15%;
+                        div {
+                            font-size: 10px;
+                        }
+
+                        img {
+                            margin-top: 10px;
+                            width: 38px;
+                            height: auto;
+                        }
                     }
                 }
             }

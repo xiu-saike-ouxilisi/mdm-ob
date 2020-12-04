@@ -1,8 +1,8 @@
 .application {
-  width: 100vw;
+  width: 100%;
   position: relative;
-  padding-bottom: 40px; }
-  .application .content_title h2 {
+  padding-bottom: 70px; }
+  .application .content_title h1 {
     color: #333333; }
   .application .content_title section {
     color: #666666; }
@@ -173,8 +173,7 @@
   .application {
     padding-bottom: 20px; }
     .application .application_down_phone ul li {
-      padding: 20px 0;
-      margin-left: 6%; }
+      padding: 20px 0; }
       .application .application_down_phone ul li img {
         width: 55px;
         height: auto; }
@@ -183,17 +182,17 @@
         font-size: 18px;
         font-weight: 700;
         color: #ffffff; } }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .application {
     padding-bottom: 10px; }
     .application .application_down_phone ul {
-      margin-left: 2px; }
+      padding-left: 3%; }
       .application .application_down_phone ul li {
         padding: 0;
         padding: 10px 0;
-        margin-left: 6%; }
+        margin-bottom: 26px; }
         .application .application_down_phone ul li img {
-          width: 38px;
+          width: 36px;
           height: auto; }
         .application .application_down_phone ul li section {
           margin-top: 6px;

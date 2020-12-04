@@ -1,78 +1,62 @@
 .highlights {
   width: 100%;
   position: relative;
-  padding-bottom: 40px; }
+  padding-bottom: 70px; }
   .highlights .highlights_bg {
     z-index: -1;
     width: inherit;
-    height: auto;
+    height: 410px;
     position: absolute;
     top: 0;
     left: 0; }
-  .highlights .container {
+  .highlights .container .content_title h1 {
+    color: #ffffff; }
+  .highlights .container .content_title section {
+    color: #ffffff; }
+  .highlights .container .highlights_down {
     padding: 0; }
-    .highlights .container .content_title h2 {
-      color: #ffffff; }
-    .highlights .container .content_title section {
-      color: #ffffff; }
-    .highlights .container .highlights_down {
-      display: flex;
-      justify-content: space-around; }
-      .highlights .container .highlights_down li {
-        text-align: center; }
-        .highlights .container .highlights_down li img {
-          width: 125px;
-          padding: 15px;
-          height: auto;
-          background: #006eff;
-          border-radius: 10px; }
-        .highlights .container .highlights_down li section {
-          margin-top: 10px;
-          font-size: 18px;
-          text-align: center;
-          font-weight: 400;
-          color: #ffffff; }
+    .highlights .container .highlights_down li {
+      padding: 0;
+      text-align: center; }
+      .highlights .container .highlights_down li img {
+        width: 50%;
+        height: auto;
+        padding: 15px;
+        height: auto;
+        background: #006eff;
+        border-radius: 10px; }
+      .highlights .container .highlights_down li section {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff; }
 
-@media (max-width: 1200px) {
-  .highlights {
-    padding-bottom: 60px; }
-    .highlights .highlights_bg {
-      height: 400px; }
-    .highlights .container .highlights_down li img {
-      width: 100px; } }
 @media (max-width: 992px) {
   .highlights {
     padding-bottom: 40px; }
-    .highlights .container .highlights_down li img {
-      width: 80px;
-      padding: 10px; }
+    .highlights .highlights_bg {
+      height: 360px; }
     .highlights .container .highlights_down li section {
-      width: 80px;
       font-size: 14px;
       margin-top: 5px; } }
 @media (max-width: 768px) {
   .highlights {
     padding-bottom: 40px; }
-    .highlights .container .highlights_down {
-      margin-left: 4%; }
+    .highlights .container .content_title {
+      padding-bottom: 0; }
+    .highlights .container .highlights_down li {
+      margin-top: 20px; }
       .highlights .container .highlights_down li img {
-        width: 60px;
-        padding: 10px; }
-      .highlights .container .highlights_down li section {
-        width: 60px;
-        font-size: 12px;
-        margin-top: 5px; } }
-@media (max-width: 450px) {
+        width: 30%; } }
+@media (max-width: 620px) {
   .highlights {
     padding-bottom: 20px; }
-    .highlights .highlights_bg {
-      height: 360px; }
     .highlights .container .highlights_down li img {
-      width: 50px;
-      padding: 6px; }
-    .highlights .container .highlights_down li section {
-      width: 50px;
-      font-size: 8px;
-      margin-top: 5px; } }
+      width: 40%; } }
+@media (max-width: 460px) {
+  .highlights {
+    padding-bottom: 20px; }
+    .highlights .container .highlights_down li img {
+      width: 50%; } }
 
 /*# sourceMappingURL=highlights.css.map */

@@ -1,12 +1,12 @@
 .brief {
   width: 100%;
   padding-bottom: 40px; }
-  .brief .container .content_title {
+  .brief .container .content_title h1 {
     color: #333333; }
   .brief .container .brief_down .brief_left h1 {
     padding: 0;
     margin: 0;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     text-align: left;
     color: #333333;
@@ -36,8 +36,9 @@
     .brief .container .brief_down .brief_left {
       padding-left: 10%; }
       .brief .container .brief_down .brief_left h1 {
-        font-size: 24px;
-        margin-left: 5%;
+        font-size: 18px;
+        text-align: center;
+        transform: translate(-20px, 0);
         margin-bottom: 20px; }
       .brief .container .brief_down .brief_left p {
         width: 95%; }

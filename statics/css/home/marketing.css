@@ -1,8 +1,8 @@
 .marketing {
   background: #fafafa;
-  width: 100vw;
+  width: 100%;
   padding-bottom: 40px; }
-  .marketing .content_title h2 {
+  .marketing .content_title h1 {
     color: #333333; }
   .marketing .content_title section {
     color: #666666; }

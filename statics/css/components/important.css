@@ -1,21 +1,27 @@
 @import "https://common.zwwltkl.com/fonts/pingfang/pingfang.css";
-.fixed_width {
-  width: 1200px !important; }
+.container {
+  padding: 0; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
 
 button {
   outline: none !important; }
 
 .content_title {
-  padding-top: 40px;
+  padding-top: 70px;
   padding-bottom: 40px; }
-  .content_title h2 {
+  .content_title h1 {
     padding: 0;
     margin: 0;
+    letter-spacing: 2px;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     color: #333333; }
   .content_title section {
+    letter-spacing: 2px;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -35,16 +41,16 @@ button {
   .content_title {
     padding-top: 30px;
     padding-bottom: 20px; }
-    .content_title h2 {
+    .content_title h1 {
       font-size: 28px; }
     .content_title section {
       font-size: 18px;
       margin-top: 20px; } }
 @media (max-width: 768px) {
   .content_title {
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .content_title h2 {
+    padding-top: 26px;
+    padding-bottom: 18px; }
+    .content_title h1 {
       font-size: 22px;
       padding: 0 16%;
       line-height: 34px; }

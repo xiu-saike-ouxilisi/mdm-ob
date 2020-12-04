@@ -5,7 +5,9 @@
 
     .container {
         .content_title {
-            color: #333333;
+            h1{
+                color: #333333;
+            }
         }
 
         .brief_down {
@@ -13,7 +15,7 @@
                 h1 {
                     padding: 0;
                     margin: 0;
-                    font-size: 34px;
+                    font-size: 28px;
                     font-weight: 700;
                     text-align: left;
                     color: #333333;
@@ -71,8 +73,9 @@
                 .brief_left {
                     padding-left: 10%;
                     h1 {
-                        font-size: 24px;
-                        margin-left: 5%;
+                        font-size: 18px;
+                        text-align: center;
+                        transform: translate(-20px,0);
                         margin-bottom: 20px;
                     }
                     p {

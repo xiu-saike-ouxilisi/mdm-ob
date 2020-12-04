@@ -2,33 +2,32 @@
   width: 100%;
   background: #ffffff;
   padding-bottom: 40px; }
-  .region .content_title h2 {
+  .region .content_title h1 {
     color: #333333; }
   .region .content_title section {
     color: #666666; }
   .region .region_down {
     padding-left: 80px; }
-    .region .region_down ul {
-      display: inline-block; }
-      .region .region_down ul li {
-        margin-top: 20px;
-        border-top: 2px solid #999999;
-        padding-top: 20px; }
-        .region .region_down ul li h2 {
-          font-size: 30px;
-          font-weight: 700;
-          text-align: left;
-          color: #2589ff;
-          margin: 0;
-          padding: 0; }
-        .region .region_down ul li section {
-          font-size: 18px;
-          font-weight: 400;
-          text-align: left;
-          color: #666666;
-          margin: 0;
-          margin-top: 6px;
-          padding: 0; }
+    .region .region_down ul li {
+      margin-top: 60px;
+      border-top: 5px solid #999999;
+      padding-top: 20px;
+      width: 60%; }
+      .region .region_down ul li h2 {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: left;
+        color: #2589ff;
+        margin: 0;
+        padding: 0; }
+      .region .region_down ul li section {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        color: #666666;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0; }
     .region .region_down div {
       display: block; }
       .region .region_down div img {

@@ -19,6 +19,21 @@
     }
 }
 
+@media (max-width: 768px){
+    .navbar-default {
+        .navbar-nav {
+            li:first-child{
+                border-bottom: 1px solid #cccccc!important;
+            }
+        }
+        .navbar-nav:hover{
+            li{
+                border-bottom: 1px solid #cccccc;
+            }
+        }
+    }
+}
+
 // 轮播
 @import '../components/swiper.scss';
 
@@ -57,3 +72,6 @@
 
 // 底部
 @import '../components/footer.scss';
+
+// 功能栏
+@import '../components/contact.scss'

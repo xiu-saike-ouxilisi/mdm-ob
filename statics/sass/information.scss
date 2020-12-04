@@ -3,14 +3,6 @@
 // 导航
 @import './components/nav.scss';
 
-// .navbar-default {
-//     .navbar-nav {
-//         li:first-child {
-//             border-bottom: 2px solid #ffffff;
-//         }
-//     }
-// }
-
 // 轮播
 @import './components/swiper.scss';
 
@@ -45,6 +37,9 @@
 // 底部
 @import './components/footer.scss';
 
+// 侧边栏
+@import './components/contact.scss';
+
 
 // 信息内容
 .information {
@@ -53,12 +48,14 @@
 
     .container {
         padding: 0;
+
         .content_title {
             padding-bottom: 0;
-            h2 {
+
+            h1 {
                 color: #333333;
             }
-    
+
             section {
                 color: #666666;
             }
@@ -71,6 +68,7 @@
             margin-top: 0;
             border-bottom: 1px solid #cecece;
             position: relative;
+
             .information_time_right {
                 position: absolute;
                 right: 10px;
@@ -94,9 +92,10 @@
             color: #333333;
         }
 
-        div{
+        div {
             margin: 20px 0;
             text-align: center;
+
             img {
                 width: 60%;
                 height: auto;
@@ -107,9 +106,10 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .information {
         padding-bottom: 20px;
+
         .container {
             .information_time {
                 width: 90%;
@@ -117,21 +117,23 @@
                 height: 30px;
                 margin-bottom: 10px;
                 border-bottom: 1px solid #cecece;
-       
+
                 .information_time_right {
                     top: -10px;
+
                     section {
                         font-size: 10px;
                     }
                 }
             }
-    
+
             p {
                 margin-left: 4%;
             }
-            
-            div{
+
+            div {
                 text-align: center;
+
                 img {
                     margin-left: 8%;
                     width: 60%;

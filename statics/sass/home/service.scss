@@ -2,7 +2,7 @@
 .service {
     width: 100%;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 
     img {
         z-index: -1;
@@ -14,10 +14,8 @@
     }
 
     .content_title {
-        padding-top: 10px;
-        padding-bottom: 10px;
 
-        h2 {
+        h1 {
             color: #ffffff;
         }
 
@@ -62,17 +60,20 @@
 
 @media (max-width: 768px) {
     .service {
+        padding-bottom: 20px;
         .service_down {
+            margin-top: 10px;
+            padding: 0 5%;
             justify-content: space-around;
 
             li {
                 h2 {
-                    font-size: 20px;
+                    font-size: 16px;
                 }
 
                 section {
                     padding-top: 5px;
-                    font-size: 14px;
+                    font-size: 12px;
                 }
             }
         }

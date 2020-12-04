@@ -36,7 +36,7 @@
             background: rgba(0, 0, 0, 0.7);
 
             .content_title {
-                h2 {
+                h1 {
                     color: #FAFBFE;
                 }
 
@@ -73,7 +73,6 @@
                 }
 
                 .box_up_bottom_right {
-                    // border: 1px solid red;
                     padding-left: 5%;
 
                     ul {
@@ -116,89 +115,94 @@
                                 color: #ffffff;
                             }
 
-                            .solution_item_small {
-                                display: flex;
-                                justify-content: left;
-                                margin-top: 40px;
-                                padding-bottom: 40px;
-                                border-bottom: 1px dashed #ffffff;
+                            .solution_handle_small {
+                                .solution_item_small {
+                                    display: flex;
+                                    justify-content: left;
+                                    margin-top: 40px;
+                                    padding-bottom: 40px;
+                                    border-bottom: 1px dashed #ffffff;
 
-                                .solution_item_small_item {
-                                    margin: 0 20px;
-                                    padding-top: 16px;
-                                    text-align: center;
-
-                                    img {
-                                        width: 55px;
-                                        height: auto;
-                                        display: block;
-                                        margin: 0 auto;
-                                    }
-
-                                    span {
-                                        display: inline-block;
-                                        margin-top: 14px;
-                                        font-size: 14px;
-                                        color: #ffffff;
+                                    .solution_item_small_item {
+                                        margin: 0 20px;
+                                        padding-top: 16px;
                                         text-align: center;
-                                    }
-                                }
-                            }
-
-                            .solution_item_big {
-                                display: flex;
-                                margin-top: 40px;
-
-                                .solution_item_big_item {
-                                    margin: 0 20px;
-                                    width: 200px;
-                                    height: 100px;
-                                    position: relative;
-
-                                    img {
-                                        position: absolute;
-                                        top: 0;
-                                        left: 0;
-                                        width: 190px;
-                                        height: auto;
-                                        border: 1px dashed #ffffff;
-                                    }
-
-                                    .solution_item_big_up {
-                                        width: 160px;
-                                        height: 0px;
-                                        transition: all 0.8s;
-                                        background-color: #ffffff;
-                                        position: absolute;
-                                        bottom: 0;
-                                        left: 0;
-                                        overflow: hidden;
 
                                         img {
-                                            width: 160px;
-                                            height: 160px;
-                                            margin: 0;
+                                            width: 55px;
+                                            height: auto;
+                                            display: block;
+                                            margin: 0 auto;
+                                        }
+
+                                        span {
+                                            display: inline-block;
+                                            margin-top: 14px;
+                                            font-size: 14px;
+                                            color: #ffffff;
+                                            text-align: center;
                                         }
                                     }
                                 }
+                            }
 
-                                .solution_item_big_item:hover {
-                                    img {
-                                        top: -10px;
-                                        left: -15px;
-                                        width: 230px;
-                                        height: auto;
-                                        transition: all 1s;
+                            .solution_handle_big {
+                                .solution_item_big {
+                                    display: flex;
+                                    margin-top: 40px;
+
+                                    .solution_item_big_item {
+                                        margin: 0 20px;
+                                        width: 200px;
+                                        height: 100px;
+                                        position: relative;
+
+                                        img {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 190px;
+                                            height: auto;
+                                            // border: 1px dashed #ffffff;
+                                        }
+
+                                        .solution_item_big_up {
+                                            width: 160px;
+                                            height: 0px;
+                                            transition: all 0.8s;
+                                            background-color: #ffffff;
+                                            position: absolute;
+                                            bottom: 0;
+                                            left: 0;
+                                            overflow: hidden;
+
+                                            img {
+                                                width: 160px;
+                                                height: 160px;
+                                                margin: 0;
+                                            }
+                                        }
                                     }
 
-                                    transition: all 1s;
-                                    cursor: pointer;
-                                }
+                                    .solution_item_big_item:hover {
+                                        img {
+                                            top: -5px;
+                                            left: -7px;
+                                            width: 210px;
+                                            height: auto;
+                                            transition: all 1s;
+                                        }
 
-                                .solution_item_big_item:last-child {
-                                    margin-right: 0;
+                                        transition: all 1s;
+                                        cursor: pointer;
+                                    }
+
+                                    .solution_item_big_item:last-child {
+                                        margin-right: 0;
+                                    }
                                 }
                             }
+
                         }
                     }
                 }
@@ -215,8 +219,6 @@
         display: block !important;
     }
 }
-
-@media (max-width: 1200px) {}
 
 @media (max-width: 992px) {
     .solution {
@@ -252,6 +254,7 @@
                             white-space: nowrap;
                             justify-content: space-between;
                             flex: 1 0 auto;
+                            padding-right: 4%;
 
                             li {
                                 margin-left: 10px;
@@ -288,56 +291,67 @@
                                     font-size: 14px;
                                 }
 
-                                .solution_item_small {
-                                    margin-top: 10px;
-                                    padding-bottom: 20px;
-                                    display: flex;
-                                    white-space: nowrap;
-                                    justify-content: space-between;
-                                    overflow: auto;
+                                .solution_handle_small {
+                                    height: 110px;
+                                    overflow: hidden;
+                                    border-bottom: 1px dashed #ffffff;
+                                    .solution_item_small {
+                                        margin-top: 10px;
+                                        padding-bottom: 20px;
+                                        display: flex;
+                                        border: none;
+                                        white-space: nowrap;
+                                        justify-content: space-between;
+                                        overflow: auto;
 
-                                    .solution_item_small_item {
-                                        flex: 1 0 auto;
+                                        .solution_item_small_item {
+                                            flex: 1 0 auto;
 
-                                        img {
-                                            width: 44px;
+                                            img {
+                                                width: 44px;
+                                            }
+
+                                            span {}
                                         }
-
-                                        span {}
                                     }
                                 }
 
-                                .solution_item_big {
-                                    display: flex;
-                                    white-space: nowrap;
-                                    justify-content: space-between;
-                                    overflow: auto;
+                                .solution_handle_big {
+                                    height: 99px;
+                                    overflow: hidden;
+                                    .solution_item_big {
+                                        display: flex;
+                                        white-space: nowrap;
+                                        justify-content: space-between;
+                                        overflow: auto;
 
-                                    .solution_item_big_item {
-                                        flex: 1 0 auto;
-                                        width: 160px;
-                                        height: 60px;
-                                        // border: 1px solid red;
+                                        .solution_item_big_item {
+                                            flex: 1 0 auto;
+                                            width: 160px;
+                                            height: 60px;
+                                            // border: 1px solid red;
 
-                                        img {
-                                            width: 130px;
+                                            img {
+                                                width: 130px;
+                                            }
                                         }
-                                    }
 
-                                    .solution_item_big_item:hover {
-                                        width: 160px;
-                                        height: 60px;
-                                        // border: 1px solid red;
+                                        .solution_item_big_item:hover {
+                                            width: 160px;
+                                            height: 60px;
+                                            // border: 1px solid red;
 
-                                        img {
-                                            width: 130px;
+                                            img {
+                                                width: 130px;
+                                            }
                                         }
-                                    }
 
-                                    .solution_item_big_item:last-child {
-                                        margin-right: 0;
+                                        .solution_item_big_item:last-child {
+                                            margin-right: 0;
+                                        }
                                     }
                                 }
+
                             }
                         }
                     }
@@ -382,10 +396,11 @@
 
             .box_up {
                 height: 600px;
+
                 .box_up_bottom {
                     .box_up_bottom_left {
                         margin-left: 5%;
-                        border: none;
+                        // border: none;
                         padding: 0;
                         display: flex;
                         white-space: nowrap;
@@ -411,6 +426,9 @@
                             }
                         }
                     }
+                    .box_up_bottom_left::-webkit-scrollbar-thumb{
+                        background-color: rgba(255, 255, 255,0.4);
+                    }
 
                     .box_up_bottom_right {
                         padding-left: 5%;
@@ -430,37 +448,42 @@
 
                                 p {}
 
-                                .solution_item_small {
-                                    .solution_item_small_item {
-                                        img {
-                                            width: 40px;
-                                        }
+                                .solution_handle_small {
+                                    .solution_item_small {
+                                        .solution_item_small_item {
+                                            img {
+                                                width: 40px;
+                                            }
 
-                                        span {}
-                                    }
-                                }
-
-                                .solution_item_big {
-                                    .solution_item_big_item {
-                                        width: 140px;
-                                        height: 60px;
-
-                                        img {
-                                            width: 100px;
-                                        }
-                                    }
-
-                                    .solution_item_big_item:hover {
-                                        width: 140px;
-                                        height: 60px;
-
-                                        img {
-                                            top: 0;
-                                            left: 0;
-                                            width: 100px;
+                                            span {}
                                         }
                                     }
                                 }
+
+                                .solution_handle_big {
+                                    .solution_item_big {
+                                        .solution_item_big_item {
+                                            width: 140px;
+                                            height: 60px;
+
+                                            img {
+                                                width: 100px;
+                                            }
+                                        }
+
+                                        .solution_item_big_item:hover {
+                                            width: 140px;
+                                            height: 60px;
+
+                                            img {
+                                                top: 0;
+                                                left: 0;
+                                                width: 100px;
+                                            }
+                                        }
+                                    }
+                                }
+
                             }
                         }
                     }

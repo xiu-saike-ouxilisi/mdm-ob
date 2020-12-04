@@ -31,6 +31,7 @@
 
 @media (max-width: 992px) {
   .pattern_one .pad .pattern_one_left {
+    padding-left: 10%;
     padding-top: 10px; }
     .pattern_one .pad .pattern_one_left h1 {
       font-size: 30px; }
@@ -41,14 +42,11 @@
     .pattern_one .pad .pattern_one_right img {
       width: 300px; } }
 @media (max-width: 768px) {
-  .pattern_one .pad .pattern_one_left {
-    padding-left: 10%;
-    padding-top: 10px; }
-    .pattern_one .pad .pattern_one_left h1 {
-      font-size: 22px; }
-    .pattern_one .pad .pattern_one_left p {
-      width: 80%;
-      font-size: 14px; }
+  .pattern_one .pad .pattern_one_left h1 {
+    font-size: 22px; }
+  .pattern_one .pad .pattern_one_left p {
+    width: 80%;
+    font-size: 14px; }
   .pattern_one .pad .pattern_one_right {
     text-align: center; } }
 

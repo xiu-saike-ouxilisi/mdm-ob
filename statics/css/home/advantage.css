@@ -1,7 +1,7 @@
 .advantage {
-  width: 100vw;
+  width: 100%;
   padding-bottom: 40px; }
-  .advantage .content_title h2 {
+  .advantage .content_title h1 {
     color: #333333; }
   .advantage .content_title section {
     color: #666666; }
@@ -14,14 +14,14 @@
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%); }
-    .advantage .advantage_down .advantage_down_content li {
+    .advantage .advantage_down .advantage_down_content ul li {
       padding: 0;
       padding-bottom: 30px; }
-      .advantage .advantage_down .advantage_down_content li .item_one {
+      .advantage .advantage_down .advantage_down_content ul li .item_one {
         position: relative;
         display: flex;
         align-items: center; }
-        .advantage .advantage_down .advantage_down_content li .item_one div {
+        .advantage .advantage_down .advantage_down_content ul li .item_one div {
           border: 2px solid #006EFF;
           padding: 14px 16px;
           background-color: #fff;
@@ -31,7 +31,7 @@
           text-align: center;
           color: #006eff;
           z-index: 1; }
-        .advantage .advantage_down .advantage_down_content li .item_one section {
+        .advantage .advantage_down .advantage_down_content ul li .item_one section {
           text-align: center;
           border: 2px solid #006EFF;
           transform: translate(-15px, 0);
@@ -42,11 +42,11 @@
           font-size: 20px;
           font-weight: 400;
           color: #333333; }
-          .advantage .advantage_down .advantage_down_content li .item_one section span {
+          .advantage .advantage_down .advantage_down_content ul li .item_one section span {
             color: #006EFF;
             font-weight: 700;
             font-size: 24px; }
-      .advantage .advantage_down .advantage_down_content li p {
+      .advantage .advantage_down .advantage_down_content ul li p {
         margin-top: 20px;
         padding-left: 20px;
         width: 80%;
@@ -58,27 +58,32 @@
 @media (max-width: 992px) {
   .advantage .advantage_down img {
     display: none; }
-  .advantage .advantage_down .advantage_down_content li .item_one div {
-    font-size: 16px;
-    padding: 8px 10px; }
-  .advantage .advantage_down .advantage_down_content li .item_one section {
-    font-size: 15px; }
-    .advantage .advantage_down .advantage_down_content li .item_one section span {
-      font-size: 17px; }
-  .advantage .advantage_down .advantage_down_content li:nth-child(2) {
+  .advantage .advantage_down .advantage_down_content ul li {
+    padding-left: 6%; }
+    .advantage .advantage_down .advantage_down_content ul li .item_one div {
+      font-size: 16px;
+      padding: 8px 10px; }
+    .advantage .advantage_down .advantage_down_content ul li .item_one section {
+      padding-top: 5px;
+      font-size: 15px; }
+      .advantage .advantage_down .advantage_down_content ul li .item_one section span {
+        font-size: 17px; }
+  .advantage .advantage_down .advantage_down_content ul li:nth-child(2) {
     display: none; } }
 @media (max-width: 768px) {
   .advantage {
     padding-bottom: 10px; }
-    .advantage .advantage_down .advantage_down_content li {
-      margin-left: 20%;
-      padding-bottom: 10px; }
-      .advantage .advantage_down .advantage_down_content li .item_one div {
-        background-color: #006EFF;
-        color: #ffffff; }
-      .advantage .advantage_down .advantage_down_content li .item_one section {
-        background-color: #ffffff; }
-      .advantage .advantage_down .advantage_down_content li p {
-        width: 87%; } }
+    .advantage .advantage_down .advantage_down_content ul {
+      padding-left: 10%; }
+      .advantage .advantage_down .advantage_down_content ul li {
+        padding-left: 8%; }
+        .advantage .advantage_down .advantage_down_content ul li .item_one div {
+          background-color: #006EFF;
+          color: #ffffff; }
+        .advantage .advantage_down .advantage_down_content ul li .item_one section {
+          width: 80%;
+          background-color: #ffffff; }
+        .advantage .advantage_down .advantage_down_content ul li p {
+          width: 87%; } }
 
 /*# sourceMappingURL=advantage.css.map */

@@ -3,14 +3,6 @@
  * http://cssreset.com
  */
  /* 全局 */
- *{
-     font-family: Microsoft YaHei Regular;
- }
- .fixed_width{
-    width: 1200px!important;
-    padding-top: 50px;
- }
- button{outline:none!important;}
 
  /*  */
  html, body, div, span, applet, object, iframe,

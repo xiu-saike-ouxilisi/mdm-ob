@@ -16,9 +16,46 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .navbar-default {
+        .navbar-nav {
+            li:nth-child(4) {
+                border-bottom: 1px solid #cccccc !important;
+            }
+        }
+
+        .navbar-nav:hover {
+            li {
+                border-bottom: 1px solid #cccccc;
+            }
+        }
+    }
+}
 
 // 轮播
 @import '../components/swiper.scss';
+#carousel-example-generic{
+    .carousel-inner{
+        .item{
+            img{
+                width: 100%;
+                height: 600px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    #carousel-example-generic{
+        .carousel-inner{
+            .item{
+                img{
+                    height: auto;
+                }
+            }
+        }
+    }
+}
 
 
 // 案例
@@ -27,3 +64,6 @@
 
 // 底部
 @import '../components/footer.scss';
+
+// 侧边栏
+@import '../components/contact.scss';

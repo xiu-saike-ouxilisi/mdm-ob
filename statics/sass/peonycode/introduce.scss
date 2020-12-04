@@ -2,10 +2,10 @@
 .introduce {
     width: 100%;
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 
     .content_title {
-        h2 {
+        h1 {
             color: #333333;
         }
 
@@ -16,13 +16,12 @@
     }
 
     .introduce_down {
+        padding: 0;
         .introduce_left {
-
             div {
                 width: 175px;
                 height: 10px;
                 background: #006eff;
-                margin-top: 60px;
             }
 
             h2 {
@@ -73,8 +72,7 @@
         }
 
         .introduce_right {
-            padding-top: 60px;
-            // border: 1px solid red;
+            padding-top: 20px;
 
             img {
                 width: 550px;
@@ -151,8 +149,7 @@
                 padding-top: 60px;
 
                 img {
-                    width: 350px;
-                    height: auto;
+                    width: 100%;
                 }
             }
         }
@@ -161,12 +158,12 @@
 @media (max-width: 768px) {
     .introduce {
         .introduce_down {
-            padding-left: 10%;
             .introduce_left {
+                padding-left: 5%;
                 div {
                     width: 145px;
                     height: 8px;
-                    margin-top: 40px;
+                    margin-top: 20px;
                 }
 
                 h2 {
@@ -175,6 +172,7 @@
 
                 p {
                     font-size: 14px;
+                    width: 98%;
                 }
 
                 ul {
@@ -195,8 +193,21 @@
                 padding-top: 60px;
 
                 img {
-                    width: 350px;
-                    height: auto;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .introduce {
+        .introduce_down {
+            
+            .introduce_right {
+                padding-top: 60px;
+
+                img {
+                    width:90%;
                 }
             }
         }

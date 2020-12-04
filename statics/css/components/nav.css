@@ -69,15 +69,31 @@
       .navbar-default .container .navbar-header .navbar_phone,
       .navbar-fixed-top .container .navbar-header .navbar_phone {
         position: absolute;
-        right: 100px;
-        top: -5px;
+        right: 70px;
+        top: -7px;
         display: inline-block;
         color: #ffffff; }
+        .nav_index .container .navbar-header .navbar_phone button,
+        .navbar .container .navbar-header .navbar_phone button,
+        .navbar-default .container .navbar-header .navbar_phone button,
+        .navbar-fixed-top .container .navbar-header .navbar_phone button {
+          height: 28px;
+          line-height: 8px; }
         .nav_index .container .navbar-header .navbar_phone button:hover a,
         .navbar .container .navbar-header .navbar_phone button:hover a,
         .navbar-default .container .navbar-header .navbar_phone button:hover a,
         .navbar-fixed-top .container .navbar-header .navbar_phone button:hover a {
           text-decoration: none; }
+      .nav_index .container .navbar-header .navbar_switch,
+      .navbar .container .navbar-header .navbar_switch,
+      .navbar-default .container .navbar-header .navbar_switch,
+      .navbar-fixed-top .container .navbar-header .navbar_switch {
+        border: none; }
+        .nav_index .container .navbar-header .navbar_switch .icon-bar,
+        .navbar .container .navbar-header .navbar_switch .icon-bar,
+        .navbar-default .container .navbar-header .navbar_switch .icon-bar,
+        .navbar-fixed-top .container .navbar-header .navbar_switch .icon-bar {
+          background-color: #ffffff; }
       .nav_index .container .navbar-header .navbar-brand .nav_logo,
       .navbar .container .navbar-header .navbar-brand .nav_logo,
       .navbar-default .container .navbar-header .navbar-brand .nav_logo,
@@ -90,29 +106,23 @@
       .navbar-default .container #example-navbar-collapse,
       .navbar-fixed-top .container #example-navbar-collapse {
         height: 230px;
-        background-color: #ffffff;
-        border: none; }
+        background-color: #ffffff; }
       .nav_index .container .navbar-collapse,
       .navbar .container .navbar-collapse,
       .navbar-default .container .navbar-collapse,
       .navbar-fixed-top .container .navbar-collapse {
-        font-size: 16px;
-        padding-left: 0; }
+        font-size: 16px; }
         .nav_index .container .navbar-collapse .navbar-nav li,
         .navbar .container .navbar-collapse .navbar-nav li,
         .navbar-default .container .navbar-collapse .navbar-nav li,
         .navbar-fixed-top .container .navbar-collapse .navbar-nav li {
           padding-left: 30px;
           margin-left: 0;
-          border: none;
-          margin-top: 10px;
-          padding-bottom: 10px;
           border-bottom: 1px solid #cccccc; }
           .nav_index .container .navbar-collapse .navbar-nav li a,
           .navbar .container .navbar-collapse .navbar-nav li a,
           .navbar-default .container .navbar-collapse .navbar-nav li a,
           .navbar-fixed-top .container .navbar-collapse .navbar-nav li a {
-            padding: 0;
             color: #333333; }
         .nav_index .container .navbar-collapse .navbar-nav li:hover,
         .navbar .container .navbar-collapse .navbar-nav li:hover,

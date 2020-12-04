@@ -108,7 +108,7 @@
     <div class="brief">
         <div class="container">
             <div class="content_title">
-                <h2>公司简介</h2>
+                <h1>公司简介</h1>
             </div>
             <div class="brief_down row">
                 <div class="brief_left col-md-6 col-sm-6 col-xs-12">
@@ -132,7 +132,7 @@
     <div class="qualifications">
         <div class="container">
             <div class="content_title">
-                <h2>公司资质</h2>
+                <h1>公司资质</h1>
                 <section>智网拥有17项软件著作权</section>
             </div>
             <div class="two row">
@@ -172,7 +172,7 @@
     <div class="team">
         <div class="container">
             <div class="content_title">
-                <h2>团队风采</h2>
+                <h1>团队风采</h1>
                 <section>智网大家庭集体出游合影留念</section>
             </div>
             <div id="certify" class="row">
@@ -208,7 +208,7 @@
     <div class="publicbenefit">
         <div class="container">
             <div class="content_title">
-                <h2>公益活动</h2>
+                <h1>公益活动</h1>
                 <section>智网网络公益在行动</section>
             </div>
             <ul class="publicbenefit_down">
@@ -355,6 +355,44 @@
     </div>
     <!-- 底部 结束 -->
 
+    <!-- 侧边栏 开始 -->
+    <div id="scroll-nav" class="hidden-xs scroll-nav">
+        <ul class="nav nav-pills nav-stacked">
+            <li role="presentation" class="bg_WeChat">
+                <a href="javascript:void(0)">
+                    <img src="../statics/images/contact/wechat_side.png" alt="" srcset="" />
+                    <div>微信咨询</div>
+                </a>
+                <div class="qrCodeImg">
+                    <img src="../statics/images/wexin.jpg" alt="" srcset="" />
+                </div>
+            </li>
+            <li role="presentation" class="bg_officialaccount">
+                <a href="javascript:void(0)">
+                    <img src="../statics/images/contact/public_side.png" alt="" srcset="" />
+                    <div>公众号</div>
+                </a>
+                <div class="qrCodeImg">
+                    <img src="../statics/images/code.png" alt="" srcset="" />
+                </div>
+            </li>
+            <li role="presentation" class="phone_side bg_phone">
+                <a href="javascript:void(0)">
+                    <img src="../statics/images/contact/phone_side.png" alt="" srcset="" />
+                    <div>电话咨询</div>
+                </a>
+                <div class="phone">135-2459-1185</div>
+            </li>
+            <li role="presentation" class="top_side">
+                <a href="javascript:void(0)" id="back-to-top">
+                    <img src="../statics/images/contact/top_side.png" alt="" srcset="" />
+                    <div>返回顶部</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 侧边栏  结束 -->
+
 
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
@@ -366,21 +404,39 @@
     <!-- swiper插件 -->
     <script src="../statics/js/swiper-bundle.min.js"></script>
 
-    <!-- 轮播 2-->
+    <!-- 轮播-->
     <script>
-        // 轮播
-        var swiper = new Swiper('.two .swiper-container', {
-            autoplay: {
-                delay: 10, // 几秒切换一次
-                disableOnInteraction: false,
-            }, // 可选选项自动滑动
-            freeMode: true,
-            // autoplay: 1, //自动滚动
-            loop: true, //循环
-            speed: 5000, //滚动速度
-            slidesPerView: 4, //slide可见数量
-            spaceBetween: 10 //slide之间的距离（单位px）
-        });
+        var thisWidth = $(window).width(); //浏览器当前窗口可视区域宽度
+        var thisDocumentWidth = $(document).width(); //浏览器当前窗口文档对象宽度
+        var thisBodyWidth = $(document.body).width(); //浏览器当前窗口文档body的宽度
+        var totalBodyWidth = $(document.body).outerWidth(true); //浏览器当前窗口文档body的总宽度 包括border padding margin
+        if (thisWidth < 768) {
+            var swiper = new Swiper('.two .swiper-container', {
+                autoplay: {
+                    delay: 10, // 几秒切换一次
+                    disableOnInteraction: false,
+                }, // 可选选项自动滑动
+                freeMode: true,
+                // autoplay: 1, //自动滚动
+                loop: true, //循环
+                speed: 5000, //滚动速度
+                slidesPerView: 3, //slide可见数量
+                spaceBetween: 10 //slide之间的距离（单位px）
+            });
+        } else {
+            var swiper = new Swiper('.two .swiper-container', {
+                autoplay: {
+                    delay: 10, // 几秒切换一次
+                    disableOnInteraction: false,
+                }, // 可选选项自动滑动
+                freeMode: true,
+                // autoplay: 1, //自动滚动
+                loop: true, //循环
+                speed: 5000, //滚动速度
+                slidesPerView: 4, //slide可见数量
+                spaceBetween: 10 //slide之间的距离（单位px）
+            });
+        }
     </script>
 
     <!-- 层叠轮播 -->
@@ -421,22 +477,22 @@
     <script type="text/javascript"
         src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=LWa5yGT95ehEtUf5sdXcmogqGv9AzjRD"></script>
     <script>
-        // // 百度地图
-        // var map = new BMapGL.Map("position_map");
-        // var point = new BMapGL.Point(112.427371, 34.688424);
-        // map.centerAndZoom(point, 16);
-        // map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
-        // var content = "洛阳智网网络有限公司";
-        // var label = new BMapGL.Label(content, { // 创建文本标注
-        //     position: point, // 设置标注的地理位置
-        //     offset: new BMapGL.Size(-10, -20) // 设置标注的偏移量
-        // })
-        // map.addOverlay(label); // 将标注添加到地图中
-        // label.setStyle({ // 设置label的样式
-        //     color: '#000',
-        //     fontSize: '20px',
-        //     border: '2px solid #1E90FF'
-        // })
+        // 百度地图
+        var map = new BMapGL.Map("position_map");
+        var point = new BMapGL.Point(112.427371, 34.688424);
+        map.centerAndZoom(point, 16);
+        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+        var content = "洛阳智网网络有限公司";
+        var label = new BMapGL.Label(content, { // 创建文本标注
+            position: point, // 设置标注的地理位置
+            offset: new BMapGL.Size(-10, -20) // 设置标注的偏移量
+        })
+        map.addOverlay(label); // 将标注添加到地图中
+        label.setStyle({ // 设置label的样式
+            color: '#000',
+            fontSize: '20px',
+            border: '2px solid #1E90FF'
+        })
     </script>
 
     <!-- 通用 导航 滚动 -->

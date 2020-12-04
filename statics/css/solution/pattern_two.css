@@ -26,11 +26,13 @@
 
 @media (max-width: 992px) {
   .pattern_two .pad .pattern_two_left {
-    text-align: center; }
+    text-align: center;
+    transform: translate(0, 240px); }
     .pattern_two .pad .pattern_two_left img {
       width: 300px;
       height: auto; }
   .pattern_two .pad .pattern_two_right {
+    transform: translate(0, -300px);
     padding-left: 10%;
     padding-top: 10px; }
     .pattern_two .pad .pattern_two_right h1 {

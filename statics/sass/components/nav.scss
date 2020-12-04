@@ -80,12 +80,14 @@
 
                     a {
                         color: #006eff;
-                        text-decoration:none;
+                        text-decoration: none;
                     }
                 }
             }
         }
     }
+
+
 
 }
 
@@ -112,14 +114,30 @@
             .navbar-header {
                 .navbar_phone {
                     position: absolute;
-                    right: 100px;
-                    top: -5px;
+                    right: 70px;
+                    top: -7px;
                     display: inline-block;
                     color: #ffffff;
-                    button:hover{
-                        a{
+
+                    button {
+                        height: 28px;
+                        line-height: 8px;
+
+                        a {}
+                    }
+
+                    button:hover {
+                        a {
                             text-decoration: none;
                         }
+                    }
+                }
+
+                .navbar_switch {
+                    border: none;
+
+                    .icon-bar {
+                        background-color: #ffffff;
                     }
                 }
 
@@ -133,38 +151,25 @@
             }
 
             #example-navbar-collapse {
-                // position: absolute;
-                // right: 16px;
                 height: 230px;
                 background-color: #ffffff;
-                border: none;
             }
 
             .navbar-collapse {
-                // width: 120px;
                 font-size: 16px;
-                padding-left: 0;
-                // margin-left: 0;
 
                 .navbar-nav {
                     li {
                         padding-left: 30px;
                         margin-left: 0;
-                        border: none;
-                        margin-top: 10px;
-                        padding-bottom: 10px;
                         border-bottom: 1px solid #cccccc;
 
                         a {
-                            padding: 0;
                             color: #333333;
                         }
-
                     }
 
                     li:hover {
-
-                        // border: none!important;
                         a {
                             color: #006eff;
                         }
@@ -179,10 +184,6 @@
                     li:last-child {
                         border-bottom: none;
                     }
-
-                    // .is_true_Underline {
-                    //     border-bottom: none!important;
-                    // }
                 }
             }
         }

@@ -2,23 +2,20 @@
 .highlights {
     width: 100%;
     position: relative;
-    padding-bottom: 40px;
-    ;
+    padding-bottom: 70px;
 
     .highlights_bg {
         z-index: -1;
         width: inherit;
-        height: auto;
+        height: 410px;
         position: absolute;
         top: 0;
         left: 0;
     }
 
     .container {
-        padding: 0;
-
         .content_title {
-            h2 {
+            h1 {
                 color: #ffffff;
             }
 
@@ -28,14 +25,15 @@
         }
 
         .highlights_down {
-            display: flex;
-            justify-content: space-around;
+            padding: 0;
 
             li {
+                padding: 0;
                 text-align: center;
 
                 img {
-                    width: 125px;
+                    width: 50%;
+                    height: auto;
                     padding: 15px;
                     height: auto;
                     background: #006eff;
@@ -45,48 +43,61 @@
                 section {
                     margin-top: 10px;
                     font-size: 18px;
-                    text-align: center;
+                    // text-align: center;
                     font-weight: 400;
                     color: #ffffff;
 
                 }
             }
+
+            // li:nth-child(1){
+            //     text-align: left;
+            // }
+            // li:nth-child(6){
+            //     text-align: right;
+            // }
+
         }
     }
 }
 
-@media (max-width: 1200px) {
-    .highlights {
-        padding-bottom: 60px;
-        .highlights_bg {
-            height: 400px;
-        }
-        .container {
-            .highlights_down {
-                li {
-                    img {
-                        width: 100px;
-                    }
-                    section {}
-                }
-            }
-        }
-    }
-}
+// @media (max-width: 1200px) {
+//     .highlights {
+//         padding-bottom: 60px;
+//         .highlights_bg {
+//             height: 400px;
+//         }
+//         .container {
+//             .highlights_down {
+//                 li {
+//                     img {
+//                         width: 100px;
+//                     }
+//                     section {}
+//                 }
+//             }
+//         }
+//     }
+// }
 
 @media (max-width: 992px) {
     .highlights {
         padding-bottom: 40px;
-        .highlights_bg {}
+
+        .highlights_bg {
+            height: 360px;
+        }
+
         .container {
             .highlights_down {
                 li {
                     img {
-                        width: 80px;
-                        padding: 10px;
+                        // width: 80px;
+                        // padding: 10px;
                     }
+
                     section {
-                        width: 80px;
+                        // width: 80px;
                         font-size: 14px;
                         margin-top: 5px;
                     }
@@ -103,47 +114,62 @@
         .highlights_bg {}
 
         .container {
+            .content_title {
+                padding-bottom: 0;
+            }
+
             .highlights_down {
-                margin-left: 4%;
-
                 li {
+                    margin-top: 20px;
+
                     img {
-                        width: 60px;
-                        padding: 10px;
+                        width: 30%;
+                        // padding: 10px;
                     }
 
-                    section {
-                        width: 60px;
-                        font-size: 12px;
-                        margin-top: 5px;
-                    }
+                    section {}
                 }
             }
         }
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 620px) {
     .highlights {
         padding-bottom: 20px;
 
-        .highlights_bg {
-            height: 360px;
-        }
+        .highlights_bg {}
 
         .container {
             .highlights_down {
                 li {
                     img {
-                        width: 50px;
-                        padding: 6px;
+                        width: 40%;
+
                     }
 
-                    section {
-                        width: 50px;
-                        font-size: 8px;
-                        margin-top: 5px;
+                    section {}
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .highlights {
+        padding-bottom: 20px;
+
+        .highlights_bg {}
+
+        .container {
+            .highlights_down {
+                li {
+                    img {
+                        width: 50%;
+
                     }
+
+                    section {}
                 }
             }
         }

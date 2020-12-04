@@ -1,11 +1,11 @@
 // 应用场景 
 .application {
-    width: 100vw;
+    width: 100%;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
 
     .content_title {
-        h2 {
+        h1 {
             color: #333333;
         }
 
@@ -283,7 +283,7 @@
             ul {
                 li {
                     padding: 20px 0;
-                    margin-left: 6%;
+                    // margin-left: 6%;
 
                     img {
                         width: 55px;
@@ -297,30 +297,25 @@
                         color: #ffffff;
                     }
                 }
-
-                // li:nth-child(1) {
-                //     background: linear-gradient(0deg, #22c7bf 0%, #78f7e2 100%);
-                //     border-radius: 10px;
-                // }
             }
         }
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .application {
         padding-bottom: 10px;
 
         .application_down_phone {
             ul {
-                margin-left: 2px;
+                padding-left: 3%;
                 li {
                     padding: 0;
                     padding: 10px 0;
-                    margin-left: 6%;
+                    margin-bottom: 26px;
 
                     img {
-                        width: 38px;
+                        width: 36px;
                         height: auto;
                     }
 

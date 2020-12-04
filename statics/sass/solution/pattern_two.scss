@@ -43,7 +43,7 @@
         .pad {
             .pattern_two_left {
                 text-align: center;
-
+                transform: translate(0,240px);
                 img {
                     width: 300px;
                     height: auto;
@@ -51,6 +51,7 @@
             }
 
             .pattern_two_right {
+                transform: translate(0,-300px);
                 padding-left: 10%;
                 padding-top: 10px;
 

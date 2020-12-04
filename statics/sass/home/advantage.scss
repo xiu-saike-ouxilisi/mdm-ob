@@ -1,10 +1,10 @@
 // 平台优势
 .advantage {
-    width: 100vw;
+    width: 100%;
     padding-bottom: 40px;
 
     .content_title {
-        h2 {
+        h1 {
             color: #333333;
         }
 
@@ -26,60 +26,62 @@
         }
 
         .advantage_down_content {
-
-            li {
-                // border: 1px solid red;
-                padding: 0;
-                padding-bottom: 30px;
-
-                .item_one {
-                    position: relative;
+            ul {
+                li {
                     // border: 1px solid red;
-                    display: flex;
-                    align-items: center;
+                    padding: 0;
+                    padding-bottom: 30px;
 
-                    div {
-                        border: 2px solid #006EFF;
-                        padding: 14px 16px;
-                        background-color: #fff;
-                        border-radius: 50%;
-                        font-size: 20px;
-                        font-weight: bold;
-                        text-align: center;
-                        color: #006eff;
-                        z-index: 1;
-                    }
+                    .item_one {
+                        position: relative;
+                        // border: 1px solid red;
+                        display: flex;
+                        align-items: center;
 
-                    section {
-                        text-align: center;
-                        border: 2px solid #006EFF;
-                        transform: translate(-15px, 0);
-                        border-radius: 5px;
-                        width: 76%;
-                        padding-top: 1px;
-                        padding-bottom: 3px;
-                        font-size: 20px;
-                        font-weight: 400;
-                        color: #333333;
+                        div {
+                            border: 2px solid #006EFF;
+                            padding: 14px 16px;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            font-size: 20px;
+                            font-weight: bold;
+                            text-align: center;
+                            color: #006eff;
+                            z-index: 1;
+                        }
 
-                        span {
-                            color: #006EFF;
-                            font-weight: 700;
-                            font-size: 24px;
+                        section {
+                            text-align: center;
+                            border: 2px solid #006EFF;
+                            transform: translate(-15px, 0);
+                            border-radius: 5px;
+                            width: 76%;
+                            padding-top: 1px;
+                            padding-bottom: 3px;
+                            font-size: 20px;
+                            font-weight: 400;
+                            color: #333333;
+
+                            span {
+                                color: #006EFF;
+                                font-weight: 700;
+                                font-size: 24px;
+                            }
                         }
                     }
-                }
 
-                p {
-                    margin-top: 20px;
-                    padding-left: 20px;
-                    width: 80%;
-                    font-size: 14px;
-                    font-weight: 400;
-                    color: #666666;
-                    letter-spacing: 1px;
+                    p {
+                        margin-top: 20px;
+                        padding-left: 20px;
+                        width: 80%;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #666666;
+                        letter-spacing: 1px;
+                    }
                 }
             }
+
         }
     }
 }
@@ -94,27 +96,34 @@
             }
 
             .advantage_down_content {
-                li {
-                    .item_one {
-                        div {
-                            font-size: 16px;
-                            padding: 8px 10px;
-                        }
+                ul {
+                    li {
+                        padding-left: 6%;
 
-                        section {
-                            font-size: 15px;
-                            span {
-                                font-size: 17px;
+                        .item_one {
+                            div {
+                                font-size: 16px;
+                                padding: 8px 10px;
+                            }
+
+                            section {
+                                padding-top: 5px;
+                                font-size: 15px;
+
+                                span {
+                                    font-size: 17px;
+                                }
                             }
                         }
+
+                        p {}
                     }
 
-                    p {}
+                    li:nth-child(2) {
+                        display: none;
+                    }
                 }
 
-                li:nth-child(2) {
-                    display: none;
-                }
             }
         }
     }
@@ -123,28 +132,33 @@
 @media (max-width: 768px) {
     .advantage {
         padding-bottom: 10px;
+
         .advantage_down {
             .advantage_down_content {
-                li {
-                    margin-left: 20%;
-                    padding-bottom: 10px;
+                ul {
+                    padding-left: 10%;
+                    li {
+                        padding-left: 8%;
+                        .item_one {
+                            div {
+                                background-color: #006EFF;
+                                color: #ffffff;
+                            }
 
-                    .item_one {
-                        div {
-                            background-color: #006EFF;
-                            color: #ffffff;
+                            section {
+                                width: 80%;
+                                background-color: #ffffff;
+
+                                span {}
+                            }
                         }
 
-                        section {
-                            background-color: #ffffff;
-                            span {}
+                        p {
+                            width: 87%;
                         }
-                    }
-
-                    p {
-                        width: 87%;
                     }
                 }
+
             }
         }
     }
