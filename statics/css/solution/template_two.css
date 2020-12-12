@@ -13,7 +13,11 @@
   .template_two .container .row .right {
     padding: 0;
     margin: 0;
-    padding-top: 40px; }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 308px;
+    align-content: center; }
     .template_two .container .row .right h2 {
       font-size: 32px;
       font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
@@ -36,6 +40,7 @@
       transform: translate(0, 0); }
   .template_two .container .row .right {
     padding-top: 0;
+    height: inherit;
     transform: translate(0, -280px); }
     .template_two .container .row .right h2 {
       font-size: 24px; }

@@ -467,7 +467,7 @@ function qwe() {
     var all = ''
     for (var i = 0; i < 1; i++) {
         contentone1 = '<li class="on"><div class="solution_item_one"><h2>' + textdata[0].type + '方案</h2>' +
-            '<button type="button" class="btn btn-default"><a href="./customercase.html">查看详情</a></button>' +
+            '<button type="button" class="btn btn-default"><a href="./solution.html">查看详情</a></button>' +
             '</div>' + '<p>' + textdata[0].brief + '</p>'
 
         for (var j = 0; j < textdata[0].brand.length; j++) {
@@ -485,7 +485,7 @@ function qwe() {
     }
     for (var i = 1; i < textdata.length; i++) {
         content1 = '<li><div class="solution_item_one"><h2>' + textdata[i].type + '方案</h2>' +
-            '<button type="button" class="btn btn-default"><a href="./customercase.html">查看详情</a></button>' +
+            '<button type="button" class="btn btn-default"><a href="./solution.html">查看详情</a></button>' +
             '</div>' + '<p>' + textdata[i].brief + '</p>'
         for (var j = 0; j < textdata[i].brand.length; j++) {
             content2 += '<div class="solution_item_small_item"><img src="' + textdata[i].brand[j].src + '" alt="">' +

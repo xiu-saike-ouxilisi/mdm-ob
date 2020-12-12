@@ -12,11 +12,12 @@
     justify-content: space-between; }
     .benchmarking .container .benchmarking_content .benchmarking_item {
       width: 22%;
-      padding: 0; }
+      padding: 0;
+      background-color: #ffffff; }
       .benchmarking .container .benchmarking_content .benchmarking_item img {
         width: 100%;
         height: auto;
-        border: 1px dashed #666666; }
+        border: 1px solid #666666; }
 
 @media (max-width: 768px) {
   .benchmarking {

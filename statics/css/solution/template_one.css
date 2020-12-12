@@ -10,8 +10,13 @@
     .template_one .container .content_title section {
       color: #666666; }
   .template_one .container .row .left {
-    padding-top: 40px; }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 308px;
+    align-content: center; }
     .template_one .container .row .left h2 {
+      width: 90%;
       font-size: 32px;
       font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
       font-weight: 700;
@@ -33,7 +38,7 @@
 
 @media (max-width: 992px) {
   .template_one .container .row .left {
-    padding-top: 0; }
+    height: inherit; }
     .template_one .container .row .left h2 {
       font-size: 24px; }
     .template_one .container .row .left p {
