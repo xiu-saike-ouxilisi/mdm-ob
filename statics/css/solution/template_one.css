@@ -1,0 +1,65 @@
+.template_one {
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 70px;
+  padding-top: 70px; }
+  .template_one .container .content_title {
+    padding-top: 0; }
+    .template_one .container .content_title h1 {
+      color: #333333; }
+    .template_one .container .content_title section {
+      color: #666666; }
+  .template_one .container .row .left {
+    padding-top: 40px; }
+    .template_one .container .row .left h2 {
+      font-size: 32px;
+      font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+      font-weight: 700;
+      text-align: left;
+      color: #0754ff; }
+    .template_one .container .row .left p {
+      font-size: 20px;
+      font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+      font-weight: 400;
+      text-align: left;
+      color: #333333;
+      line-height: 38px; }
+  .template_one .container .row .right {
+    text-align: center; }
+    .template_one .container .row .right img {
+      width: 54%;
+      height: auto;
+      transform: translate(30px, 0); }
+
+@media (max-width: 992px) {
+  .template_one .container .row .left {
+    padding-top: 0; }
+    .template_one .container .row .left h2 {
+      font-size: 24px; }
+    .template_one .container .row .left p {
+      font-size: 18px; }
+  .template_one .container .row .right img {
+    width: 34%;
+    transform: translate(0, 0); } }
+@media (max-width: 768px) {
+  .template_one {
+    padding-bottom: 60px;
+    padding-top: 60px; }
+    .template_one .container .row .left {
+      padding: 0 5%; }
+      .template_one .container .row .left h2 {
+        font-size: 22px; }
+      .template_one .container .row .left p {
+        font-size: 16px; } }
+@media (max-width: 500px) {
+  .template_one {
+    padding-bottom: 40px;
+    padding-top: 40px; }
+    .template_one .container .row .left h2 {
+      font-size: 20px; }
+    .template_one .container .row .left p {
+      font-size: 14px; }
+    .template_one .container .row .right img {
+      width: 50%; } }
+
+/*# sourceMappingURL=template_one.css.map */

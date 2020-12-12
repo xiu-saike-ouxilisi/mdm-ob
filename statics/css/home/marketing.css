@@ -26,15 +26,13 @@
         letter-spacing: 4px;
         margin: 0; }
       .marketing .marketing_down .marketing_down_item .marketing_down_item_left div {
-        margin-top: 10px; }
-        .marketing .marketing_down .marketing_down_item .marketing_down_item_left div p {
-          margin: 0;
-          padding: 0;
-          font-size: 22px;
-          text-align: left;
-          color: #333333;
-          font-weight: 400;
-          letter-spacing: 2px; }
+        margin-top: 10px;
+        font-size: 22px;
+        text-align: left;
+        color: #333333;
+        font-weight: 400;
+        letter-spacing: 2px;
+        height: 95px; }
     .marketing .marketing_down .marketing_down_item .marketing_down_item_right {
       width: 37%;
       text-align: right; }
@@ -54,8 +52,9 @@
       width: 60%; }
       .marketing .marketing_down .marketing_down_item .marketing_down_item_left h3 {
         font-size: 24px; }
-      .marketing .marketing_down .marketing_down_item .marketing_down_item_left div p {
-        font-size: 16px; }
+      .marketing .marketing_down .marketing_down_item .marketing_down_item_left div {
+        font-size: 16px;
+        height: 70px; }
     .marketing .marketing_down .marketing_down_item .marketing_down_item_right {
       width: 40%; }
       .marketing .marketing_down .marketing_down_item .marketing_down_item_right img {
@@ -70,8 +69,9 @@
       width: 46%; }
       .marketing .marketing_down .marketing_down_item .marketing_down_item_left h3 {
         font-size: 30px; }
-      .marketing .marketing_down .marketing_down_item .marketing_down_item_left div p {
-        font-size: 22px; }
+      .marketing .marketing_down .marketing_down_item .marketing_down_item_left div {
+        font-size: 22px;
+        height: 90px; }
     .marketing .marketing_down .marketing_down_item .marketing_down_item_right {
       width: 54%; }
       .marketing .marketing_down .marketing_down_item .marketing_down_item_right img {
@@ -90,8 +90,9 @@
           width: 60%; }
           .marketing .marketing_down .marketing_down_item .marketing_down_item_left h3 {
             font-size: 20px; }
-          .marketing .marketing_down .marketing_down_item .marketing_down_item_left div p {
-            font-size: 16px; }
+          .marketing .marketing_down .marketing_down_item .marketing_down_item_left div {
+            font-size: 16px;
+            height: 70px; }
         .marketing .marketing_down .marketing_down_item .marketing_down_item_right {
           width: 40%; }
           .marketing .marketing_down .marketing_down_item .marketing_down_item_right img {
@@ -110,8 +111,9 @@
           width: 70%; }
           .marketing .marketing_down .marketing_down_item .marketing_down_item_left h3 {
             font-size: 20px; }
-          .marketing .marketing_down .marketing_down_item .marketing_down_item_left div p {
-            font-size: 12px; }
+          .marketing .marketing_down .marketing_down_item .marketing_down_item_left div {
+            font-size: 12px;
+            height: 50px; }
         .marketing .marketing_down .marketing_down_item .marketing_down_item_right {
           width: 30%; }
           .marketing .marketing_down .marketing_down_item .marketing_down_item_right img {

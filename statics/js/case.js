@@ -259,43 +259,6 @@ var textdata = [{
     ]
 },
 {
-    type: '调味品行业',
-    id: '3',
-    icon_t: '../statics/images/customercase/select/icon_7.png',
-    icon_f: '../statics/images/customercase/unchecked/icon_7.png',
-    list: [{
-        id: '1',
-        name: '红牛31',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "2",
-        name: '红牛32',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "3",
-        name: '红牛33',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "4",
-        name: '红牛34',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "5",
-        name: '红牛35',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    }
-    ]
-},
-{
     type: '美妆行业',
     id: '3',
     icon_t: '../statics/images/customercase/select/icon_8.png',
@@ -337,80 +300,6 @@ var textdata = [{
     id: '3',
     icon_t: '../statics/images/customercase/select/icon_9.png',
     icon_f: '../statics/images/customercase/unchecked/icon_9.png',
-    list: [{
-        id: '1',
-        name: '红牛31',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "2",
-        name: '红牛32',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "3",
-        name: '红牛33',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "4",
-        name: '红牛34',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "5",
-        name: '红牛35',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    }
-    ]
-},
-{
-    type: '五金行业',
-    id: '3',
-    icon_t: '../statics/images/customercase/select/icon_10.png',
-    icon_f: '../statics/images/customercase/unchecked/icon_10.png',
-    list: [{
-        id: '1',
-        name: '红牛31',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "2",
-        name: '红牛32',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "3",
-        name: '红牛33',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "4",
-        name: '红牛34',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    },
-    {
-        id: "5",
-        name: '红牛35',
-        avatar: '../statics/images/customercase/commodity/commodity_1.jpg',
-        introduce: "红牛(RedBull)是全球较早推出且较成功的功能饮料品牌之一。1966年,红牛维生素功能饮料诞生于泰国,迄今已有近半个世纪的发展历史。"
-    }
-    ]
-},
-{
-    type: '商超百货',
-    id: '3',
-    icon_t: '../statics/images/customercase/select/icon_11.png',
-    icon_f: '../statics/images/customercase/unchecked/icon_11.png',
     list: [{
         id: '1',
         name: '红牛31',
@@ -581,7 +470,7 @@ var thisBodyWidth = $(document.body).width(); //浏览器当前窗口文档body�
 var totalBodyWidth = $(document.body).outerWidth(true); //浏览器当前窗口文档body的总宽度 包括border padding margin
 var scrollTop = $(window).scrollTop(); //浏览器可视窗口顶端距离网页顶端的高度（垂直偏移）
 // console.log(totalHeight,seeHeight,thisBodyHeight,totalBodyHeight,thisWidth,thisDocumentWidth,thisBodyWidth,totalBodyWidth,scrollTop);
-//添加滚动事件
+// 添加滚动事件
 $(window).scroll(function () {
     scrollTop = $(window).scrollTop();
     totalHeight = $(document).height();
@@ -605,7 +494,7 @@ $(window).scroll(function () {
     // console.log(scrollTop,seeHeight,totalHeight)
     if (scrollTop + seeHeight + 50 > totalHeight) {
         // console.log(loadall)
-        $('.on').append(loadall);
+        // $('.on').append(loadall);
     }
 })
 

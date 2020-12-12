@@ -5,7 +5,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     padding-top: 100px;
 
     .ontrial_bg {
@@ -18,7 +18,6 @@
     }
 
     .ontrial_content {
-        width: 1200px;
         height: 700px;
 
         .ontrial_left {
@@ -224,17 +223,14 @@
         .ontrial_content {
             margin-left: 20%;
             height: 640px;
-
             .ontrial_left {
                 display: none;
             }
 
             .ontrial_right {
                 height: 640px;
-
                 background: #ffffff;
                 border-radius: 10px;
-                // height: 700px;
                 padding-top: 40px;
 
                 h2 {

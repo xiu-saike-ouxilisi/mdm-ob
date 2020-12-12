@@ -61,10 +61,15 @@
               width: 90px;
               font-size: 14px;
               border-radius: 5px; }
+              .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_item_one button a {
+                text-decoration: none;
+                color: #ffffff; }
             .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_item_one button:hover {
               background-color: #ffffff;
               color: #0075ff;
               border: 1px solid #0075ff; }
+              .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li .solution_item_one button:hover a {
+                color: #0075ff; }
           .solution .solution_box .box_up .box_up_bottom .box_up_bottom_right ul li p {
             margin-top: 20px;
             font-size: 16px;

@@ -18,7 +18,7 @@ $(document).scroll(function () {
     if (scroH > 50) {  //距离顶部大于50px时
         $('.nav_index').addClass("nav_bg");
     }
-    if (scroH < 50) {  //距离顶部大于50px时
+    if (scroH < 50) {  //距离顶部小于50px时
         $('.nav_index').removeClass("nav_bg");
     }
 
@@ -83,7 +83,8 @@ $(function () {
         //侧边栏的监听事件
         initSide: function () {
             $("#scroll-nav").fadeOut(1500);
-            var topHeight = $('#main-carousel').height() + 60
+            // #main-carousel
+            var topHeight = $('#carousel-example-generic').height() + 60
             // 监听页面滚动事件
             $(window).scroll(function () {
                 var topNav = $('#scroll-nav').offset().top

@@ -1,0 +1,31 @@
+.benchmarking {
+  width: 100%;
+  padding-bottom: 70px;
+  background: #f4f7fe; }
+  .benchmarking .container .content_title h1 {
+    color: #333333; }
+  .benchmarking .container .content_title section {
+    color: #666666; }
+  .benchmarking .container .benchmarking_content {
+    padding: 0;
+    display: flex;
+    justify-content: space-between; }
+    .benchmarking .container .benchmarking_content .benchmarking_item {
+      width: 22%;
+      padding: 0; }
+      .benchmarking .container .benchmarking_content .benchmarking_item img {
+        width: 100%;
+        height: auto;
+        border: 1px dashed #666666; }
+
+@media (max-width: 768px) {
+  .benchmarking {
+    padding-bottom: 40px; }
+    .benchmarking .container .benchmarking_content {
+      flex-wrap: wrap;
+      padding: 0 5%; }
+      .benchmarking .container .benchmarking_content .benchmarking_item {
+        width: 48%;
+        margin-bottom: 20px; } }
+
+/*# sourceMappingURL=benchmarking.css.map */

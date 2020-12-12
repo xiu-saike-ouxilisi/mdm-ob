@@ -39,20 +39,16 @@ function qwe() {
         }
         ],
         business: [{
-            src1: '../statics/images/home/icon/big/big_1.png',
-            src2: '../statics/images/home/code.png',
+            src1: '../statics/images/home/icon/big/big_1.png'
         },
         {
             src1: '../statics/images/home/icon/big/big_2.png',
-            src2: '../statics/images/home/code.png',
         },
         {
             src1: '../statics/images/home/icon/big/big_3.png',
-            src2: '../statics/images/home/code.png',
         },
         {
             src1: '../statics/images/home/icon/big/big_4.png',
-            src2: '../statics/images/home/code.png',
         },
         ]
     },
@@ -471,7 +467,7 @@ function qwe() {
     var all = ''
     for (var i = 0; i < 1; i++) {
         contentone1 = '<li class="on"><div class="solution_item_one"><h2>' + textdata[0].type + '方案</h2>' +
-            '<button type="button" class="btn btn-default nav_right_ontrial">查看详情</button>' +
+            '<button type="button" class="btn btn-default"><a href="./customercase.html">查看详情</a></button>' +
             '</div>' + '<p>' + textdata[0].brief + '</p>'
 
         for (var j = 0; j < textdata[0].brand.length; j++) {
@@ -479,22 +475,28 @@ function qwe() {
                 '<span>' + textdata[0].brand[j].name + '</span></div>'
         }
         for (var k = 0; k < textdata[0].business.length; k++) {
-            contentone3 += '<div class="solution_item_big_item"><img src="' + textdata[0].business[k].src1 +
-                '" alt=""></div>'
+            contentone3 += '<div class="solution_item_big_item">' +
+                '<a href="./information.html">' +
+                '<img src="' + textdata[0].business[k].src1 + '" alt="">' +
+                '</a>' +
+                '</div>'
         }
         allone = contentone1 + '<div class="solution_handle_small"><div class="solution_item_small">' + contentone2 + '</div></div><div class="solution_handle_big"><div class="solution_item_big">' + contentone3 + '</div></div></li>'
     }
     for (var i = 1; i < textdata.length; i++) {
         content1 = '<li><div class="solution_item_one"><h2>' + textdata[i].type + '方案</h2>' +
-            '<button type="button" class="btn btn-default nav_right_ontrial">查看详情</button>' +
+            '<button type="button" class="btn btn-default"><a href="./customercase.html">查看详情</a></button>' +
             '</div>' + '<p>' + textdata[i].brief + '</p>'
         for (var j = 0; j < textdata[i].brand.length; j++) {
             content2 += '<div class="solution_item_small_item"><img src="' + textdata[i].brand[j].src + '" alt="">' +
                 '<span>' + textdata[i].brand[j].name + '</span></div>'
         }
         for (var k = 0; k < textdata[i].business.length; k++) {
-            content3 += '<div class="solution_item_big_item"><img src="' + textdata[i].business[k].src1 +
-                '" alt=""></div>'
+            content3 += '<div class="solution_item_big_item">' +
+                '<a href="./information.html">' +
+                '<img src="' + textdata[i].business[k].src1 + '" alt="">' +
+                '</a>' +
+                '</div>'
         }
         all2 = content1 + '<div class="solution_handle_small"><div class="solution_item_small">' + content2 +
             '</div></div><div class="solution_handle_big"><div class="solution_item_big">' + content3 + '</div></div></li>'

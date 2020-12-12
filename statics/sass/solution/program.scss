@@ -1,0 +1,200 @@
+// 方案优势
+.program {
+    width: 100%;
+    background: #f4f7fe;
+    padding-bottom: 140px;
+
+    .container {
+        .content_title {
+            h1 {
+                color: #333333;
+            }
+
+            section {
+                color: #666666;
+            }
+        }
+
+        .program_content {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 0 5%;
+            z-index: 3;
+
+            .program_item {
+                width: 300px;
+                height: 400px;
+                background: #ffffff;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 110, 255, 0.33);
+                padding: 0 34px;
+                padding-top: 80px;
+
+                img {
+                    width: 50px;
+                    height: auto;
+                }
+
+                h3 {
+                    margin-top: 50px;
+                    font-size: 24px;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #333333;
+                }
+
+                section {
+                    margin-top: 20px;
+                    font-size: 18px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    text-align: left;
+                    color: #666666;
+                }
+            }
+        }
+
+        .program_bg {
+            width: 100%;
+            height: 240px;
+            background: #006eff;
+            transform: translate(0, 220px);
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .program {
+        .container {
+            .program_content {
+                .program_item {
+                    width: 240px;
+                    height: 360px;
+                    padding: 0 3%;
+                    padding-top: 60px;
+
+                    img {
+                        width: 30%;
+                    }
+
+                    h3 {
+                        margin-top: 40px;
+                        font-size: 22px;
+                    }
+
+                    section {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 4;
+                        -webkit-box-orient: vertical;
+                    }
+                }
+            }
+
+            .program_bg {
+                height: 220px;
+                transform: translate(0, 188px);
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .program {
+        padding-bottom: 120px;
+        .container {
+            .program_content {
+                .program_item {
+                    width: 200px;
+                    height: 290px;
+                    padding: 0 3%;
+                    padding-top: 40px;
+                    img {
+                        width: 26%;
+                    }
+
+                    h3 {
+                        margin-top: 30px;
+                        font-size: 20px;
+                    }
+
+                    section {
+                        -webkit-line-clamp: 3;
+                    }
+                }
+            }
+
+            .program_bg {
+                height: 200px;
+                transform: translate(0, 148px);
+            }
+        }
+    }
+}
+
+@media (max-width: 750px){
+    .program {
+        // padding-bottom: 120px;
+        .container {
+            .program_content {
+                padding: 0 3%;
+                .program_item {
+                    width: 30%;
+                    // height: 290px;
+                    // padding: 0 3%;
+                    // padding-top: 40px;
+                    img {
+                        // width: 26%;
+                    }
+
+                    h3 {
+                        // margin-top: 30px;
+                        // font-size: 20px;
+                    }
+
+                    section {
+                        font-size: 16px;
+                        -webkit-line-clamp: 3;
+                    }
+                }
+            }
+
+            .program_bg {
+                // height: 200px;
+                // transform: translate(0, 148px);
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .program {
+        padding-bottom: 100px;
+        .container {
+            .program_content {
+                padding: 0 3%;
+                .program_item {
+                    height: 240px;
+                    img {
+                        width: 34%;
+                    }
+                    h3 {
+                        font-size: 18px;
+                    }
+                    section {
+                        font-size: 14px;
+                        -webkit-line-clamp: 3;
+                    }
+                }
+            }
+            .program_bg {
+                height: 160px;
+                transform: translate(0, 128px);
+            }
+        }
+    }
+}

@@ -31,43 +31,23 @@
     }
 }
 
-// 轮播
-@import '../components/swiper.scss';
-#carousel-example-generic{
-    .carousel-inner{
-        .item{
-            img{
-                width: 100%;
-                height: 600px;
-            }
-        }
-    }
-}
+// 头部图片
+@import './exhibition_tit.scss';
 
-@media (max-width: 992px){
-    #carousel-example-generic{
-        .carousel-inner{
-            .item{
-                img{
-                    height: auto;
-                }
-            }
-        }
-    }
-}
 
 // 解决企业痛点
 @import './solve.scss';
 
-// 模式一
-@import './pattern_one.scss';
+// 方案优势
+@import './program.scss';
 
-// 模式二
-@import './pattern_two.scss';
+// 模板一
+@import './template_one.scss';
+// 模板二
+@import './template_two.scss';
 
-// 适用
-@import './apply.scss';
-
+// 标杆客户
+@import './benchmarking.scss';
 
 
 // 底部

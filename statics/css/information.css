@@ -1,4 +1,10 @@
 @import "https://common.zwwltkl.com/fonts/pingfang/pingfang.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.38px; }
+
 .container {
   padding: 0; }
 
@@ -30,12 +36,6 @@ button {
 
 .container {
   padding: 0; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  letter-spacing: 0.38px; }
 
 @media (max-width: 992px) {
   .content_title {
@@ -112,97 +112,49 @@ button {
 @media (max-width: 992px) {
   .nav_index .navbar-text {
     display: none; } }
-@media (max-width: 768px) {
-  .nav_index,
-  .navbar,
-  .navbar-default,
-  .navbar-fixed-top {
+@media (max-width: 766px) {
+  .nav_index {
     height: 50px;
     border: none; }
-    .nav_index .container,
-    .navbar .container,
-    .navbar-default .container,
-    .navbar-fixed-top .container {
+    .nav_index .container {
       position: relative; }
-      .nav_index .container .navbar-header .navbar_phone,
-      .navbar .container .navbar-header .navbar_phone,
-      .navbar-default .container .navbar-header .navbar_phone,
-      .navbar-fixed-top .container .navbar-header .navbar_phone {
+      .nav_index .container .navbar-header .navbar_phone {
         position: absolute;
         right: 70px;
         top: -7px;
         display: inline-block;
         color: #ffffff; }
-        .nav_index .container .navbar-header .navbar_phone button,
-        .navbar .container .navbar-header .navbar_phone button,
-        .navbar-default .container .navbar-header .navbar_phone button,
-        .navbar-fixed-top .container .navbar-header .navbar_phone button {
+        .nav_index .container .navbar-header .navbar_phone button {
           height: 28px;
           line-height: 8px; }
-        .nav_index .container .navbar-header .navbar_phone button:hover a,
-        .navbar .container .navbar-header .navbar_phone button:hover a,
-        .navbar-default .container .navbar-header .navbar_phone button:hover a,
-        .navbar-fixed-top .container .navbar-header .navbar_phone button:hover a {
+        .nav_index .container .navbar-header .navbar_phone button:hover a {
           text-decoration: none; }
-      .nav_index .container .navbar-header .navbar_switch,
-      .navbar .container .navbar-header .navbar_switch,
-      .navbar-default .container .navbar-header .navbar_switch,
-      .navbar-fixed-top .container .navbar-header .navbar_switch {
+      .nav_index .container .navbar-header .navbar_switch {
         border: none; }
-        .nav_index .container .navbar-header .navbar_switch .icon-bar,
-        .navbar .container .navbar-header .navbar_switch .icon-bar,
-        .navbar-default .container .navbar-header .navbar_switch .icon-bar,
-        .navbar-fixed-top .container .navbar-header .navbar_switch .icon-bar {
+        .nav_index .container .navbar-header .navbar_switch .icon-bar {
           background-color: #ffffff; }
-      .nav_index .container .navbar-header .navbar-brand .nav_logo,
-      .navbar .container .navbar-header .navbar-brand .nav_logo,
-      .navbar-default .container .navbar-header .navbar-brand .nav_logo,
-      .navbar-fixed-top .container .navbar-header .navbar-brand .nav_logo {
+      .nav_index .container .navbar-header .navbar-brand .nav_logo {
         width: 100px;
         height: auto;
         transform: translate(0, -7px); }
-      .nav_index .container #example-navbar-collapse,
-      .navbar .container #example-navbar-collapse,
-      .navbar-default .container #example-navbar-collapse,
-      .navbar-fixed-top .container #example-navbar-collapse {
+      .nav_index .container #example-navbar-collapse {
         height: 230px;
         background-color: #ffffff; }
-      .nav_index .container .navbar-collapse,
-      .navbar .container .navbar-collapse,
-      .navbar-default .container .navbar-collapse,
-      .navbar-fixed-top .container .navbar-collapse {
+      .nav_index .container .navbar-collapse {
         font-size: 16px; }
-        .nav_index .container .navbar-collapse .navbar-nav li,
-        .navbar .container .navbar-collapse .navbar-nav li,
-        .navbar-default .container .navbar-collapse .navbar-nav li,
-        .navbar-fixed-top .container .navbar-collapse .navbar-nav li {
+        .nav_index .container .navbar-collapse .navbar-nav li {
           padding-left: 30px;
           margin-left: 0;
           border-bottom: 1px solid #cccccc; }
-          .nav_index .container .navbar-collapse .navbar-nav li a,
-          .navbar .container .navbar-collapse .navbar-nav li a,
-          .navbar-default .container .navbar-collapse .navbar-nav li a,
-          .navbar-fixed-top .container .navbar-collapse .navbar-nav li a {
+          .nav_index .container .navbar-collapse .navbar-nav li a {
             color: #333333; }
-        .nav_index .container .navbar-collapse .navbar-nav li:hover,
-        .navbar .container .navbar-collapse .navbar-nav li:hover,
-        .navbar-default .container .navbar-collapse .navbar-nav li:hover,
-        .navbar-fixed-top .container .navbar-collapse .navbar-nav li:hover {
+        .nav_index .container .navbar-collapse .navbar-nav li:hover {
           border-bottom: 1px solid #006eff !important; }
-          .nav_index .container .navbar-collapse .navbar-nav li:hover a,
-          .navbar .container .navbar-collapse .navbar-nav li:hover a,
-          .navbar-default .container .navbar-collapse .navbar-nav li:hover a,
-          .navbar-fixed-top .container .navbar-collapse .navbar-nav li:hover a {
+          .nav_index .container .navbar-collapse .navbar-nav li:hover a {
             color: #006eff; }
-          .nav_index .container .navbar-collapse .navbar-nav li:hover li:last-child,
-          .navbar .container .navbar-collapse .navbar-nav li:hover li:last-child,
-          .navbar-default .container .navbar-collapse .navbar-nav li:hover li:last-child,
-          .navbar-fixed-top .container .navbar-collapse .navbar-nav li:hover li:last-child {
+          .nav_index .container .navbar-collapse .navbar-nav li:hover li:last-child {
             border-bottom: none; }
-        .nav_index .container .navbar-collapse .navbar-nav li:last-child,
-        .navbar .container .navbar-collapse .navbar-nav li:last-child,
-        .navbar-default .container .navbar-collapse .navbar-nav li:last-child,
-        .navbar-fixed-top .container .navbar-collapse .navbar-nav li:last-child {
+        .nav_index .container .navbar-collapse .navbar-nav li:last-child {
           border-bottom: none; } }
 .nav_bg {
   background-color: #006eff !important; }

@@ -1,0 +1,49 @@
+.pattern_two {
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  padding-bottom: 70px; }
+  .pattern_two .pad {
+    padding-top: 80px; }
+    .pattern_two .pad .pattern_two_left img {
+      width: 500px;
+      height: auto; }
+    .pattern_two .pad .pattern_two_right {
+      padding-left: 90px;
+      padding-top: 50px; }
+      .pattern_two .pad .pattern_two_right h1 {
+        font-size: 34px;
+        font-weight: 700;
+        text-align: left;
+        color: #0754ff; }
+      .pattern_two .pad .pattern_two_right p {
+        margin-top: 20px;
+        width: 70%;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        line-height: 32px; }
+
+@media (max-width: 992px) {
+  .pattern_two .pad .pattern_two_left {
+    text-align: center;
+    transform: translate(0, 240px); }
+    .pattern_two .pad .pattern_two_left img {
+      width: 300px;
+      height: auto; }
+  .pattern_two .pad .pattern_two_right {
+    transform: translate(0, -300px);
+    padding-left: 10%;
+    padding-top: 10px; }
+    .pattern_two .pad .pattern_two_right h1 {
+      font-size: 30px; }
+    .pattern_two .pad .pattern_two_right p {
+      font-size: 16px; } }
+@media (max-width: 768px) {
+  .pattern_two .pad .pattern_two_right h1 {
+    font-size: 22px; }
+  .pattern_two .pad .pattern_two_right p {
+    width: 80%;
+    font-size: 14px; } }
+
+/*# sourceMappingURL=pattern_two.css.map */

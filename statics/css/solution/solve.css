@@ -8,8 +8,7 @@
     color: #666666; }
   .solve .container .solve_down li {
     text-align: center;
-    padding: 0;
-    margin-bottom: 10px; }
+    padding: 0; }
     .solve .container .solve_down li .solve_item {
       background: #ffffff;
       border: 1px solid #d7e7ff;
@@ -17,7 +16,7 @@
       margin-left: 10%;
       width: 90%;
       padding-bottom: 40px;
-      padding-top: 18px;
+      padding-top: 20px;
       text-align: center; }
       .solve .container .solve_down li .solve_item section {
         width: 80%;
@@ -25,13 +24,13 @@
         background: #eff5fe;
         font-size: 22px;
         font-weight: bold;
-        color: #006eff;
-        margin-bottom: 30px; }
+        color: #006eff; }
       .solve .container .solve_down li .solve_item div {
+        margin-top: 30px;
         font-size: 16px;
         font-weight: 500;
-        text-align: center;
-        color: #333333; }
+        color: #333333;
+        padding: 0 28%; }
       .solve .container .solve_down li .solve_item img {
         margin-top: 30px;
         width: 80px;
@@ -40,6 +39,9 @@
 @media (max-width: 1200px) {
   .solve {
     padding-bottom: 40px; }
+    .solve .container .solve_down li .solve_item div {
+      padding: 0 24%;
+      margin-top: 20px; }
     .solve .container .solve_down li .solve_item img {
       margin-top: 30px;
       width: 60px; } }
@@ -56,23 +58,34 @@
         margin-top: 30px;
         width: 40px;
         height: auto; } }
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   .solve {
     padding-bottom: 20px; }
     .solve .container .solve_down {
       padding-left: 6%;
       padding-right: 8%; }
-      .solve .container .solve_down li .solve_item {
-        width: 90%;
-        padding-bottom: 30px; }
-        .solve .container .solve_down li .solve_item section {
-          font-size: 16px; }
-        .solve .container .solve_down li .solve_item div {
-          font-size: 10px; }
-        .solve .container .solve_down li .solve_item img {
-          margin-top: 30px;
-          width: 38px;
-          height: auto; } }
+      .solve .container .solve_down li {
+        margin-bottom: 10px; }
+        .solve .container .solve_down li .solve_item {
+          width: 90%;
+          padding-bottom: 30px; }
+          .solve .container .solve_down li .solve_item section {
+            font-size: 16px; }
+          .solve .container .solve_down li .solve_item div {
+            font-size: 16px;
+            padding: 0 28%; }
+          .solve .container .solve_down li .solve_item img {
+            margin-top: 30px;
+            width: 38px;
+            height: auto; } }
+@media (max-width: 610px) {
+  .solve .container .solve_down li .solve_item div {
+    font-size: 16px;
+    padding: 0 25%; }
+  .solve .container .solve_down li .solve_item img {
+    margin-top: 30px;
+    width: 38px;
+    height: auto; } }
 @media (max-width: 550px) {
   .solve .container .solve_down {
     padding-left: 6%;
@@ -84,10 +97,29 @@
         font-size: 16px;
         margin-bottom: 20px; }
       .solve .container .solve_down li .solve_item div {
-        font-size: 10px; }
+        font-size: 10px;
+        padding: 0 28%; }
       .solve .container .solve_down li .solve_item img {
         margin-top: 10px;
         width: 38px;
         height: auto; } }
+@media (max-width: 450px) {
+  .solve .container .solve_down li .solve_item section {
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .solve .container .solve_down li .solve_item div {
+    font-size: 10px;
+    padding: 0 24%; } }
+@media (max-width: 414px) {
+  .solve .container .solve_down li .solve_item section {
+    font-size: 16px;
+    margin-bottom: 20px; }
+  .solve .container .solve_down li .solve_item div {
+    font-size: 10px;
+    padding: 0 22%; } }
+@media (max-width: 350px) {
+  .solve .container .solve_down li .solve_item div {
+    font-size: 10px;
+    padding: 0 14%; } }
 
 /*# sourceMappingURL=solve.css.map */

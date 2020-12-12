@@ -129,7 +129,7 @@
     <!-- 公司简介 结束 -->
 
     <!-- 公司资质 开始 -->
-    <div class="qualifications">
+    <div id="qualifications" class="qualifications">
         <div class="container">
             <div class="content_title">
                 <h1>公司资质</h1>
@@ -254,7 +254,7 @@
     <div class="position">
         <div class="container">
             <div class="row">
-                <div class=" position_map col-md-6 col-sm-6 col-xs-10">
+                <div class="position_map col-md-6 col-sm-6 col-xs-10">
                     <div id="position_map"></div>
                 </div>
                 <div class="position_contact col-md-6 col-sm-6 col-xs-10">
@@ -393,6 +393,8 @@
     </div>
     <!-- 侧边栏  结束 -->
 
+    <!-- <div><h2>洛阳智网网络有限公司</h2><p>洛阳信息科技城3079号</p></div> -->
+
 
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
@@ -412,10 +414,10 @@
         var totalBodyWidth = $(document.body).outerWidth(true); //浏览器当前窗口文档body的总宽度 包括border padding margin
         if (thisWidth < 768) {
             var swiper = new Swiper('.two .swiper-container', {
-                autoplay: {
-                    delay: 10, // 几秒切换一次
-                    disableOnInteraction: false,
-                }, // 可选选项自动滑动
+                // autoplay: {
+                //     delay: 10, // 几秒切换一次
+                //     disableOnInteraction: false,
+                // }, // 可选选项自动滑动
                 freeMode: true,
                 // autoplay: 1, //自动滚动
                 loop: true, //循环
@@ -425,10 +427,10 @@
             });
         } else {
             var swiper = new Swiper('.two .swiper-container', {
-                autoplay: {
-                    delay: 10, // 几秒切换一次
-                    disableOnInteraction: false,
-                }, // 可选选项自动滑动
+                // autoplay: {
+                //     delay: 10, // 几秒切换一次
+                //     disableOnInteraction: false,
+                // }, // 可选选项自动滑动
                 freeMode: true,
                 // autoplay: 1, //自动滚动
                 loop: true, //循环
@@ -437,6 +439,75 @@
                 spaceBetween: 10 //slide之间的距离（单位px）
             });
         }
+
+        function slidetwo() {
+            if (thisWidth < 768) {
+                setTimeout(function () {
+                    var swiper = new Swiper('.two .swiper-container', {
+                        autoplay: {
+                            delay: 10, // 几秒切换一次
+                            disableOnInteraction: false,
+                        }, // 可选选项自动滑动
+                        freeMode: true,
+                        loop: true, //循环
+                        speed: 5000, //滚动速度
+                        slidesPerView: 3, //slide可见数量
+                        spaceBetween: 10 //slide之间的距离（单位px）
+                    });
+                    swiper.el.onmouseover = function () {
+                        swiper.autoplay.stop();
+                    }
+                    swiper.el.onmouseleave = function () {
+                        swiper.autoplay.start();
+                    }
+
+                }, 2000);
+            } else {
+                setTimeout(function () {
+                    var swiper = new Swiper('.two .swiper-container', {
+                        autoplay: {
+                            delay: 10, // 几秒切换一次
+                            disableOnInteraction: false,
+                        }, // 可选选项自动滑动
+                        freeMode: true,
+                        loop: true, //循环
+                        speed: 5000, //滚动速度
+                        slidesPerView: 4, //slide可见数量
+                        spaceBetween: 10 //slide之间的距离（单位px）
+                    });
+                    swiper.el.onmouseover = function () {
+                        swiper.autoplay.stop();
+                    }
+                    swiper.el.onmouseleave = function () {
+                        swiper.autoplay.start();
+                    }
+                }, 2000)
+            }
+            slidetwo = function () {};
+        }
+
+        $(function () {
+            var page = {
+                data: {},
+                init: function () {
+                    this.initSide();
+                },
+                // 监听
+                initSide: function () {
+                    var topHeight = $('#qualifications').height() // 盒子距离页面顶部高度
+                    // 监听页面滚动事件
+                    $(window).scroll(function () {
+                        var scroH = $(document).scrollTop(); //滚动高度
+                        if (scroH >= topHeight) {
+                            this.slidetwo()
+                        } else {
+
+                        }
+                    })
+                },
+            }
+            page.init()
+        })
     </script>
 
     <!-- 层叠轮播 -->
@@ -474,25 +545,60 @@
         })
     </script>
 
-    <script type="text/javascript"
-        src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=LWa5yGT95ehEtUf5sdXcmogqGv9AzjRD"></script>
+    <!-- 百度地图 -->
+    <!-- <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=LWa5yGT95ehEtUf5sdXcmogqGv9AzjRD"></script> -->
+
+    <!-- 高德地图 -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.15&key=c06545a62fdf954b7b94d9a2fd76f58d"></script>
+
     <script>
         // 百度地图
-        var map = new BMapGL.Map("position_map");
-        var point = new BMapGL.Point(112.427371, 34.688424);
-        map.centerAndZoom(point, 16);
-        map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
-        var content = "洛阳智网网络有限公司";
-        var label = new BMapGL.Label(content, { // 创建文本标注
-            position: point, // 设置标注的地理位置
-            offset: new BMapGL.Size(-10, -20) // 设置标注的偏移量
-        })
-        map.addOverlay(label); // 将标注添加到地图中
-        label.setStyle({ // 设置label的样式
-            color: '#000',
-            fontSize: '20px',
-            border: '2px solid #1E90FF'
-        })
+        // var map = new BMapGL.Map("position_map");
+        // var point = new BMapGL.Point(112.427371, 34.688424);
+        // map.centerAndZoom(point, 16);
+        // map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+        // var content = "洛阳智网网络有限公司";
+        // var label = new BMapGL.Label(content, { // 创建文本标注
+        //     position: point, // 设置标注的地理位置
+        //     offset: new BMapGL.Size(-10, -20) // 设置标注的偏移量
+        // })
+        // map.addOverlay(label); // 将标注添加到地图中
+        // label.setStyle({ // 设置label的样式
+        //     color: '#000',
+        //     fontSize: '20px',
+        //     border: '2px solid #1E90FF'
+        // })
+
+        // 112.42031693； 纬度：34.68020243
+        // 高德地图
+        window.onLoad = function () {
+            var map = new AMap.Map('position_map', {
+                zoom: 16, //级别
+                center: [112.42061693, 34.68200490], //中心点坐标
+            });
+
+            var infoWindow = new AMap.InfoWindow({ //创建信息窗体
+                isCustom: true, //使用自定义窗体
+                content: '<div style="background-color: #ffffff;padding: 10px 20px;color: #0075ff;"><h4>洛阳智网网络有限公司</h4><p>洛阳信息科技城3079号</p></div>', //信息窗体的内容可以是任意html片段
+                offset: new AMap.Pixel(16, -45)
+            });
+            infoWindow.open(map);
+
+            var marker = new AMap.Marker({
+                position: [112.42061693, 34.68200490] //位置
+            })
+            map.add(marker); //添加到地图
+
+            // 在指定位置打开地图
+            var position = new AMap.LngLat(112.42061693, 34.68200490);
+            infoWindow.open(map, position);
+
+        }
+        var url = 'https://webapi.amap.com/maps?v=1.4.15&key=c06545a62fdf954b7b94d9a2fd76f58d&callback=onLoad';
+        var jsapi = document.createElement('script');
+        jsapi.charset = 'utf-8';
+        jsapi.src = url;
+        document.head.appendChild(jsapi);
     </script>
 
     <!-- 通用 导航 滚动 -->

@@ -1,0 +1,180 @@
+.template_two {
+    // width: 100%;
+    background: #f4f7fe;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+    .container {
+        .row {
+            .left {
+                text-align: center;
+                padding: 0;
+                margin: 0;
+
+                img {
+                    // border: 1px dashed #666666;
+                    width: 54%;
+                    height: auto;
+                    transform: translate(-60px, 0);
+                }
+            }
+
+            .right {
+                padding: 0;
+                margin: 0;
+                padding-top: 40px;
+
+                h2 {
+                    font-size: 32px;
+                    font-family: Microsoft YaHei Bold, Microsoft YaHei Bold-Bold;
+                    font-weight: 700;
+                    text-align: left;
+                    color: #0754ff;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-family: Microsoft YaHei Regular, Microsoft YaHei Regular-Regular;
+                    font-weight: 400;
+                    text-align: left;
+                    color: #333333;
+                    line-height: 38px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .template_two {
+        .container {
+            .row {
+                .left {
+                    transform: translate(0, 150px);
+                    img {
+                        width: 34%;
+                        transform: translate(0, 0);
+                    }
+                }
+
+                .right {
+                    padding-top: 0;
+                    transform: translate(0, -280px);
+                    h2 {
+                        font-size: 24px;
+                    }
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .template_two {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        .container {
+            .row {
+                .left {
+                    transform: translate(0, 150px);
+                    img {}
+                }
+
+                .right {
+                    padding: 0 5%;
+                    transform: translate(0, -220px);
+                    h2 {
+                        font-size: 22px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .template_two {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        .container {
+            .row {
+                .left {
+                    transform: translate(0, 150px);
+                    img {
+                        width: 50%;
+                    }
+                }
+
+                .right {
+                    transform: translate(0, -250px);
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 420px) {
+    .template_two {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        .container {
+            .row {
+                .left {
+                    transform: translate(0, 180px);
+                    img {
+                        width: 50%;
+                    }
+                }
+
+                .right {
+                    transform: translate(0, -210px);
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 350px) {
+    .template_two {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        .container {
+            .row {
+                .left {
+                    transform: translate(0, 200px);
+                    img {
+                        width: 50%;
+                    }
+                }
+
+                .right {
+                    transform: translate(0, -170px);
+                    h2 {
+                        font-size: 20px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
